@@ -1,0 +1,12 @@
+HTTP/1.1 404 Not Found
+Server: nginx/1.18.0
+Date: Mon, 16 Nov 2026 04:41:03 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 168
+Connection: keep-alive
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+

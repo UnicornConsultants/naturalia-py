@@ -1,0 +1,39 @@
+flowchart TB
+    CHAT["Naturalia Chatbot<br/>網站右下角聊天入口"]
+    CHAT --> ADVICE
+    CHAT --> BUYING
+    CHAT --> MEMBER
+
+    subgraph ADVICE["問答與導購"]
+        direction TB
+        A1["01 即時客服問答<br/>產品、品牌、送貨及退換貨"]
+        A2["02 自然語言搵產品<br/>語意、漏字、同義詞及錯字"]
+        A3["03 引導式推薦<br/>功效、膚質、品牌及預算"]
+        A4["04 商品卡片<br/>圖片、介紹、價格及推薦理由"]
+        A1 ~~~ A2 ~~~ A3 ~~~ A4
+    end
+
+    subgraph BUYING["購物與充值"]
+        direction TB
+        B1["06 前往商品頁購買<br/>按購買，跳到商品詳情頁"]
+        B2["08 充值及查看餘額<br/>方案、付款方式及有效期<br/>確認收款後入帳"]
+        B3["09 充值餘額購買<br/>確認商品、數量及金額<br/>餘額不足時提供其他路徑"]
+        B1 ~~~ B2 ~~~ B3
+    end
+
+    subgraph MEMBER["會員與服務"]
+        direction TB
+        C1["05 快捷服務選單<br/>搵產品、優惠、訂單及會員服務"]
+        C2["07 登入及恢復對話<br/>延續已表達的購物需求"]
+        C3["10 查詢會員交易資料<br/>自己的訂單、購物金紀錄<br/>及適用優惠"]
+        C1 ~~~ C2 ~~~ C3
+    end
+
+    classDef hub fill:#173B35,color:#fff,stroke:#173B35;
+    classDef card fill:#fff,color:#21352F,stroke:#D4E4DE;
+    class CHAT hub;
+    class A1,A2,A3,A4,B1,B2,B3,C1,C2,C3 card;
+    style ADVICE fill:#EDF6F2,stroke:#D4E4DE
+    style BUYING fill:#FFF5E8,stroke:#ECDDC8
+    style MEMBER fill:#EEF3FC,stroke:#D9E3F2
+

@@ -1,0 +1,322 @@
+{
+  "_id": "6897bb8a55a99e00012cec49",
+  "owner_id": "6878c0556ba1e4002f6fe02a",
+  "field_titles": [
+    {
+      "key": "custom",
+      "name_translations": {
+        "zh-hant": "規格"
+      },
+      "index": 0,
+      "selectorEnabled": false
+    }
+  ],
+  "hide_price": false,
+  "same_price": true,
+  "location_id": "",
+  "sku": "CA1053",
+  "brand": "",
+  "mpn": "",
+  "gtin": "984271666259",
+  "summary_translations": {
+    "zh-hant": "成分：乳木果、胡蘿蔔籽、尿素、絲柏、檸檬和甜橙精油",
+    "en": "Ingredients: Shea Butter, Carrot Seed, Urea, Cypress, Lemon, and Sweet Orange Essential Oils"
+  },
+  "title_translations": {
+    "zh-hant": "全效修復面霜",
+    "en": "Shirley Price - Total Repair Cream"
+  },
+  "unlimited_quantity": false,
+  "out_of_stock_orderable": false,
+  "price": {
+    "cents": 48800,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$488.00",
+    "dollars": 488.0
+  },
+  "price_sale": null,
+  "max_order_quantity": -1,
+  "status": "active",
+  "supplier_id": "",
+  "seo_keywords": "",
+  "is_preorder": false,
+  "preorder_note_translations": {},
+  "stock_ids": [
+    "68f9a5d31430e20027c33c34",
+    "693131b8825c53002624f446",
+    "6931316f825c53002624f280",
+    "6897bbb795630e0001856331"
+  ],
+  "weight": 0.0,
+  "subscription_enabled": false,
+  "subscription_period_type": "day",
+  "subscription_period_duration": 7,
+  "subscription_recurring_count_limit": -1,
+  "schedule_publish_at": null,
+  "gender": "unisex",
+  "age_group": "adult",
+  "adult": "no",
+  "condition": "new",
+  "amazon_url": "",
+  "amazon_asin": "",
+  "taxable": false,
+  "price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "member_price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "addon_product_priorities": {},
+  "blacklisted_delivery_option_ids": [],
+  "blacklisted_payment_ids": [],
+  "blacklisted_feed_channels": [],
+  "related_product_ids": [],
+  "is_excluded_promotion": false,
+  "created_by": "admin",
+  "root_product_id": "6897bb8a55a99e00012cec4a",
+  "feed_category": {},
+  "retail_status": "active",
+  "type": "product",
+  "feed_variations": {
+    "color": "",
+    "size": "",
+    "custom": {},
+    "material": ""
+  },
+  "member_price": null,
+  "lowest_member_price": {
+    "cents": 48800,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$488.00",
+    "dollars": 488.0
+  },
+  "available_start_time": null,
+  "available_end_time": null,
+  "is_reminder_active": false,
+  "flash_price_sets": [],
+  "pos_category_ids": [],
+  "media": [
+    {
+      "images": {
+        "original": {
+          "width": 800.0,
+          "height": 800.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/68dd604c3e99360010d8f656/original.jpg?1759338572=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "68dd604c3e99360010d8f656",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/68dd604c3e99360010d8f656/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/68dd604c3e99360010d8f656/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/68dd604c3e99360010d8f656/400x.webp?source_format=jpg"
+    }
+  ],
+  "cover_media_array": [
+    {
+      "_id": "68dd604c3e99360010d8f656",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/68dd604c3e99360010d8f656/original.jpg?1759338572=&owner_id=6878c0556ba1e4002f6fe02a"
+    }
+  ],
+  "variations": [
+    {
+      "price": {
+        "cents": 48800,
+        "currency_symbol": "HK$",
+        "currency_iso": "HKD",
+        "label": "HK$488.00",
+        "dollars": 488.0
+      },
+      "location_id": "",
+      "sku": "",
+      "fields_translations": {
+        "en": [
+          ""
+        ],
+        "zh-hant": [
+          "30G"
+        ]
+      },
+      "key": "6897bbb695630e0001856319",
+      "media_id": "",
+      "stock_ids": [
+        "68f9a5d31430e20027c33c35",
+        "693131b8825c53002624f447",
+        "6931316f825c53002624f281",
+        "6897bbb795630e000185632e"
+      ],
+      "price_sale": null,
+      "weight": 0.0,
+      "feed_variations": {
+        "color": "",
+        "size": "",
+        "custom": {
+          "zh-hant": "30G"
+        },
+        "material": ""
+      },
+      "quantity": 10,
+      "stock_id": "6897bbb795630e000185632e",
+      "member_price": null,
+      "fields": [
+        {
+          "name_translations": {
+            "zh-hant": "30G",
+            "en": ""
+          },
+          "name": "30G"
+        }
+      ],
+      "media": null,
+      "mpn": "",
+      "gtin": "CA1053",
+      "variant_option_ids": [
+        "6897bbb795630e0001856325"
+      ],
+      "product_price_tiers": {
+        "68f319cc813de1000adedada": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f318dde95ca45a2b35e4d1": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3190a829de0001020e5aa": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f31a7f2be8e1001657bff8": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3188d4c69680012c83c2a": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        }
+      },
+      "retail_price": {
+        "cents": 0,
+        "currency_symbol": "HK$",
+        "currency_iso": "HKD",
+        "label": "",
+        "dollars": 0.0
+      },
+      "warehouse": {
+        "_id": "6878c0814b77eb002818b825",
+        "name_translations": {
+          "ja": "デフォルトの倉庫",
+          "zh-cn": "预设仓库",
+          "zh-hant": "預設倉庫",
+          "en": "Primary"
+        }
+      },
+      "max_order_quantity": -1,
+      "preorder_limit": -1,
+      "root_product_variation_id": "6897bbb795630e000185632b"
+    }
+  ],
+  "variant_options": [
+    {
+      "key": "6897bbb795630e0001856325",
+      "media_id": "",
+      "index": 0,
+      "name_translations": {
+        "zh-hant": "30G"
+      },
+      "type": "custom",
+      "media": null
+    }
+  ],
+  "addon_promotions": "",
+  "retail_price": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "quantity": 10,
+  "stock_id": "",
+  "warehouse": null,
+  "is_stock_shared": false,
+  "wish_list_items": [],
+  "product_price_tiers": [
+    {
+      "membership_tier_id": "68f3188d4c69680012c83c2a",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f318dde95ca45a2b35e4d1",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f3190a829de0001020e5aa",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f319cc813de1000adedada",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f31a7f2be8e1001657bff8",
+      "member_price": null
+    }
+  ],
+  "link": {
+    "_id": "6897bbb895630e0001856351",
+    "status": "active",
+    "type": "product",
+    "section": "seo",
+    "owner_id": "6878c0556ba1e4002f6fe02a",
+    "value_id": "6897bb8a55a99e00012cec49",
+    "name_translations": {},
+    "image_id": ""
+  },
+  "filter_tags": [],
+  "labels": [],
+  "bundle_set": null,
+  "sold_out": false,
+  "child_products": [],
+  "identifier_exists": true,
+  "price_range": "",
+  "member_price_range": "",
+  "tax_type": "",
+  "oversea_tax_type": "",
+  "preorder_limit": -1,
+  "total_orderable_quantity": 10,
+  "cart_tag": {
+    "_id": "",
+    "name_translations": {},
+    "priority": 0
+  },
+  "allow_gift": false,
+  "display_sales_count": 0,
+  "custom_sales_count": 0,
+  "frozen_flag": 0
+}

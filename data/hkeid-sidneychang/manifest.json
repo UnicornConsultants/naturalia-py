@@ -1,0 +1,457 @@
+{
+  "source_url": "https://hkeid.com/member/sidneychang",
+  "archived_at": "2026-11-16T12:41:33+08:00",
+  "scope": "Only this member page and its direct attachments",
+  "public_profile_top_level_fields": 32,
+  "resources": [
+    {
+      "url": "https://data.hkeid.com/avatar/ed6f89ef0f.png",
+      "local_path": "assets/profile/23587252-ed6f89ef0f.png",
+      "category": "profile",
+      "label": "個人頭像原圖",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        1253,
+        1600
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 1663427,
+      "sha256": "9eb46800f25cd94a8b94eef4b645f393e212a836f7533ab947d9e73699fb870e"
+    },
+    {
+      "url": "https://data.hkeid.com/background/d09dcdcd55.png",
+      "local_path": "assets/profile/3316649f-d09dcdcd55.png",
+      "category": "profile",
+      "label": "封面背景原圖",
+      "actual_image_format": "JPEG",
+      "extension_matches_format": false,
+      "image_dimensions": [
+        1920,
+        1080
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 120055,
+      "sha256": "898af28513994c56782488cc3fcdd66839ddba31c9cb254e725a7f720bed72b1"
+    },
+    {
+      "url": "https://data.hkeid.com/avatar/ff166a16ff.png",
+      "local_path": "assets/profile/1c23877e-ff166a16ff.png",
+      "category": "profile",
+      "label": "WeChat QR code",
+      "actual_image_format": "JPEG",
+      "extension_matches_format": false,
+      "image_dimensions": [
+        965,
+        1182
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 98992,
+      "sha256": "01404ae06216430a693272341b96ef07e06178e1964fb53fc5aeb1ebda427e13"
+    },
+    {
+      "url": "https://data.hkeid.com/avatar/0c5be0aa70.png",
+      "local_path": "assets/brands/d07a53e0-0c5be0aa70.png",
+      "category": "brands",
+      "label": "https://www.naturalia-group.com/",
+      "actual_image_format": "JPEG",
+      "extension_matches_format": false,
+      "image_dimensions": [
+        409,
+        409
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 65096,
+      "sha256": "a3be4028e03d4a15f6d33dbe7f8a7e17aa1c2544fb45dbe4b33492dd5341a3d7"
+    },
+    {
+      "url": "https://data.hkeid.com/avatar/158cf9dce1.png",
+      "local_path": "assets/brands/ec559816-158cf9dce1.png",
+      "category": "brands",
+      "label": "https://www.shirleyprice.co.uk/",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        2791,
+        2000
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 335836,
+      "sha256": "e81762f9da2df8d8b76edc9404b9670653b1567a0253aa20b07793ad782f78ea"
+    },
+    {
+      "url": "https://data.hkeid.com/avatar/e920aab286.png",
+      "local_path": "assets/brands/55d8dc07-e920aab286.png",
+      "category": "brands",
+      "label": "https://gemology.com/en",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        2363,
+        689
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 35828,
+      "sha256": "e9ede81417c09bcc5c5cff2b60b692c49ca7dfabfcc6ea5476f4a0db61a6f27e"
+    },
+    {
+      "url": "https://data.hkeid.com/avatar/bd2207c0ff.png",
+      "local_path": "assets/brands/c64c3f75-bd2207c0ff.png",
+      "category": "brands",
+      "label": "https://farmagan.com/",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        819,
+        579
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 96834,
+      "sha256": "6f7d779f2319e7729112391c155a6fcb3e8bf960e36b6472500613b468f79f74"
+    },
+    {
+      "url": "https://data.hkeid.com/avatar/15a4bba5d9.png",
+      "local_path": "assets/brands/2a491757-15a4bba5d9.png",
+      "category": "brands",
+      "label": "https://www.naturaliasintesi.com/",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        819,
+        579
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 42475,
+      "sha256": "718fb661828b487703ed5ae0fa5c16ee302e7a6031fde7c54f947fa09c8585bf"
+    },
+    {
+      "url": "https://data.hkeid.com/avatar/smaller/ed6f89ef0f.png",
+      "local_path": "assets/profile/0f4f5105-ed6f89ef0f.png",
+      "category": "profile",
+      "label": "分享預覽頭像",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        200,
+        200
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 58217,
+      "sha256": "e4f76dadeb36602a24f4ae1edc249a9e82b3ef3a44e0b9fd0c87c95bb356b4c8"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/07/Name-Position.png",
+      "local_path": "assets/page-icons/5cde9db3-Name-Position.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        49,
+        78
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 773,
+      "sha256": "1903c10ea4a61db08dddbaae487ba5b6bdf77db23a69f8f725870df5fa1ba81d"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2023/02/Company.png",
+      "local_path": "assets/page-icons/8d85947b-Company.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        48,
+        74
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 374,
+      "sha256": "ab023530dc7abd69889e5f3249509e4a6b75c9c8cb79a44a3e2a12e1d5137554"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2023/02/Mobile.png",
+      "local_path": "assets/page-icons/faec705f-Mobile.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        192,
+        342
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 2340,
+      "sha256": "4a5943a3ab15876a603c5ae2f045239dafbb452cd291b258a8b8bac50cd42da3"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2023/02/Tel.png",
+      "local_path": "assets/page-icons/cb90522d-Tel.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        74,
+        74
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 1137,
+      "sha256": "309489bf77d77d60a0a7e97711553ec440940220c54e5e6da2d0d338756a8684"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2023/02/Whats-app.png",
+      "local_path": "assets/page-icons/272457a3-Whats-app.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        77,
+        76
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 1855,
+      "sha256": "db2b1473dc89ba723964e312ac8d0964afb414cb05e15e170c175836636c7276"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2023/02/Email2.png",
+      "local_path": "assets/page-icons/07e0af21-Email2.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        82,
+        82
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 1001,
+      "sha256": "abab2f15d2c0a19bd288d7934ae68248222f07e1cf64f8ecce0a405d09658594"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/07/Address.png",
+      "local_path": "assets/page-icons/7db3871a-Address.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        58,
+        74
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 1146,
+      "sha256": "9f3d6c9039366f1e7fabc052dd088d9d458cb3ac490d9ba6ff62e44455758f50"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2023/02/Url.png",
+      "local_path": "assets/page-icons/a93c8717-Url.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        74,
+        74
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 1659,
+      "sha256": "a02520fa3402b5157a29921e583e4ca7df88d9b163459274478708e45caf9946"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/08/Footer-Logo.png",
+      "local_path": "assets/page-icons/c7fc6079-Footer-Logo.png",
+      "category": "page-icons",
+      "label": "此頁顯示圖示",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        2060,
+        209
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 23006,
+      "sha256": "5d5e1fc83ba137be952e54c7d41639ef3e41d1e47138bf353a596526bcd2acaf"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/08/Tel_BK.png?v=1.0",
+      "local_path": "assets/page-icons/858e9977-Tel_BK.png",
+      "category": "page-icons",
+      "label": "vcard",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        482,
+        483
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 9236,
+      "sha256": "9890e7ae64b6007ee1d4ef3fa76942cf169620f717c29f5eef70a66fafa1b557"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/05/Whatsapp.png",
+      "local_path": "assets/page-icons/4da77664-Whatsapp.png",
+      "category": "page-icons",
+      "label": "whatsapp",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        483,
+        483
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 13237,
+      "sha256": "b63b00336dc1224ec1fa3115c013540c7d0309f2d587f5d4aa5305eb4362536a"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/11/Tel.png",
+      "local_path": "assets/page-icons/99dd2878-Tel.png",
+      "category": "page-icons",
+      "label": "tel",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        483,
+        483
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 10109,
+      "sha256": "f9dd8e4c4fd1c6083368c830ba05aca89e624e55c653802d4f94f849c61e3798"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/08/Mail.png",
+      "local_path": "assets/page-icons/6838cb66-Mail.png",
+      "category": "page-icons",
+      "label": "email",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        483,
+        482
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 7295,
+      "sha256": "0763aac424fda2d36b0de4ae8380d348c884c1c0687185e9114819ef1214dbef"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/04/seven.png?v=1",
+      "local_path": "assets/page-icons/2b8092b2-seven.png",
+      "category": "page-icons",
+      "label": "website",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        482,
+        483
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 12276,
+      "sha256": "e2a9bec7c641ec184d1d2db48ac811d7168db74c2afbf35d23ac2a2eabfac720"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2022/05/Facebook.png",
+      "local_path": "assets/page-icons/95b3cca3-Facebook.png",
+      "category": "page-icons",
+      "label": "facebook",
+      "actual_image_format": "PNG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        483,
+        487
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 5629,
+      "sha256": "64c31c8fe59188f2879b7aece1888a18e317c6a4aefc91d50800a6b704088eae"
+    },
+    {
+      "url": "https://admin.hkeid.com/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-13-at-17.38.43.jpeg",
+      "local_path": "assets/page-icons/8cea99d0-WhatsApp-Image-2024-05-13-at-17.38.43.jpeg",
+      "category": "page-icons",
+      "label": "wechat",
+      "actual_image_format": "JPEG",
+      "extension_matches_format": true,
+      "image_dimensions": [
+        709,
+        709
+      ],
+      "image_decode_verified": true,
+      "status": "verified",
+      "bytes": 19956,
+      "sha256": "66fcfc0d1eaa6bb4601165b5977b4a905c4ad2e3e64d8b4b08f7e4a5c97fb478"
+    },
+    {
+      "url": "https://s.w.org/images/core/emoji/14.0.0/svg/1f310.svg",
+      "local_path": "assets/page-icons/ad0872a4-1f310.svg",
+      "category": "page-icons",
+      "label": "contactProfiles.whatsapp_content",
+      "status": "verified",
+      "bytes": 1244,
+      "sha256": "0a1f36fe78a27c58684fa5f70ffa225fe35f3205cf44507736b8379b3b70b505"
+    },
+    {
+      "url": "https://data.hkeid.com/vcards/sidneychang_4068a.vcf",
+      "local_path": "assets/contact/2dea0d3f-sidneychang_4068a.vcf",
+      "category": "contact",
+      "label": "目前下載按鈕提供的電子名片",
+      "status": "verified",
+      "bytes": 79515,
+      "sha256": "4cab6ec8ee09f5d962f651c304b67b0112ded7a8c8cc37b30d55cc4b7837785e"
+    },
+    {
+      "url": "https://data.hkeid.com/vcards/sidneychang_e64af.vcf",
+      "local_path": "assets/contact/1b483346-sidneychang_e64af.vcf",
+      "category": "contact",
+      "label": "頁面原始欄位引用的電子名片",
+      "status": "unavailable",
+      "http_status": 404,
+      "reason": "The old vCard referenced in the embedded profile no longer exists."
+    }
+  ],
+  "resource_count": 28,
+  "verified_count": 27,
+  "download_failures": [],
+  "unavailable_source_urls": [
+    "https://data.hkeid.com/vcards/sidneychang_e64af.vcf"
+  ],
+  "external_site_count": 7,
+  "external_sites_crawled": false,
+  "browser_visual_check": "Unavailable: browser access host unavailable",
+  "coverage": [
+    "Server-rendered text and metadata",
+    "Full embedded public profile object",
+    "Profile images, active icon images and WeChat QR code",
+    "vCard button response and referenced files",
+    "External link destinations"
+  ],
+  "limitations": [
+    "No authenticated back-office records or analytics",
+    "No external websites or social feed contents",
+    "No live browser screenshot; dynamic resources inferred from the public page code",
+    "No pagination, gallery or video references found in this profile payload and rendering component"
+  ]
+}

@@ -1,0 +1,532 @@
+<div id="Content" class="js-content">    
+
+
+
+
+
+
+
+      
+
+  
+
+
+
+
+<div class="container ProductDetail-container" data-e2e-id="product-detail_container" ng-controller="ProductsShowController">
+  <!-- Breadcrumb -->
+  <div class="ProductList-breadcrumb breadcrumb hidden-xs" id="ProductList-breadcrumb">
+    <div class="block-inner">
+      <a class="Label" href="/en/products">View All</a>
+      
+        
+          <i class="fa fa-angle-right"></i> <a class="Label" href="/en/categories/absonature">Absonature</a>
+        
+          <i class="fa fa-angle-right"></i> <a class="Label" href="/en/categories/%E8%9C%82%E8%86%A0%E7%B3%BB%E5%88%97-premium-propolis">Premium Propolis</a>
+        
+      
+    </div>
+  </div>
+  <!-- END Breadcrumb -->
+
+  <div class="block-inner">
+    <div class="pd-box clearfix">
+      <div ng-show="false">
+        <div class="ProductDetail-product row">
+          <div class="ProductDetail-product-gallery col-xs-12 col-md-6">
+            <span class="loading-placeholder" style="width: 250px; height: 350px; margin: 0 auto; margin-bottom: 15px;"></span>
+            <div>
+              <span class="loading-placeholder pull-left" style="width: 72px; height: 72px; margin-right: 10px;"></span>
+              <span class="loading-placeholder pull-left" style="width: 72px; height: 72px; margin-right: 10px;"></span>
+              <span class="loading-placeholder pull-left" style="width: 72px; height: 72px;"></span>
+            </div>
+          </div>
+          <div class="ProductDetail-product-info col-xs-12 col-md-6 js-product-info">
+            <div class="box-default">
+              <div>Absonature - Premium Soap</div>
+              <div>
+                <span class="loading-placeholder" style="width: 100px"></span>
+                <span class="loading-placeholder" style="width: 200px"></span>
+                <br>
+                <span class="loading-placeholder" style="width: 310px"></span>
+                <span class="loading-placeholder" style="width: 150px"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div ng-cloak>
+        <div class="ProductDetail-product row" sl-component="product-info">
+          <div class="ProductDetail-product-gallery col-xs-12 col-md-6">
+            <product-variant-gallery enable-popup-slide="true" entry-point="pdp_product_photo" item-size="100" item-margin="10"></product-variant-gallery>
+            <div class="prod-mobile js-prod-mobile"></div>
+          </div>
+
+          <div class="ProductDetail-product-info col-xs-12 col-md-6">
+            <div class="box-default">
+              <h1 class="Product-title">
+                Absonature - Premium Soap
+              </h1>
+
+              
+
+              <product-available-info></product-available-info>
+
+              <div class="product-sale-sold-count text-cap" ng-if="showSoldCount()">
+                <svg class="product-sale-sold-count-icon"><use xlink:href="#icon-sale-sold-count"></use></svg>
+                <span ng-bind-html="getSoldCountText()"></span>
+              </div>
+
+              
+                <div class="promotion-wrap">
+                  <input class="Util-cssToggle" type="checkbox" name="Promotion-tags-toggle" id="Promotion-tags-toggle">
+                  <div class="Product-promotions">
+                    
+                      <p class="Product-promotions-tag">
+                        The shipping fee is waived for orders of $1000 or more. on order
+                      </p>
+                    
+                  </div>
+                  
+                </div>
+              
+
+              <div class="product-detail-actions">
+                
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+    <div class="not-same-price">
+      <div class="global-primary dark-primary price-regular price js-price ">HK$198.00</div>
+      
+      
+    </div>
+  
+
+
+<div class="product-review-summary-container">
+  <div class="product-review-box" ng-if="ratingSource == 'shopline' &amp;&amp; shoplineProductReview">
+  <span class="review-summary-info-stars" review-stars score="shoplineProductReview.avg_score" total-score="5">
+  </span>
+  <span class="review-summary-data">
+    <span>{{shoplineProductReview.avg_score}}</span>(<a ng-click="scrollToProductReviews()">
+      {{shoplineProductReview.total}} {{'product.product_review.reviews' | translate}}
+    </a>)
+  </span>
+</div>
+
+<div class="product-review-box" ng-if="ratingSource == 'amazon' &amp;&amp; amazonProductReview">
+  <span class="review-summary-info-stars" review-stars score="amazonProductReview.avg_rating" total-score="5">
+  </span>
+  <span class="review-summary-data">
+    <span>{{amazonProductReview.avg_rating}}</span>(<a ng-click="scrollToProductReviews()">
+      {{amazonProductReview.total_comment_count}} {{'product.product_review.reviews' | translate}}
+    </a>)
+  </span>
+</div>
+
+</div>
+
+
+
+
+<!-- variations -->
+
+  <div class="variation-detail" ng-show="!product.hide_price" product-variation-dropdown emit-event="pdp-variation-change">
+    <!-- New variations -->
+    <div ng-repeat="title in product.field_titles" ng-attr-sl-component-begin="{{ $first ? 'variation-selector' : '' }}">
+      <div class="variation_title" ng-hide="isEmpty(title.name_translations) ">
+        {{ title.name_translations | translateModel }}
+        <span ng-if="getSelectTypeByIndex($index) !== 'dropdown'">
+          : {{variationName[$index] | translateModel}}
+        </span>
+      </div>
+      <div class="select-box" ng-class="{
+          'selectpicker-box': !featureService.hasFeature('variation_label_swatches'),
+          'variation-image': _product.field_titles[$index].selectorEnabled
+        }" ng-switch="getSelectTypeByIndex($index)">
+        <variation-selector class="variation-selector" ng-switch-when="selector" model="variationName" product="product" index="{{$index}}" on-change="onVariationChanged($index)">
+        </variation-selector>
+
+        <variation-label-selector ng-switch-when="label" index="$index" model="variationName" product="product" on-change="onVariationChanged($index)" is-collapsable="false"></variation-label-selector>
+
+        <select class="selectpicker js-selectpicker form-control form-control-sm form-control-inline" ng-switch-default ng-model="variationName[$index]" ng-change="onVariationChanged($index)" ng-options="variation for variation in product.digest_variations[$index]">
+        </select>
+      </div>
+    </div>
+    <!-- End of new variations -->
+    <!-- Old variations -->
+    <select dynamic-name="product_variation_$index" class="selectpicker js-selectpicker form-control form-control-sm form-control-inline" ng-model="variationSelected" ng-change="onVariationChanged()" ng-options="variation as variation.name for variation in product.variations" ng-hide="product.field_titles" sl-component-end="variation-selector">
+    </select>
+    <!-- End of old variations -->
+    <div class="quantity-wrapper">
+      <div class="variation_title quantity-title" ng-show="state.checkoutReady &amp;&amp; hasStock">Quantity</div>
+
+      <!-- Quantity as Inputbox -->
+      <div class="form-inline form-quantity" style="display:inline-block;margin-bottom:10px" ng-if="state.checkoutReady &amp;&amp; hasStock" ng-class="state.checkoutReady &amp;&amp; hasStock ? 'form-block' : null">
+        <div class="input-group">
+          <span class="input-group-btn"><button type="button" class="btn btn-default btn-checkout" ng-click="decQuantity()"><i class="fa fa-minus"></i></button></span>
+          <input dynamic-name="product_variation_$index" class="form-control form-control-xs form-control-inline" type="text" ng-model="$parent.addItemQuantity" ng-change="addItemQuantityInputChange()" maxlength="5">
+          <span class="input-group-btn"><button type="button" class="btn btn-default btn-checkout" ng-click="incQuantity()"><i class="fa fa-plus"></i></button></span>
+        </div>
+      </div>
+    </div>
+    <div ng-show="myForm.addItemQuantity.$error"></div>
+    <!-- End of Quantity as Inputbox -->
+
+
+    <!-- Addon Item -->
+    
+      
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+    
+    <!-- Addon Item End -->
+    
+    
+    <div class="product-detail-button-container ">
+      <button id="btn-main-checkout" data-e2e-id="add-to-cart_button" ng-show="state.checkoutReady &amp;&amp; hasStock &amp;&amp; !state.addonItemEnabled" class="btn btn-custom btn-purchase-action form-control-inline ladda-button js-btn-main-checkout js-btn-show js-btn-scroll btn-color-primary" ng-disabled="
+      false || addItemQuantity == '' || addItemQuantity == 0 || addItemQuantity &lt; 0 || addItemQuantity &gt; 99999
+    " data-style="slide-down" ladda="loading" ng-click="addItemToCart()" ui-scrollfix ui-scrollfix-sizing-element="#btn-main-checkout" ui-scrollfix-container-element=".js-sticky-cart-button-container">
+        <span class="fa fa-shopping-cart"></span>
+        <span class="ladda-label" ng-bind="getAddToCartButtonText(false, '')"></span>
+      </button>
+      
+      
+    </div>
+    
+    <div class="amazon-wishlist-block-align" ng-class="(state.checkoutReady &amp;&amp; hasStock &amp;&amp; !state.addonItemEnabled) ? '' : 'hidden'">
+      <div class="amazon-wishlist-block  no-amazon-btn">
+        <div class="buy-at-amazon-button">
+          
+        </div>
+        <div class="add-to-wishlist-btn">
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of variations -->
+
+  
+
+<!-- Warning: too much quantity -->
+<div class="txt-notify" ng-show="addItemQuantity &gt; 99999">
+  <div class="out-of-stock">products.quantity_limit99999</div>
+</div>
+
+<!-- Warning: not valid quantity -->
+<div class="txt-notify" ng-show="invalidQuantity">
+  <div class="out-of-stock">This quantity is invalid, please enter a valid quantity.</div>
+</div>
+
+<!-- Out of Stock -->
+<div class="txt-notify" ng-show="showOutOfStockHint()">
+  <div class="out-of-stock txt-sold-out">Sold Out</div>
+</div>
+
+<!-- cannot add to cart -->
+<div class="txt-notify js-popup-not-enough-stock" ng-switch="orderQuantityStatus" ng-show="hasStock &amp;&amp; !isOutOfStockOrderable()">
+  <span ng-switch-when="out_of_stock">
+    <div class="out-of-stock">
+      <p class="reset-bottom-to-zero">Not enough stock.
+Your item was not added to your cart.
+</p>
+    </div>
+  </span>
+  <span ng-switch-when="low_stock">
+    <div class="out-of-stock">
+      <p class="reset-bottom-to-zero">Not enough stock.
+Please adjust your quantity.
+</p>
+    </div>
+  </span>
+  <span ng-switch-when="out_of_orderable_quantity">
+    <div class="out-of-stock">
+      <p class="reset-bottom-to-zero">{{'products.quick_cart.out_of_number_hint'| translate}}</p>
+    </div>
+  </span>
+  <span ng-switch-when="includes_preorder">
+    <div class="out-of-stock">
+      <p class="reset-bottom-to-zero">{{'product.preorder_limit.hint'| translate}}</p>
+    </div>
+  </span>
+</div>
+<span class="txt-notify js-popup-purchase-limit" ng-if="reachedPurchaseLimit">
+  <div class="out-of-stock">
+    <p class="reset-bottom-to-zero">Limit -1 per order.</p>
+  </div>
+</span>
+<div class="out-of-stock txt-notify js-popup-item-left" ng-if="showStockQuantityHint()">
+  <p class="with-addon">{{'products.quick_cart.quantity_of_stock_hint'| translate : {message: quantityOfStock} }}</p>
+</div>
+
+<div ng-if="!(state.checkoutReady &amp;&amp; hasStock &amp;&amp; state.productSetCheckoutReady)">
+  <div ng-if="productStockInitializedChecked &amp;&amp; shouldShowMessageMeBtn()" class="wrap-message-btn">
+    <div class="messagetobuy dark-secondary">Please message the shop owner for order details.</div>
+    <button class="btn btn-custom btn-color-primary js-btn-contact-us" ng-click="showMessageForm()">
+      MESSAGE
+    </button>
+  </div>
+  <div class="detail-product-wishlist">
+    
+
+  </div>
+</div>
+<!--cart actions-->
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ProductDetail-additionalInfo row">
+        <div class="col-xs-12">
+          <section class="Tabset js-tabset" id="MEMBER_CENTER">
+            <div class="Tabset-tabs js-tabset-tabs">
+              
+                <div href="#tabset-tab-PDP-1" class="Tab-label js-tab-label active" onclick="onTabsetTabClicked(event)">
+                  
+                    Description
+                  
+                </div>
+              
+                <div href="#tabset-tab-PDP-2" class="Tab-label js-tab-label " onclick="onTabsetTabClicked(event)">
+                  
+                    Additional details
+                  
+                </div>
+              
+                <div href="#tabset-tab-PDP-3" class="Tab-label js-tab-label " onclick="onTabsetTabClicked(event)">
+                  
+                    Shipping &amp; Payment
+                  
+                </div>
+              
+                <div href="#tabset-tab-PDP-4" class="Tab-label js-tab-label " onclick="onTabsetTabClicked(event)">
+                  
+                    Customer Reviews
+                  
+                </div>
+              
+            </div>
+
+            
+              <div id="tabset-tab-PDP-1" class="Tab-content js-tab-content active" scroll-offset="48">
+                
+                  <div class="ProductDetail-description">
+                    
+
+
+        <!-- START SHOPLINE RICH CONTENT -->
+          
+
+<span style=" color: rgb(0, 0, 0); font-family: Calibri; font-size: 14.666667px;">Efficacy: </span><span style="font-size: small;"><span style=' color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;'>It moisturizes, soothes, and repairs sensitive skin, while helping to reduce </span><span style=' color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;'>pigmentation</span><span style=' color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;'> </span></span><div>This soap is suitable for all skin types, including sensitive and dry skin<span style="font-size: small;"><span style=' color: rgb(15, 17, 21); font-family: quote-cjk-patch, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;'><br></span></span>
+</div>
+
+
+        <!-- END SHOPLINE RICH CONTENT -->
+      
+
+                  </div>
+                
+              </div>
+            
+              <div id="tabset-tab-PDP-2" class="Tab-content js-tab-content " scroll-offset="48">
+                
+                  <div class="ProductDetail-gallery">
+                    <ul>
+                      
+                    </ul>
+                  </div>
+                  
+                    <div class="no-des">There is no additional details for this product.</div>
+                  
+                
+              </div>
+            
+              <div id="tabset-tab-PDP-3" class="Tab-content js-tab-content " scroll-offset="48">
+                
+                  <div class="row">
+                    <div class="Product-deliveryList col-sm-6 col-xs-12">
+                      <h3>Delivery Options</h3>
+                      <ul class="">
+                        
+                          <li>Shipping for Top-ups Only</li>
+                        
+                          <li>In-store pickup</li>
+                        
+                          <li>S.F. Express - Business Station Pickup</li>
+                        
+                          <li>S.F. Express - Store Pickup</li>
+                        
+                          <li>S.F. Express - EF Locker Pickup</li>
+                        
+                      </ul>
+                    </div>
+                    <div class="Product-paymentList col-sm-6 col-xs-12">
+                      <h3>Payment Options</h3>
+                      <ul>
+                        
+                          <li>Alipay (HK)_SHOPLINE Payments</li>
+                        
+                          <li>WeChat Pay</li>
+                        
+                          <li>Octopus</li>
+                        
+                          <li>Credit Card</li>
+                        
+                          <li>FPS</li>
+                        
+                          <li>Google Pay</li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                
+              </div>
+            
+              <div id="tabset-tab-PDP-4" class="Tab-content js-tab-content " scroll-offset="48">
+                
+                  <div id="product-review-section"></div>
+                  <div class="product-reviews-container" ng-cloak>
+  <div class="review-summary-source" ng-if="amazonProductReviewEnabled || productReviewEnabled">
+    <select ng-change="setRatingSource(ratingSource)" ng-model="ratingSource" class="selectpicker js-selectpicker form-control form-control-sm form-control-inline">
+      
+        <option value="shopline">Rating Source: This Shop</option>
+      
+      
+    </select>
+  </div>
+
+  
+    <shopline-product-review></shopline-product-review>
+  
+
+  
+
+  <div class="product-review-no-data" ng-if="shouldShowNoReviewsMsg()">
+    No review for this product
+  </div>
+</div>
+
+                
+              </div>
+            
+          </section>
+        </div>
+      </div>
+
+      
+      
+        <div class="ProductDetail-relatedProducts">
+          <h3 class="ProductDetail-relatedProducts-title">You might also like...</h3>
+          <div class="ProductDetail-relatedProducts-list" id="relatedProductList">
+            <lazyload-related-products data-product-id="692fb043e943a30010f2bfb7" data-page-type="product_detail">
+              
+                
+                  <div class="Product-item autofill-item">
+                    <div class="Image-boxify">
+                      <div class="Image-boxify-image">
+                        <div class="boxify-image-wrap">
+                          <div class="loading-placeholder loading-image"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="loading-placeholder loading-title"></span>
+                    <span class="loading-placeholder loading-price"></span>
+                  </div>
+                
+                  <div class="Product-item autofill-item">
+                    <div class="Image-boxify">
+                      <div class="Image-boxify-image">
+                        <div class="boxify-image-wrap">
+                          <div class="loading-placeholder loading-image"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="loading-placeholder loading-title"></span>
+                    <span class="loading-placeholder loading-price"></span>
+                  </div>
+                
+                  <div class="Product-item autofill-item">
+                    <div class="Image-boxify">
+                      <div class="Image-boxify-image">
+                        <div class="boxify-image-wrap">
+                          <div class="loading-placeholder loading-image"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="loading-placeholder loading-title"></span>
+                    <span class="loading-placeholder loading-price"></span>
+                  </div>
+                
+                  <div class="Product-item autofill-item">
+                    <div class="Image-boxify">
+                      <div class="Image-boxify-image">
+                        <div class="boxify-image-wrap">
+                          <div class="loading-placeholder loading-image"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="loading-placeholder loading-title"></span>
+                    <span class="loading-placeholder loading-price"></span>
+                  </div>
+                
+              
+            </lazyload-related-products>
+          </div>
+        </div>
+      
+
+    </div>
+  </div>
+  <div ng-show="state.showStickyButton" class="js-sticky-cart-button-container"></div>
+</div>
+
+      <script>window.SLINE_RENDERED = true;</script>
+
+  </div>            

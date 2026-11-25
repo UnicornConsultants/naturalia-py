@@ -1,0 +1,76 @@
+{
+  "source": "https://www.naturalia-group.com/",
+  "archived_at": "2026-11-16T14:12:46+08:00",
+  "public_only": true,
+  "languages": {
+    "en": 282,
+    "zh-hant": 282
+  },
+  "page_types": {
+    "home": 2,
+    "about": 12,
+    "blog": 2,
+    "categories": 112,
+    "pages": 44,
+    "products": 392
+  },
+  "page_count": 564,
+  "product_count": 188,
+  "sitemap_unique_language_pages": 520,
+  "sitemap_pages_missing": [],
+  "page_download_failures": [],
+  "asset_count": 652,
+  "asset_bytes": 513285050,
+  "asset_download_failures": [
+    {
+      "url": "https://www.naturalia-group.com/zh-hant/images/dotted.png",
+      "source_urls": [
+        "https://www.naturalia-group.com/zh-hant/pages/%E7%90%86%E5%BF%B5-%E2%80%A7-%E5%AE%97%E6%97%A8-vision--mission",
+        "https://www.naturalia-group.com/zh-hant/pages/%E9%9B%86%E5%9C%98%E6%85%A8%E6%B3%81"
+      ],
+      "roles": [
+        "background"
+      ],
+      "variant_urls": [
+        "https://www.naturalia-group.com/zh-hant/images/dotted.png"
+      ],
+      "selection_rank": 0,
+      "image_clip_id": null,
+      "local_path": null,
+      "fetched_at": "2026-11-16T14:10:40+08:00",
+      "http_status": 200,
+      "effective_url": "https://www.naturalia-group.com/",
+      "content_type": "text/html; charset=utf-8",
+      "curl_exit_code": 0,
+      "bytes": 628672,
+      "sha256": "d398398160a367a04ac03ac87c8ab5a0383d1a87398139973f51860b16424af1",
+      "ok": false,
+      "error": "Attachment URL redirected to HTML instead of an image",
+      "expected_local_path": "assets/0ace42b2d4527dd5.png",
+      "fallback_checked": "https://naturalia-group.com/images/dotted.png",
+      "note": "The source background URL redirects to the store homepage. The matching old-host image was also unavailable."
+    }
+  ],
+  "images_recovered_from_legacy_host": [
+    "https://www.naturalia-group.com/images/%E5%81%A5%E5%BA%B7%E8%82%8C%E8%86%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83/Centre/%E4%BA%8C%E5%B1%82.jpg",
+    "https://www.naturalia-group.com/images/banners/2.2_naturalia_sintesi_intro.jpg",
+    "https://www.naturalia-group.com/images/222222222222222222222.jpg",
+    "https://www.naturalia-group.com/images/2.3.2.1.jpg",
+    "https://www.naturalia-group.com/images/banners/2.3.2.3.jpg"
+  ],
+  "invalid_assets": [],
+  "scope": "Current www.naturalia-group.com public Shopline site, both languages, all sitemap entries and linked public pages/pagination.",
+  "excluded": [
+    "Authenticated member/admin/order/customer data",
+    "External social media feeds and third-party websites",
+    "Videos embedded from external streaming services (embed URLs retained)",
+    "Legacy non-www Joomla pages; only directly referenced broken images may be recovered from the matching old-host paths"
+  ],
+  "notes": [
+    "Prices and stock are a point-in-time public snapshot.",
+    "Product raw JSON is data embedded in public product HTML, not an authenticated database export.",
+    "The default sitemap duplicates the localized content; entries are mapped to zh-hant.",
+    "One original image or the largest linked size is downloaded per image clip; variant URLs are preserved.",
+    "This is a content archive, not a fully functioning offline shop."
+  ]
+}

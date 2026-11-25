@@ -1,0 +1,599 @@
+Naturalia Group 公開網站備份
+來源：https://www.naturalia-group.com/
+完成時間：2026-11-16T14:12:46+08:00
+
+公開頁面：564，商品：188，附件／圖片：652
+語言：{"en": 282, "zh-hant": 282}
+網站地圖尚未下載：0
+失敗頁面：0
+失敗附件：1
+由同公司舊網址補回的原有圖片：5
+格式驗證失敗：0
+
+products.json：商品、SKU、中英文名稱、簡介、價格、規格、公開庫存狀態及圖片來源。
+pages.json：每頁網址、標題、語言、SEO 資料、結構化資料、原始檔／文字／內容 HTML 位置。
+raw/pages/：原始公開 HTML；raw/products/：商品頁內嵌公開 JSON。
+text/：可讀文字；content/：保留格式的主內容 HTML；assets/：圖片和直接附件。
+indexes/：網站地圖、來源與下載對照表，含 HTTP 狀態、檔案大小及 SHA-256。
+external-links.json：外部網站及嵌入影片連結。
+manifest.json：範圍、完整性及失敗清單。
+
+登入資料尚未提供，因此本備份不含會員後台、訂單、客戶名單或其他私人資料。
+外部社交網站、串流影片本體及其他品牌網站未下載；已保留引用連結。
+無 www 的 naturalia-group.com 回傳舊 Joomla 網站，與指定的新 Shopline 網站不同；未混入商品資料。
+圖片按原始圖像 ID 去重，下載原圖或頁面最大可用版本；各尺寸來源仍保留於 indexes/media-discovered.json。
+價格和庫存只代表下載當刻；原文中的產品宣稱並未另行核實。
+此備份用於保存內容及日後重建，並非可離線運作的購物系統。
+
+頁面索引：
+en | Home | https://www.naturalia-group.com/en/ | text/6fe9fd45701cebbb.txt
+en | About | https://www.naturalia-group.com/en/about | text/91203a01f600ead9.txt
+en | Anti-Fraud Statement | https://www.naturalia-group.com/en/about/anti-fraud | text/0fc543383b3e9196.txt
+en | Delivery Policy | https://www.naturalia-group.com/en/about/delivery-policy | text/3b40548945e4d409.txt
+en | Return Policy | https://www.naturalia-group.com/en/about/policy | text/a410556109c7d6ce.txt
+en | Privacy Policy | https://www.naturalia-group.com/en/about/privacy-policy | text/2dc7c0112e4ce98b.txt
+en | Terms and Conditions | https://www.naturalia-group.com/en/about/terms | text/a6bd435542077f44.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/blog/posts | text/615c6f83c356186e.txt
+en | Redness Relief & Anti-Sensitivity Series | https://www.naturalia-group.com/en/categories/%E5%8E%BB%E7%B4%85%E6%8A%97%E6%95%8F%E7%B3%BB%E5%88%97 | text/c686285c9f5ab664.txt
+en | Naturalia Group Core Product Lines | https://www.naturalia-group.com/en/categories/%E5%9F%BA%E6%9C%AC%E7%94%A2%E5%93%81 | text/b3622bb6c3d59ff0.txt
+en | Anti-Sensitivity Aromatherapy Series | https://www.naturalia-group.com/en/categories/%E5%BE%AE%E8%84%82%E5%9B%8A%E6%8A%97%E6%95%8F%E9%A6%99%E8%96%B0%E7%B3%BB%E5%88%97-anti-sensitivity-aromatherapy-series | text/2073944c24a2bddf.txt
+en | Professional Hand & Foot Care Series | https://www.naturalia-group.com/en/categories/%E6%89%8B%E9%83%A8%E5%8F%8A%E8%85%B3%E9%83%A8%E7%B3%BB%E5%88%97-professional-hand--foot-care-series | text/127d07091432bebf.txt
+en | Age Reversal Code Series | https://www.naturalia-group.com/en/categories/%E6%99%82%E5%85%89%E4%B9%8B%E9%91%B0-%C2%B7-%E9%80%86%E9%BD%A1%E8%A7%A3%E7%A2%BC%E7%B3%BB%E5%88%97-age-reversal-code-series | text/f5e35ead28a033b1.txt
+en | Rapid Shaping & Slimming Series | https://www.naturalia-group.com/en/categories/%E6%A5%B5%E9%80%9F%E7%BA%96%E5%BD%A2%E7%BA%96%E9%AB%94%E6%B8%9B%E8%82%A5%E7%B3%BB%E5%88%97-rapid-shaping--slimming-series | text/e592a9ea3821a131.txt
+en | Oily & Acne-Prone Skin /Treatment Series | https://www.naturalia-group.com/en/categories/%E6%B2%B9%E6%80%A7%E3%80%81%E6%9A%97%E7%98%A1%E6%80%A7-%E6%A5%B5%E9%80%9F%E6%B7%A8%E8%86%9A%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-oily--acne-prone-skin-treatment-series | text/d41388d1234b64d7.txt
+en | Cellular Activation Essence Series | https://www.naturalia-group.com/en/categories/%E6%B4%BB%E5%8C%96%E7%B4%B0%E8%83%9E%E7%B2%BE%E8%8F%AF%E7%B3%BB%E5%88%97-cellular-activation-essence-series | text/04c695d0a031c069.txt
+en | Nourishing & Moisturizing Series | https://www.naturalia-group.com/en/categories/%E6%BB%8B%E6%BD%A4%E7%B3%BB%E5%88%97 | text/efb68117a5463148.txt
+en | Sebum Control & Acne Care Series | https://www.naturalia-group.com/en/categories/%E7%9A%AE%E8%84%82%E6%BA%A2%E6%9A%97%E7%98%A1%E7%B3%BB%E5%88%97 | text/7680f524356b0337.txt
+en | Skin Renewal & Anti-Wrinkle Series | https://www.naturalia-group.com/en/categories/%E7%9A%AE%E8%86%9A%E6%9B%B4%E7%94%9F%E6%8A%97%E7%9A%BA%E7%B3%BB%E5%88%97 | text/56cc893e9be37a3b.txt
+en | Eye Contour Treatment Series | https://www.naturalia-group.com/en/categories/%E7%9C%BC%E9%83%A8%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97 | text/52fc0e7319f1644d.txt
+en | Makeup & Sun Protection Series | https://www.naturalia-group.com/en/categories/%E7%BE%8E%E5%A6%9D%E5%8F%8A%E9%98%B2%E7%9F%96%E7%94%A2%E5%93%81%E7%B3%BB%E5%88%97-makeup--sun-protection-series | text/471b4487d9a6b9be.txt
+en | Whitening & Anti-Aging Integrated Series | https://www.naturalia-group.com/en/categories/%E7%BE%8E%E7%99%BD%E6%8A%97%E8%A1%B0%E8%80%81%E7%B3%BB%E5%88%97 | text/7377d0df9cb79784.txt
+en | Whitening Renewal Series | https://www.naturalia-group.com/en/categories/%E7%BE%8E%E7%99%BD%E6%9B%B4%E6%96%B0%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-whitening-renewal-treatment-series | text/cd3c4e8245c07ae1.txt
+en | Fat / Cellulite /Edema Management Series | https://www.naturalia-group.com/en/categories/%E8%84%82%E8%82%AA%E8%9C%82%E7%AA%A9%E7%B5%84%E7%82%8E%E6%B0%B4%E8%85%AB%E7%B3%BB%E5%88%97 | text/d3ee93737cdfeede.txt
+en | Premium Propolis | https://www.naturalia-group.com/en/categories/%E8%9C%82%E8%86%A0%E7%B3%BB%E5%88%97-premium-propolis | text/e2c193e1fc6a10c1.txt
+en | Detox 4D Contouring Series | https://www.naturalia-group.com/en/categories/%E8%A7%A3%E6%AF%924d%E8%BC%AA%E5%BB%93%E7%B3%BB%E5%88%97--detox-4d-contouring-series | text/eb763649a7a123f9.txt
+en | Shopping Voucher | https://www.naturalia-group.com/en/categories/%E8%B3%BC%E7%89%A9%E9%87%91-shopping-voucher | text/55024c684449fe8a.txt
+en | Sleek Silhouette Body Therapy Series | https://www.naturalia-group.com/en/categories/%E8%B7%A8%E4%B8%96%E7%B4%80%E9%86%AB%E5%AD%B8%E7%A5%9E%E5%A5%87%E7%B4%B0%E8%83%9E%E6%A0%B8%E7%99%82%E8%BA%AB%E7%B3%BB%E5%88%97-%E7%BA%96%E7%9B%88%E9%AB%94%E6%85%8B%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-sleek-silhouette-body-therapy-series | text/6c9c2b689e24a73b.txt
+en | Hydro-Replenishing &Restructuring Series | https://www.naturalia-group.com/en/categories/%E9%87%8D%E7%B5%84%E6%B0%B4%E4%BB%BD%E7%B3%BB%E5%88%97 | text/a9ff59d6a86de919.txt
+en | Sun Protection Product Series | https://www.naturalia-group.com/en/categories/%E9%98%B2%E6%9B%AC%E7%94%A2%E5%93%81%E7%B3%BB%E5%88%97 | text/0a86a7a972eba817.txt
+en | Intensive Hydration Therapy Series | https://www.naturalia-group.com/en/categories/%E9%AB%98%E6%B0%B4%E4%BB%BD%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97%E3%80%81%E9%AB%98%E6%95%88%E8%83%BD%E6%B2%BB%E7%99%82%E9%9D%A2%E8%86%9C%E7%B3%BB%E5%88%97-intensive-hydration-therapy-series | text/9d1eef5f1ebb4b63.txt
+en | Featured Products | https://www.naturalia-group.com/en/categories/6878c0579ee0a200168d3438 | text/754b0f1e004d4b5a.txt
+en | Shirley Price | https://www.naturalia-group.com/en/categories/6897b8ae052e4b00147f45b9 | text/34e8e3bf59c1b380.txt
+en | Absonature | https://www.naturalia-group.com/en/categories/absonature | text/9233d5705def95c6.txt
+en | Air Cleanse | https://www.naturalia-group.com/en/categories/air-cleanse | text/44f67756660d9bcd.txt
+en | BIOACTIVE HC-ANTI-DRY DANDRUFF(適合乾性受損頭髪使用) | https://www.naturalia-group.com/en/categories/bioactive-hc-anti-drydandruff%E9%81%A9%E5%90%88%E4%B9%BE%E6%80%A7%E5%8F%97%E6%90%8D%E9%A0%AD%E9%AB%AA%E4%BD%BF%E7%94%A8 | text/4331a10e154c84e5.txt
+en | BIOACTIVE HC-ANTI-OLDANDRUFF (適合油性及多汗頭髪） | https://www.naturalia-group.com/en/categories/bioactive-hc-anti-oldandruff%E9%81%A9%E5%90%88%E6%B2%B9%E6%80%A7%E5%8F%8A%E5%A4%9A%E6%B1%97%E9%A0%AD%E9%AB%AA%E4%BD%BF%E7%94%A8 | text/f2d820a4dfd67f0c.txt
+en | BIOACTIVE HC-CLEAN UP(適合抗癢、抗菌、除臭及去頭皮人士） | https://www.naturalia-group.com/en/categories/bioactive-hc-clean-up%E9%81%A9%E5%90%88%E6%8A%97%E7%99%A2%E6%8A%97%E8%8F%8C%EF%BC%8C%E9%99%A4%E8%87%AD%E5%8F%8A%E5%8E%BB%E9%A0%AD%E7%9A%AE%E4%BA%BA%E5%A3%AB%E4%BD%BF%E7%94%A8 | text/eb5a471c80451cf9.txt
+en | BIOACTIVE HC-HYDRA | https://www.naturalia-group.com/en/categories/bioactive-hc-hydra%E9%81%A9%E5%90%88%E4%BB%BB%E4%BD%95%E9%AB%AA%E8%B3%AA%E5%AD%95%E5%A9%A6%E5%A9%B4%E5%85%92%E5%8F%8A%E5%B0%8F%E5%AD%A9%E4%BD%BF%E7%94%A8 | text/bf0bad6776e199f6.txt
+en | BIOACTIVE HC-KEEP COLOR(適用於染髪人士) | https://www.naturalia-group.com/en/categories/bioactive-hc-keep-color%E9%81%A9%E7%94%A8%E6%96%BC%E6%9F%93%E9%AB%AA%E4%BA%BA%E5%A3%AB%E4%BD%BF%E7%94%A8 | text/80bd3dac0ce6bd1e.txt
+en | BIOACTIVE HC REPAIR-B5 (適合受損及開叉髪絲使用) | https://www.naturalia-group.com/en/categories/bioactive-hc-repair-b5-%E9%81%A9%E5%90%88%E5%8F%97%E6%90%8D%E5%8F%8A%E9%96%8B%E5%8F%89%E9%AB%AA%E7%B5%B2%E4%BD%BF%E7%94%A8 | text/83d4778ba2a31cef.txt
+en | BIOACTIVE HC-SOOTHING(適合乾，敏感，發癢頭皮) | https://www.naturalia-group.com/en/categories/bioactive-hc-soothing%E9%81%A9%E5%90%88%E4%B9%BE%EF%BC%8C%E6%95%8F%E6%84%9F%EF%BC%8C%E7%99%BC%E7%99%A2%E9%A0%AD%E7%9A%AE%E4%BD%BF%E7%94%A8 | text/e031b001c5d2eef8.txt
+en | BIOACTIVE HC-VOLUME-UP(適合任何髪質) | https://www.naturalia-group.com/en/categories/bioactive-hc-volume-up%E9%81%A9%E5%90%88%E4%BB%BB%E4%BD%95%E9%AB%AA%E8%B3%AA%E4%BD%BF%E7%94%A8 | text/7c39c40d37396e28.txt
+en | BIOACTIVE HC-X-CURLY(適合任何髪質) | https://www.naturalia-group.com/en/categories/bioactive-hc-x-curly%E9%81%A9%E5%90%88%E4%BB%BB%E4%BD%95%E9%AB%AA%E8%B3%AA%E4%BD%BF%E7%94%A8 | text/342a5e1469f81453.txt
+en | BIOACTIVE HT-ANTI-LOSS(適合脱髪及活髪人士使用) | https://www.naturalia-group.com/en/categories/bioactive-ht-anti-loss%E9%81%A9%E5%90%88%E8%84%B1%E9%AB%AA%E5%8F%8A%E6%B4%BB%E9%AB%AA%E4%BA%BA%E5%A3%AB%E4%BD%BF%E7%94%A8 | text/943ee8ad8bfab69f.txt
+en | BIOACTIVE SUN -S Active | https://www.naturalia-group.com/en/categories/bioactive-sun-s-active | text/da4b7daadbcedb62.txt
+en | Deep Sleep | https://www.naturalia-group.com/en/categories/deep-sleep | text/b8ccfa92966aa221.txt
+en | Farmagan | https://www.naturalia-group.com/en/categories/farmagan | text/d4e982ffc44b1dce.txt
+en | Farmagan | https://www.naturalia-group.com/en/categories/farmagan?page=2 | text/29e01c937783e808.txt
+en | Joyous | https://www.naturalia-group.com/en/categories/joyous | text/191b8e6eba880899.txt
+en | M Focus | https://www.naturalia-group.com/en/categories/m-focus | text/5fe377d275e5ea3a.txt
+en | Naturalia Sintesi | https://www.naturalia-group.com/en/categories/naturalia-sintesi | text/8124455aa919d26b.txt
+en | Naturalia Sintesi | https://www.naturalia-group.com/en/categories/naturalia-sintesi?page=2 | text/fa38d4404983ec04.txt
+en | Naturalia Sintesi | https://www.naturalia-group.com/en/categories/naturalia-sintesi?page=3 | text/47fb4c29dcee33fb.txt
+en | Nose Relief | https://www.naturalia-group.com/en/categories/nose-relief | text/acb0df72b0695117.txt
+en | Retail Size (Products) | https://www.naturalia-group.com/en/categories/retail-size-products | text/6f0167d6b6bd8126.txt
+en | Romance | https://www.naturalia-group.com/en/categories/romance | text/7c7daedf6c0b70cf.txt
+en | Salon Size (Products) | https://www.naturalia-group.com/en/categories/salon-size-products | text/175aed59f42e34f1.txt
+en | Shirley Price | https://www.naturalia-group.com/en/categories/shirley-price | text/218de36e5e98d1b2.txt
+en | Shirley Price | https://www.naturalia-group.com/en/categories/shirley-price?page=2 | text/fac7059fbf5edcf1.txt
+en | Shirley Price | https://www.naturalia-group.com/en/categories/shirley-price?page=3 | text/be4cfb1b0bc0e672.txt
+en | Shirley Price | https://www.naturalia-group.com/en/categories/shirley-price?page=4 | text/5a6a18b3fb04866f.txt
+en | Timeless | https://www.naturalia-group.com/en/categories/timeless | text/455f41114f5a9ea3.txt
+en | Vitality | https://www.naturalia-group.com/en/categories/vitality | text/b0fe4856de07c38d.txt
+en | 健康肌膚管理中心 Health Skin Management Center | https://www.naturalia-group.com/en/pages/%E5%81%A5%E5%BA%B7%E8%82%8C%E8%86%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83-health-skin-management-center | text/d0b3dc0d08b79030.txt
+en | Join Us | https://www.naturalia-group.com/en/pages/%E5%8A%A0%E5%85%A5%E6%88%91%E5%80%91 | text/4ec49d36bb49ce49.txt
+en | Vision & Mission | https://www.naturalia-group.com/en/pages/%E7%90%86%E5%BF%B5-%E2%80%A7-%E5%AE%97%E6%97%A8-vision--mission | text/5c33d9e9bfa36bcb.txt
+en | Corporate Social Responsibility | https://www.naturalia-group.com/en/pages/%E7%A4%BE%E6%9C%83%E8%B2%AC%E4%BB%BB | text/0a5615ff354dba1f.txt
+en | Naturalia Sintesi | https://www.naturalia-group.com/en/pages/%E8%B2%9D%E5%98%89%E6%96%87-naturalia-sintesi | text/123de77e44a81c10.txt
+en | Corporate Profile | https://www.naturalia-group.com/en/pages/%E9%9B%86%E5%9C%98%E6%85%A8%E6%B3%81 | text/b933474efc8fee92.txt
+en | Corporate Milestones | https://www.naturalia-group.com/en/pages/%E9%9B%86%E5%9C%98%E9%87%8C%E7%A8%8B%E7%A2%91-corporate-milestones | text/718bebd75d284338.txt
+en | Lumiva International Beauty Academy | https://www.naturalia-group.com/en/pages/%E9%9C%B2%E6%98%8E%E8%8F%AF%E5%9C%8B%E9%9A%9B%E7%BE%8E%E5%AE%B9%E5%AD%B8%E9%99%A2-lumiva-international-beauty-academy | text/7c03cadb9c731080.txt
+en | Lumiva | https://www.naturalia-group.com/en/pages/%E9%9C%B2%E6%98%8E%E8%8F%AF-lumiva | text/9f2e77c2b6da9eaf.txt
+en | 面部肌膚健康管理 Facial Skin Health Management | https://www.naturalia-group.com/en/pages/%E9%9D%A2%E9%83%A8%E8%82%8C%E8%86%9A%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86-facial-skin-health-management | text/129fe903746b041c.txt
+en | Naturalia Health Skin Management Center | https://www.naturalia-group.com/en/pages/%E9%9F%BB%E6%BF%A4%E5%81%A5%E5%BA%B7%E8%82%8C%E8%86%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83-naturalia-health-skin-management-center | text/85aa937dbb5dd730.txt
+en | Leader's Message | https://www.naturalia-group.com/en/pages/%E9%A0%98%E5%B0%8E%E4%BA%BA%E7%9A%84%E8%A9%B1-leaders-message | text/a1110bfc974c1301.txt
+en | 頭皮頭髮健康管理 Scalp & Hair Health Management | https://www.naturalia-group.com/en/pages/%E9%A0%AD%E7%9A%AE%E9%A0%AD%E9%AB%AE%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86-scalp--hair-health-management | text/f1827fa3d16f4019.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/pages/6878c08120126c00108d27f5 | text/d7511b89160f3a75.txt
+en | Absonature | https://www.naturalia-group.com/en/pages/absonature | text/a6441e7c879b5d96.txt
+en | Awards | https://www.naturalia-group.com/en/pages/awards%E7%8D%8E%E9%A0%85 | text/5286531bafea9237.txt
+en | BYCURE | https://www.naturalia-group.com/en/pages/bycure | text/e36525c62bc98db8.txt
+en | Espansione Group | https://www.naturalia-group.com/en/pages/espansione-group | text/adb49b493d52758e.txt
+en | Shirley Price | https://www.naturalia-group.com/en/pages/shirley-price | text/b27420577b96848c.txt
+en | Shopping Voucher(Partnerships) | https://www.naturalia-group.com/en/pages/shopping-voucherpartnerships | text/8eca0d5c2efdafd4.txt
+en | Stemtonic | https://www.naturalia-group.com/en/pages/stemtonic | text/05c04667525a9f79.txt
+en | Total Body Wellness Management 身體部分健康管理 | https://www.naturalia-group.com/en/pages/total-body-wellness-management-%E8%BA%AB%E9%AB%94%E9%83%A8%E5%88%86%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86 | text/9de1be2553fe2eec.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products | text/60538f47648a84a9.txt
+en | 亮膚緊緻抗皺眼霜 Aroma Eye Cream | https://www.naturalia-group.com/en/products/%E4%BA%AE%E8%86%9A%E7%B7%8A%E7%B7%BB%E6%8A%97%E7%9A%BA%E7%9C%BC%E9%9C%9C-aroma-eye-cream | text/4e3d51a2bdbb02b7.txt
+en | 全效修復面霜 Total Repair Cream | https://www.naturalia-group.com/en/products/%E5%85%A8%E6%95%88%E4%BF%AE%E5%BE%A9%E9%9D%A2%E9%9C%9C-total-repair-cream | text/f47ff676ba3dbcbc.txt
+en | 勁量瘦身貼 Slim Patches | https://www.naturalia-group.com/en/products/%E5%8B%81%E9%87%8F%E7%98%A6%E8%BA%AB%E8%B2%BC-slim-patches | text/23d61271de05e02d.txt
+en | 奧圖玫瑰花水 Rose Otto Toner | https://www.naturalia-group.com/en/products/%E5%A5%A7%E5%9C%96%E7%8E%AB%E7%91%B0%E8%8A%B1%E6%B0%B4-rose-otto-toner | text/15ce057fe64f2bd8.txt
+en | 完美乳液 Delight Preparing Lotion | https://www.naturalia-group.com/en/products/%E5%AE%8C%E7%BE%8E%E4%B9%B3%E6%B6%B2-delight-preparing-lotion | text/a8f8a449139bc663.txt
+en | 恆久芬芳套裝 Timeless - Aroma Health Set | https://www.naturalia-group.com/en/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E5%A5%97%E8%A3%9D-timeless---aroma-health-set | text/68f0638d222870a2.txt
+en | 恆久芬芳有機純露 Timeless Organic Hydrolat | https://www.naturalia-group.com/en/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-timeless-organic-hydrolat | text/0c2b7ed6d5b063a0.txt
+en | 恆久芬芳香薰噴霧 Timeless Aroma Spray | https://www.naturalia-group.com/en/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-timeless-aroma-spray | text/bc4cef386b0e01df.txt
+en | 恆久芬芳香薰油配方一Timeless 1 | https://www.naturalia-group.com/en/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80timeless-1 | text/74a5cce4519a1cfa.txt
+en | 恆久芬芳香薰油配方三 Timeless 3 | https://www.naturalia-group.com/en/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-timeless-3 | text/c969e88e5a91dc7f.txt
+en | 恆久芬芳香薰油配方二 Timeless 2 | https://www.naturalia-group.com/en/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-timeless-2 | text/ba211d1f0c495d05.txt
+en | 恆久芬芳香薰走珠筆 Timeless Aroma Roller | https://www.naturalia-group.com/en/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-timeless-aroma-roller | text/b702f9fea1acb627.txt
+en | 愉悅套裝 Joyous - Aroma Health Set | https://www.naturalia-group.com/en/products/%E6%84%89%E6%82%85%E5%A5%97%E8%A3%9D-joyous---aroma-health-set | text/5c838909de9e3302.txt
+en | 愉悦有機純露 Joyous Organic Hydrolat | https://www.naturalia-group.com/en/products/%E6%84%89%E6%82%A6%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-joyous-organic-hydrolat | text/c2a6dc68c16e1123.txt
+en | 愉悦香薰噴霧 Joyous Aroma Spray | https://www.naturalia-group.com/en/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-joyous-aroma-spray | text/e0d7b0069e052625.txt
+en | 愉悦香薰油配方一 Joyous 1 | https://www.naturalia-group.com/en/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-joyous-1 | text/c56e798eac932064.txt
+en | 愉悦香薰油配方三 Joyous 3 | https://www.naturalia-group.com/en/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-joyous-3 | text/5648ad5b2f756cbb.txt
+en | 愉悦香薰油配方二  Joyous 2 | https://www.naturalia-group.com/en/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C--joyous-2 | text/eb3078de47fa5080.txt
+en | 愉悦香薰走珠筆 Joyous Aroma Roller | https://www.naturalia-group.com/en/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-joyous-aroma-roller | text/c7eae2f7217a8c2b.txt
+en | 手部零瑕修復霜 Hands Repair Cream | https://www.naturalia-group.com/en/products/%E6%89%8B%E9%83%A8%E9%9B%B6%E7%91%95%E4%BF%AE%E5%BE%A9%E9%9C%9C-hands-repair-cream | text/3eceba895c7bda9c.txt
+en | 抗炎淨化啫喱 Purifying Gel | https://www.naturalia-group.com/en/products/%E6%8A%97%E7%82%8E%E6%B7%A8%E5%8C%96%E5%95%AB%E5%96%B1-purifying-gel | text/e38c289f67b99f97.txt
+en | 抗炎鎮靜精油 Aroma Calming Oil | https://www.naturalia-group.com/en/products/%E6%8A%97%E7%82%8E%E9%8E%AE%E9%9D%9C%E7%B2%BE%E6%B2%B9-aroma-calming-oil | text/4bc1e8f8b5cdcbbf.txt
+en | 排毒去水腫緊嫩肌膚乳霜油 T.O.P. Synergy Deep Dren | https://www.naturalia-group.com/en/products/%E6%8E%92%E6%AF%92%E5%8E%BB%E6%B0%B4%E8%85%AB%E7%B7%8A%E5%AB%A9%E8%82%8C%E8%86%9A%E4%B9%B3%E9%9C%9C%E6%B2%B9-top-synergy-deep-dren | text/e776299c4af4c297.txt
+en | 提亮精華 Delight Lightening Serum | https://www.naturalia-group.com/en/products/%E6%8F%90%E4%BA%AE%E7%B2%BE%E8%8F%AF-delight-lightening-serum | text/217222f506e57433.txt
+en | 擊退黑斑精華液 Delight Shock Lotion | https://www.naturalia-group.com/en/products/%E6%93%8A%E9%80%80%E9%BB%91%E6%96%91%E7%B2%BE%E8%8F%AF%E6%B6%B2-delight-shock-lotion | text/6d99529e1ebea065.txt
+en | 敏感去皺收緊治療霜 Claregen Sensitive | https://www.naturalia-group.com/en/products/%E6%95%8F%E6%84%9F%E5%8E%BB%E7%9A%BA%E6%94%B6%E7%B7%8A%E6%B2%BB%E7%99%82%E9%9C%9C-claregen-sensitive | text/bafd90655ac491e8.txt
+en | 明目修護香薰眼球液 Aroma Eye Essential | https://www.naturalia-group.com/en/products/%E6%98%8E%E7%9B%AE%E4%BF%AE%E8%AD%B7%E9%A6%99%E8%96%B0%E7%9C%BC%E7%90%83%E6%B6%B2-aroma-eye-essential | text/08c0113835f8b1dc.txt
+en | 曬後水份修復霜 Sun Experience - After Sun | https://www.naturalia-group.com/en/products/%E6%9B%AC%E5%BE%8C%E6%B0%B4%E4%BB%BD%E4%BF%AE%E5%BE%A9%E9%9C%9C-sun-experience---after-sun | text/877332582f3d4842.txt
+en | 極速淨膚治療系列 Pufac AD3 Kit | https://www.naturalia-group.com/en/products/%E6%A5%B5%E9%80%9F%E6%B7%A8%E8%86%9A%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-pufac-ad3-kit | text/4f64a2b28e058e15.txt
+en | 橙花混合精油 Aroma Neroli Mix | https://www.naturalia-group.com/en/products/%E6%A9%99%E8%8A%B1%E6%B7%B7%E5%90%88%E7%B2%BE%E6%B2%B9-aroma-neroli-mix | text/6aa3f4825b38a812.txt
+en | 檸檬草純精油 Aroma Stimulating Oil | https://www.naturalia-group.com/en/products/%E6%AA%B8%E6%AA%AC%E8%8D%89%E7%B4%94%E7%B2%BE%E6%B2%B9-aroma-stimulating-oil | text/4b47dda2018ddaed.txt
+en | 活膚嫩肌霜 Skin Refresh Cream | https://www.naturalia-group.com/en/products/%E6%B4%BB%E8%86%9A%E5%AB%A9%E8%82%8C%E9%9C%9C-skin-refresh-cream | text/425347c89d2be939.txt
+en | 活膚面霜 Reviving Cream | https://www.naturalia-group.com/en/products/%E6%B4%BB%E8%86%9A%E9%9D%A2%E9%9C%9C--reviving-cream | text/21e2fd99e32d343e.txt
+en | 活膚面霜 Reviving Cream | https://www.naturalia-group.com/en/products/%E6%B4%BB%E8%86%9A%E9%9D%A2%E9%9C%9C-reviving-cream | text/7b0ad0f283562fa5.txt
+en | 浪漫感性套裝 Romance - Aroma Health Set | https://www.naturalia-group.com/en/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E5%A5%97%E8%A3%9D-romance---aroma-health-set | text/c5aefe3c43f337ab.txt
+en | 浪漫感性有機純露 Romance Organic Hydrolat | https://www.naturalia-group.com/en/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-romance-organic-hydrolat | text/63df41a386e97aaf.txt
+en | 浪漫感性香薰噴霧 Romance Aroma Spray | https://www.naturalia-group.com/en/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-romance-aroma-spray | text/f3d9f21322f659b0.txt
+en | 浪漫感性香薰油配方一 Romance 1 | https://www.naturalia-group.com/en/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-romance-1 | text/b9509e22ea0033d7.txt
+en | 浪漫感性香薰油配方三Romance 3 | https://www.naturalia-group.com/en/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89romance-3 | text/59c0ce4bece0a54d.txt
+en | 浪漫感性香薰油配方二 Romance 2 | https://www.naturalia-group.com/en/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-romance-2 | text/b83e9b93e02b42e7.txt
+en | 浪漫感性香薰走珠筆 Romance Aroma Roller | https://www.naturalia-group.com/en/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-romance-aroma-roller | text/8761ec59b67f8170.txt
+en | 深層淨化去角質霜 Aroma Exfoliating Cream | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%B1%A4%E6%B7%A8%E5%8C%96%E5%8E%BB%E8%A7%92%E8%B3%AA%E9%9C%9C--aroma-exfoliating-cream | text/40b5fd08f8b3f44f.txt
+en | 深層淨化去角質霜 Aroma Exfoliating Cream | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%B1%A4%E6%B7%A8%E5%8C%96%E5%8E%BB%E8%A7%92%E8%B3%AA%E9%9C%9C-aroma-exfoliating-cream | text/1840ef6f50448779.txt
+en | 深層潔淨面膜 Aroma Deep Cleansing Mask | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%B1%A4%E6%BD%94%E6%B7%A8%E9%9D%A2%E8%86%9C-aroma-deep-cleansing-mask | text/b11abc7f2dca1f4b.txt
+en | 深層潔膚乳液 Cleansing Cream Extra Mild | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%B1%A4%E6%BD%94%E8%86%9A%E4%B9%B3%E6%B6%B2-cleansing-cream-extra-mild | text/0d97685da4dcba79.txt
+en | 深層潔膚乳液 Cleansing Cream Extra Mild | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%B1%A4%E6%BD%94%E8%86%9A%E4%B9%B3%E6%B6%B2-cleansing-cream-extra-mild-1 | text/877ec3ef0538b7c6.txt
+en | 深度睡眠套裝 Deep Sleep - Aroma Health Set | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E5%A5%97%E8%A3%9D-deep-sleep---aroma-health-set | text/6243e2ac59663636.txt
+en | 深度睡眠有機純露 Deep Sleep Organic Hydrolat | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-deep-sleep-organic-hydrolat | text/abcdd1940d4e9da5.txt
+en | 深度睡眠香薰噴霧
+Deep Sleep Aroma Spray | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-deep-sleep-aroma-spray | text/ba561fa46b8bf318.txt
+en | 深度睡眠香薰油配方一Deep Sleep 1 | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80deep-sleep-1 | text/97b1abc4c6c66f12.txt
+en | 深度睡眠香薰油配方三 Deep Sleep 3 | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-deep-sleep-3 | text/43fe174f754ea850.txt
+en | 深度睡眠香薰油配方二 Deep Sleep 2 | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-deep-sleep-2 | text/2fe0f536f6bd123d.txt
+en | 深度睡眠香薰走珠筆 Deep Sleep Aroma Roller | https://www.naturalia-group.com/en/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-deep-sleep-aroma-roller | text/79217dfa92605671.txt
+en | 深海螺旋藻水潤嫩白套裝 - 綠色 Algo Mask Green | https://www.naturalia-group.com/en/products/%E6%B7%B1%E6%B5%B7%E8%9E%BA%E6%97%8B%E8%97%BB%E6%B0%B4%E6%BD%A4%E5%AB%A9%E7%99%BD%E5%A5%97%E8%A3%9D---%E7%B6%A0%E8%89%B2-algo-mask-green | text/32c09aa1870ba74d.txt
+en | 滋養修護霜 Essential Cream | https://www.naturalia-group.com/en/products/%E6%BB%8B%E9%A4%8A%E4%BF%AE%E8%AD%B7%E9%9C%9C-essential-cream | text/fd3a0a6f3bb6ebba.txt
+en | 滋養修護霜 Nourishing Cream | https://www.naturalia-group.com/en/products/%E6%BB%8B%E9%A4%8A%E4%BF%AE%E8%AD%B7%E9%9C%9C-nourishing-cream | text/c9096e6078d86d0b.txt
+en | 滋養抗皺霜 Rejuvenating Cream | https://www.naturalia-group.com/en/products/%E6%BB%8B%E9%A4%8A%E6%8A%97%E7%9A%BA%E9%9C%9C-rejuvenating-cream | text/0c282522cbe2d2a3.txt
+en | 玫瑰啫喱修護膜 Aroma Rose Gel | https://www.naturalia-group.com/en/products/%E7%8E%AB%E7%91%B0%E5%95%AB%E5%96%B1%E4%BF%AE%E8%AD%B7%E8%86%9C--aroma-rose-gel | text/0055476996309d04.txt
+en | 玫瑰啫喱修護膜 Aroma Rose Gel | https://www.naturalia-group.com/en/products/%E7%8E%AB%E7%91%B0%E5%95%AB%E5%96%B1%E4%BF%AE%E8%AD%B7%E8%86%9C-aroma-rose-gel | text/c8d2fc3976d51d2a.txt
+en | 玫瑰按摩油 Rejuvenating Massage Oil | https://www.naturalia-group.com/en/products/%E7%8E%AB%E7%91%B0%E6%8C%89%E6%91%A9%E6%B2%B9-rejuvenating-massage-oil | text/554d8f07a73cc892.txt
+en | 玫瑰果修復按摩油 Repair Massage Oil | https://www.naturalia-group.com/en/products/%E7%8E%AB%E7%91%B0%E6%9E%9C%E4%BF%AE%E5%BE%A9%E6%8C%89%E6%91%A9%E6%B2%B9-repair-massage-oil | text/2c4a53c422ea2f88.txt
+en | 玫瑰混合精油 Aroma Rose Mix | https://www.naturalia-group.com/en/products/%E7%8E%AB%E7%91%B0%E6%B7%B7%E5%90%88%E7%B2%BE%E6%B2%B9-aroma-rose-mix | text/087d6c7e4303d505.txt
+en | 玫瑰草純精油 Aroma Hydrating Oil | https://www.naturalia-group.com/en/products/%E7%8E%AB%E7%91%B0%E8%8D%89%E7%B4%94%E7%B2%BE%E6%B2%B9-aroma-hydrating-oil | text/40143abca6418f26.txt
+en | 空氣淨化套裝 Air Cleanse - Aroma Health Set | https://www.naturalia-group.com/en/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E5%A5%97%E8%A3%9D-air-cleanse---aroma-health-set | text/34b5e0c03f892be2.txt
+en | 空氣淨化有機蠟菊純露 Air Cleanse Organic Hydrolat | https://www.naturalia-group.com/en/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E6%9C%89%E6%A9%9F%E8%A0%9F%E8%8F%8A%E7%B4%94%E9%9C%B2-air-cleanse-organic-hydrolat | text/cf1bd5a7a8680071.txt
+en | 空氣淨化香薰噴霧 Air Cleanse Aroma Spray | https://www.naturalia-group.com/en/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-air-cleanse-aroma-spray | text/156ae5016d78d2b6.txt
+en | 空氣淨化香薰油配方三
+Air Cleanse 3 | https://www.naturalia-group.com/en/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89air-cleanse-3 | text/859f79c57f96b66a.txt
+en | 空氣淨化香薰油配方二
+Air Cleanse 2 | https://www.naturalia-group.com/en/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8Cair-cleanse-2 | text/54c56e32fc2c51e6.txt
+en | 空氣淨化香薰走珠筆 Air Cleanse Aroma Roller | https://www.naturalia-group.com/en/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-air-cleanse-aroma-roller | text/d21d87d7ea36e278.txt
+en | 純白亮肌霜 Skin Brilliant Cream | https://www.naturalia-group.com/en/products/%E7%B4%94%E7%99%BD%E4%BA%AE%E8%82%8C%E9%9C%9C-skin-brilliant-cream | text/b1dddf2df4c97168.txt
+en | 細胞基因素HD Lifto-HD | https://www.naturalia-group.com/en/products/%E7%B4%B0%E8%83%9E%E5%9F%BA%E5%9B%A0%E7%B4%A0hd-lifto-hd | text/e3649ccade9cd722.txt
+en | 細胞活力推動精華 Aroma Rejuvenating Serum | https://www.naturalia-group.com/en/products/%E7%B4%B0%E8%83%9E%E6%B4%BB%E5%8A%9B%E6%8E%A8%E5%8B%95%E7%B2%BE%E8%8F%AF-aroma-rejuvenating-serum | text/4d51321b87ff30d0.txt
+en | 細胞解毒4D輪廓乳霜 Pure ET Lisse D-Cream | https://www.naturalia-group.com/en/products/%E7%B4%B0%E8%83%9E%E8%A7%A3%E6%AF%924d%E8%BC%AA%E5%BB%93%E4%B9%B3%E9%9C%9C-pure-et-lisse-d-cream | text/b3921519e271bdff.txt
+en | 細胞解毒4D輪廓套裝 Pure et Lisse | https://www.naturalia-group.com/en/products/%E7%B4%B0%E8%83%9E%E8%A7%A3%E6%AF%924d%E8%BC%AA%E5%BB%93%E5%A5%97%E8%A3%9D-pure-et-lisse | text/4ba1972647171847.txt
+en | 細胞重組修護緊膚精華 Trielaston Firming Ampoules | https://www.naturalia-group.com/en/products/%E7%B4%B0%E8%83%9E%E9%87%8D%E7%B5%84%E4%BF%AE%E8%AD%B7%E7%B7%8A%E8%86%9A%E7%B2%BE%E8%8F%AF-trielaston-firming-ampoules | text/8f8fd276dc7a36ec.txt
+en | 纖形45 Edioslim 45 | https://www.naturalia-group.com/en/products/%E7%BA%96%E5%BD%A245-edioslim-45 | text/96ebca6680c6c5b3.txt
+en | 纖體塑形乳霜油 T.O.P. Synergy Deep Lipo | https://www.naturalia-group.com/en/products/%E7%BA%96%E9%AB%94%E5%A1%91%E5%BD%A2%E4%B9%B3%E9%9C%9C%E6%B2%B9-top-synergy-deep-lipo | text/6cd1e7516b31b546.txt
+en | 羅馬洋甘菊抗敏花水 Aroma Chamomile Lotion | https://www.naturalia-group.com/en/products/%E7%BE%85%E9%A6%AC%E6%B4%8B%E7%94%98%E8%8F%8A%E6%8A%97%E6%95%8F%E8%8A%B1%E6%B0%B4-aroma-chamomile-lotion | text/09483770f3b688af.txt
+en | 肌膚再生霜 Revitalizing Cream | https://www.naturalia-group.com/en/products/%E8%82%8C%E8%86%9A%E5%86%8D%E7%94%9F%E9%9C%9C-revitalizing-cream | text/a8328ce2f8c35558.txt
+en | 肌膚重塑霜 Regenerating Cream | https://www.naturalia-group.com/en/products/%E8%82%8C%E8%86%9A%E9%87%8D%E5%A1%91%E9%9C%9C-regenerating-cream | text/2589e52f05bcd752.txt
+en | 胡蘿蔔素更新啫喱 Binopeel (gel) | https://www.naturalia-group.com/en/products/%E8%83%A1%E8%98%BF%E8%94%94%E7%B4%A0%E6%9B%B4%E6%96%B0%E5%95%AB%E5%96%B1-binopeel-gel | text/8f625740f93f5181.txt
+en | 胡蘿蔔素更新套裝 Binopeel (gel+granules) | https://www.naturalia-group.com/en/products/%E8%83%A1%E8%98%BF%E8%94%94%E7%B4%A0%E6%9B%B4%E6%96%B0%E5%A5%97%E8%A3%9D-binopeel-gelgranules | text/c37a2ebbcfcbcca1.txt
+en | 能量煥發套裝 Vitality - Aroma Health Set | https://www.naturalia-group.com/en/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E5%A5%97%E8%A3%9D-vitality---aroma-health-set | text/ef1525fef2602d98.txt
+en | 能量煥發有機香薰純露 Vitality Organic Hydrolat | https://www.naturalia-group.com/en/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E6%9C%89%E6%A9%9F%E9%A6%99%E8%96%B0%E7%B4%94%E9%9C%B2-vitality-organic-hydrolat | text/81e4ce3ca134c9c7.txt
+en | 能量煥發香薰噴霧 Vitality Aroma Spray | https://www.naturalia-group.com/en/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-vitality-aroma-spray | text/b9eb68596caf9a70.txt
+en | 能量煥發香薰油配方一 Vitality 1 | https://www.naturalia-group.com/en/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-vitality-1 | text/44fa2a9f63c08efa.txt
+en | 能量煥發香薰油配方三 Vitality 3 | https://www.naturalia-group.com/en/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-vitality-3 | text/da9936696197a8d4.txt
+en | 能量煥發香薰油配方二  Vitality 2 | https://www.naturalia-group.com/en/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C--vitality-2 | text/1d3ddee97a8ac46f.txt
+en | 能量煥發香薰走珠筆 Vitality Aroma Roller | https://www.naturalia-group.com/en/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-vitality-aroma-roller | text/eb388f5f2cd4e340.txt
+en | 舒緩組織層放鬆乳霜油 T.O.P. Synergy Tenso Relax | https://www.naturalia-group.com/en/products/%E8%88%92%E7%B7%A9%E7%B5%84%E7%B9%94%E5%B1%A4%E6%94%BE%E9%AC%86%E4%B9%B3%E9%9C%9C%E6%B2%B9-top-synergy-tenso-relax | text/53f0e46b84728051.txt
+en | 舒鼻抗炎套裝 Nose Relief - Aroma Health Set | https://www.naturalia-group.com/en/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E5%A5%97%E8%A3%9D-nose-relief---aroma-health-set | text/60caa9c0acb65331.txt
+en | 舒鼻抗炎有機純露 Nose Relief Organic Hydrolat | https://www.naturalia-group.com/en/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-nose-relief-organic-hydrolat | text/53a52cf91fd6e88d.txt
+en | 舒鼻抗炎香薰噴霧 Nose Relief Aroma Spray | https://www.naturalia-group.com/en/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-nose-relief-aroma-spray | text/391d74fcc2734cd0.txt
+en | 舒鼻抗炎香薰油配方一 Nose Relief 1 | https://www.naturalia-group.com/en/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-nose-relief-1 | text/827d14b7de031d83.txt
+en | 舒鼻抗炎香薰油配方三 Nose Relief 3 | https://www.naturalia-group.com/en/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-nose-relief-3 | text/204bddbd5d30806b.txt
+en | 舒鼻抗炎香薰油配方二 Nose Relief 2 | https://www.naturalia-group.com/en/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-nose-relief-2 | text/ed721ef33e09601d.txt
+en | 舒鼻抗炎香薰走珠筆
+Nose Relief Aroma Roller | https://www.naturalia-group.com/en/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-nose-relief-aroma-roller | text/393d88cef71a306e.txt
+en | 芳香保濕霜  Aroma Moisturiser | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E4%BF%9D%E6%BF%95%E9%9C%9C--aroma-moisturiser | text/04812d3e41e7646b.txt
+en | 芳香修護潔面乳 Aroma Cleansing Milk | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E4%BF%AE%E8%AD%B7%E6%BD%94%E9%9D%A2%E4%B9%B3-aroma-cleansing-milk | text/c98cf4ee08ab8845.txt
+en | 芳香修護潔面霜 Aroma Cleansing Cream | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E4%BF%AE%E8%AD%B7%E6%BD%94%E9%9D%A2%E9%9C%9C-aroma-cleansing-cream | text/1698b782a7cbf481.txt
+en | 芳香修護面膜 Aroma Mask | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E4%BF%AE%E8%AD%B7%E9%9D%A2%E8%86%9C-aroma-mask | text/92adeb9e5aae79e6.txt
+en | 芳香平衡保濕水 Aroma Toning Lotion | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%BF%95%E6%B0%B4-aroma-toning-lotion | text/1f683c13e17ce349.txt
+en | 芳香平衡保濕水 Balancing Toning Lotion | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%BF%95%E6%B0%B4-balancing-toning-lotion | text/8c4f36d467f9795f.txt
+en | 芳香水柔保濕嗜喱 Aroma Hydrating Gel | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E6%B0%B4%E6%9F%94%E4%BF%9D%E6%BF%95%E5%97%9C%E5%96%B1-aroma-hydrating-gel | text/2fce687f6b5fb6cc.txt
+en | 芳香深層淨化油 Aroma Purifying Treatment Oil | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E6%B7%B1%E5%B1%A4%E6%B7%A8%E5%8C%96%E6%B2%B9-aroma-purifying-treatment-oil | text/5dc2acbc81d4d613.txt
+en | 芳香滋潤保護霜 Aroma Protective Cream | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E6%BB%8B%E9%A4%8A%E4%BF%9D%E8%AD%B7%E9%9C%9C-aroma-protective-cream | text/453aca2f8bc61169.txt
+en | 芳香舒緩凝膠 Aroma Relaxing Gel | https://www.naturalia-group.com/en/products/%E8%8A%B3%E9%A6%99%E8%88%92%E7%B7%A9%E5%87%9D%E8%86%A0-aroma-relaxing-gel | text/78d5e4c34f0b6954.txt
+en | 薄荷清爽花水 Aroma Refreshing Lotion | https://www.naturalia-group.com/en/products/%E8%96%84%E8%8D%B7%E6%B8%85%E7%88%BD%E8%8A%B1%E6%B0%B4-aroma-refreshing-lotion | text/1f4bab7e641fe6c4.txt
+en | 薰衣草純精油 Aroma Relaxing Oil | https://www.naturalia-group.com/en/products/%E8%96%B0%E8%A1%A3%E8%8D%89%E7%B4%94%E7%B2%BE%E6%B2%B9-aroma-relaxing-oil | text/d3416c6075110541.txt
+en | 豐盈緊緻面霜 Plenesse Cream | https://www.naturalia-group.com/en/products/%E8%B1%90%E7%9B%88%E7%B7%8A%E7%B7%BB%E9%9D%A2%E9%9C%9C-plenesse-cream | text/4d8e401c68cb0e02.txt
+en | 超乾超敏感去皺收緊治療霜 Claregen Sensitive Extra Rich | https://www.naturalia-group.com/en/products/%E8%B6%85%E4%B9%BE%E8%B6%85%E6%95%8F%E6%84%9F%E5%8E%BB%E7%9A%BA%E6%94%B6%E7%B7%8A%E6%B2%BB%E7%99%82%E9%9C%9C-claregen-sensitive-extra-rich | text/41c96dd743368d5b.txt
+en | 逆齡密碼套裝 Second Life Set | https://www.naturalia-group.com/en/products/%E9%80%86%E9%BD%A1%E5%AF%86%E7%A2%BC%E5%A5%97%E8%A3%9D-second-life-set | text/3f8e838c0c96cf12.txt
+en | 逆齡密碼霜 Second Life Replenshing Cream | https://www.naturalia-group.com/en/products/%E9%80%86%E9%BD%A1%E5%AF%86%E7%A2%BC%E9%9C%9C--second-life-replenshing-cream | text/328a049f1376b595.txt
+en | 逆齡密碼霜 Second Life Replenshing Cream | https://www.naturalia-group.com/en/products/%E9%80%86%E9%BD%A1%E5%AF%86%E7%A2%BC%E9%9C%9C-second-life-replenshing-cream | text/a8adf47aaf1ad511.txt
+en | 逆齡解碼亮白精華套裝 Second Life Instant Brightening Synergy | https://www.naturalia-group.com/en/products/%E9%80%86%E9%BD%A1%E8%A7%A3%E7%A2%BC%E4%BA%AE%E7%99%BD%E7%B2%BE%E8%8F%AF%E5%A5%97%E8%A3%9D-second-life-instant-brightening-synergy | text/515039ecbbf12623.txt
+en | 逆齡解碼亮白精華面膜 Second Life Bright Cream Mask | https://www.naturalia-group.com/en/products/%E9%80%86%E9%BD%A1%E8%A7%A3%E7%A2%BC%E4%BA%AE%E7%99%BD%E7%B2%BE%E8%8F%AF%E9%9D%A2%E8%86%9C-second-life-bright-cream-mask | text/bebc04549ffafeff.txt
+en | 防曬霜 Sun Experience -SPF15 | https://www.naturalia-group.com/en/products/%E9%98%B2%E6%9B%AC%E9%9C%9C-sun-experience-spf15 | text/f8e2694ea8141ca4.txt
+en | 集中專注套裝 M Focus - Aroma Health Set | https://www.naturalia-group.com/en/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E5%A5%97%E8%A3%9D-m-focus---aroma-health-set | text/7f4d41e06a6eb0bf.txt
+en | 集中專注有機純露 M Focus Organic Hydrolat | https://www.naturalia-group.com/en/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-m-focus-organic-hydrolat | text/991f3b685b9c0148.txt
+en | 集中專注香薰油配方一
+MFocus 1 | https://www.naturalia-group.com/en/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80m-focus-1 | text/39352df883345da4.txt
+en | 集中專注香薰油配方三 M Focus 3 | https://www.naturalia-group.com/en/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-m-focus-3 | text/b1370706e4f01188.txt
+en | 集中專注香薰油配方二 M Focus 2 | https://www.naturalia-group.com/en/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-m-focus-2 | text/bca509c3848a80f8.txt
+en | 集中專注香薰走珠筆 M Focus Aroma Roller | https://www.naturalia-group.com/en/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-m-focus-aroma-roller | text/97833d007a2856df.txt
+en | 飛越再生原動力 Top Line MCL 100 | https://www.naturalia-group.com/en/products/%E9%A3%9B%E8%B6%8A%E5%86%8D%E7%94%9F%E5%8E%9F%E5%8B%95%E5%8A%9B-top-line-mcl-100 | text/8366b75d80f89ece.txt
+en | 高水份降紅啫喱修護膜 Special Claregel | https://www.naturalia-group.com/en/products/%E9%AB%98%E6%B0%B4%E4%BB%BD%E9%99%8D%E7%B4%85%E5%95%AB%E5%96%B1%E4%BF%AE%E8%AD%B7%E8%86%9C-special-claregel | text/7d6a487d228a2ed1.txt
+en | $10000 購物金 Shopping Voucher | https://www.naturalia-group.com/en/products/10000-%E8%B3%BC%E7%89%A9%E9%87%91-shopping-voucher | text/709a0ba29e87f242.txt
+en | 24小時保濕霜 Aquavelvet Cream | https://www.naturalia-group.com/en/products/24%E5%B0%8F%E6%99%82%E4%BF%9D%E6%BF%95%E9%9C%9C-aquavelvet-cream | text/9f86b26e848dec5e.txt
+en | $30000 購物金 Shopping Voucher | https://www.naturalia-group.com/en/products/30000-%E8%B3%BC%E7%89%A9%E9%87%91-shopping-voucher | text/b386d7d92ec4e078.txt
+en | 40度更新漿液 Peeling Gel Professional | https://www.naturalia-group.com/en/products/40%E5%BA%A6%E6%9B%B4%E6%96%B0%E6%BC%BF%E6%B6%B2-peeling-gel-professional | text/593f62465f8e77ba.txt
+en | Absonature -抗菌羅漢松（蜂膠皂）-Premium Soap | https://www.naturalia-group.com/en/products/absonature-%E6%8A%97%E8%8F%8C%E7%BE%85%E6%BC%A2%E6%9D%BE%EF%BC%88%E8%9C%82%E8%86%A0%E7%9A%82%EF%BC%89-premium-soap | text/36dc0686eb8751bb.txt
+en | Absonature - 蜂膠噴劑 Premium Propolis Spray | https://www.naturalia-group.com/en/products/absonature-%E8%9C%82%E8%86%A0%E5%99%B4%E5%8A%91-premium-propolis-spray | text/ea7d3030f4b6b4df.txt
+en | Absonature - 蜂膠滴劑 Premium Propolis Drop | https://www.naturalia-group.com/en/products/absonature-%E8%9C%82%E8%86%A0%E6%BB%B4%E5%8A%91-premium-propolis-drop | text/8cf96a3e6b67ef7d.txt
+en | Air Cleanse 1 | https://www.naturalia-group.com/en/products/air-cleanse-1 | text/0a700888e1e4238f.txt
+en | DD霜 - 00色 DD Cream Idra-Bright ExtraLight - 00(SPF20) | https://www.naturalia-group.com/en/products/dd%E9%9C%9C---00%E8%89%B2-dd-cream-idra-bright-extralight---00spf20 | text/4139bb3bf274098b.txt
+en | DD霜 - 01色 DD Cream Idra-Bright Light - 01 (SPF15) | https://www.naturalia-group.com/en/products/dd%E9%9C%9C---01%E8%89%B2-dd-cream-idra-bright-light---01-spf15 | text/44f8a67168e4656a.txt
+en | Delight 3 Pro專業套裝 Delight 3 Pro Professional Kit | https://www.naturalia-group.com/en/products/delight-3-pro%E5%B0%88%E6%A5%AD%E5%A5%97%E8%A3%9D-delight-3-pro-professional-kit | text/5e379c0c53193258.txt
+en | DIY全方位消脂塑形繃帶及精華 Informa Trielaston Slimplus | https://www.naturalia-group.com/en/products/diy%E5%85%A8%E6%96%B9%E4%BD%8D%E6%B6%88%E8%84%82%E5%A1%91%E5%BD%A2%E7%B9%83%E5%B8%B6%E5%8F%8A%E7%B2%BE%E8%8F%AF-informa-trielaston-slimplus | text/386c9f69575cecaa.txt
+en | DNA日夜修護霜 Time Challenge | https://www.naturalia-group.com/en/products/dna%E6%97%A5%E5%A4%9C%E4%BF%AE%E8%AD%B7%E9%9C%9C-time-challenge | text/ecc6eb2549ef3ad4.txt
+en | Farmagan - 換膚霜-CLEAN-UP - Peeling Pretrattamento | https://www.naturalia-group.com/en/products/farmagan-%E6%8F%9B%E8%86%9A%E9%9C%9C-clean-up-peeling-pretrattamento | text/164edec487274a4e.txt
+en | Farmagan - 植物抗菌去頭皮洗髮露-D-CONTROL - Shampoo Dry | https://www.naturalia-group.com/en/products/farmagan-%E6%A4%8D%E7%89%A9%E6%8A%97%E8%8F%8C%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-d-control-shampoo-dry | text/9847e27762123a20.txt
+en | Farmagan -白芒花草本鎖色亮澤洗髮露-KEEP COLOR - Shampoo | https://www.naturalia-group.com/en/products/farmagan-%E7%99%BD%E8%8A%92%E8%8A%B1%E8%8D%89%E6%9C%AC%E9%8E%96%E8%89%B2%E4%BA%AE%E6%BE%A4%E6%B4%97%E9%AB%AE%E9%9C%B2-keep-color-shampoo | text/fe16dfb08447a229.txt
+en | Farmagan -植物舒緩抗癢治療敏感洗髮露 Soothing SENSITIVE -Shampoo | https://www.naturalia-group.com/en/products/farmagan--%E6%A4%8D%E7%89%A9%E8%88%92%E7%B7%A9%E6%8A%97%E7%99%A2%E6%B2%BB%E7%99%82%E6%95%8F%E6%84%9F%E6%B4%97%E9%AB%AE%E9%9C%B2--soothing-sensitive--shampoo | text/260194efd591f086.txt
+en | Farmagan -透明質酸滋潤保濕髪膜-HYDRA MOISTURIZING-Mask | https://www.naturalia-group.com/en/products/farmagan--%E9%80%8F%E6%98%8E%E8%B3%AA%E9%85%B8%E6%BB%8B%E6%BD%A4%E4%BF%9D%E6%BF%95%E9%AB%AA%E8%86%9C-hydra-moisturizing-mask | text/4808ef6ed7b019e0.txt
+en | Farmagan -植物舒緩抗癢治療敏感洗髮露 Soothing SENSITIVE -Shampoo | https://www.naturalia-group.com/en/products/farmagan---%E6%A4%8D%E7%89%A9%E8%88%92%E7%B7%A9%E6%8A%97%E7%99%A2%E6%B2%BB%E7%99%82%E6%95%8F%E6%84%9F%E6%B4%97%E9%AB%AE%E9%9C%B2--soothing-sensitive--shampoo | text/339436e2131d0981.txt
+en | Farmagan - 膠原蛋白柔順曲髮活力洗髮露-X-CURLY-Shampoo | https://www.naturalia-group.com/en/products/farmagan---%E8%86%A0%E5%8E%9F%E8%9B%8B%E7%99%BD%E6%9F%94%E9%A0%86%E6%9B%B2%E9%AB%AE%E6%B4%BB%E5%8A%9B%E6%B4%97%E9%AB%AE%E9%9C%B2-x-curly-shampoo | text/f1c0db8599fd5cf6.txt
+en | Farmagan - 香薰草本防脱活髪洗髪露- ACTION-Anti-Loss Shampoo | https://www.naturalia-group.com/en/products/farmagan---%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E6%B4%97%E9%AB%AA%E9%9C%B2--action-anti-loss-shampoo | text/2b835b2f5a78d600.txt
+en | Farmagan -  香薰草本防脱活髪洗髪露- ACTION-Anti-Loss Shampoo | https://www.naturalia-group.com/en/products/farmagan----%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E6%B4%97%E9%AB%AA%E9%9C%B2--action-anti-loss-shampoo | text/0bf369f429d7d8ea.txt
+en | Farmagan - BIOACTIVE HC-白芒花草本鎖色亮澤髪膜-KEEP COLOR-Mask | https://www.naturalia-group.com/en/products/farmagan---bioactive-hc-%E7%99%BD%E8%8A%92%E8%8A%B1%E8%8D%89%E6%9C%AC%E9%8E%96%E8%89%B2%E4%BA%AE%E6%BE%A4%E9%AB%AA%E8%86%9C-keep-color-mask | text/f808156f69338f87.txt
+en | Farmagan - D-CONTROL AMP - Dry | https://www.naturalia-group.com/en/products/farmagan---bioactive-hc-anti-dry-dandruff--%E6%A4%8D%E7%89%A9%E6%8A%97%E8%8F%8C%E5%8E%BB%E9%A0%AD%E7%9A%AE%E5%AE%89%E7%93%B6--d-control-amp---dry | text/31da9f646605ed3e.txt
+en | Farmagan -D-CONTROL ESSENCE -Olio Essenziale | https://www.naturalia-group.com/en/products/farmagan---bioactive-hc-anti-oil-dandruff--d-control-essence---%E6%A4%8D%E7%89%A9%E4%BF%AE%E8%AD%B7%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E7%B2%BE%E8%8F%AF--olio-essenziale | text/0c36902ce7db1b4a.txt
+en | Farmagan - BIOACTIVE HC-VOLUME-UP-小麥蛋白豐盈造型洗髪露 | https://www.naturalia-group.com/en/products/farmagan---bioactive-hc-volume-up-%E5%B0%8F%E9%BA%A5%E8%9B%8B%E7%99%BD%E8%B1%90%E7%9B%88%E9%80%A0%E5%9E%8B%E6%B4%97%E9%AB%AA%E9%9C%B2 | text/c50c0dff0bb7dc22.txt
+en | Farmagan - VOLUME-UP-小麥蛋白豐盈造型髪膜 -Mask | https://www.naturalia-group.com/en/products/farmagan---volume-up-%E5%B0%8F%E9%BA%A5%E8%9B%8B%E7%99%BD%E8%B1%90%E7%9B%88%E9%80%A0%E5%9E%8B%E9%AB%AA%E8%86%9C--mask | text/108b9b9f552a2191.txt
+en | Farmagan -BIOACTIVE HC維他命原B5植物深層修護洗髪露 REPAIR-B5 Shampoo | https://www.naturalia-group.com/en/products/farmagan--bioactive-hc-%E7%B6%AD%E4%BB%96%E5%91%BD%E5%8E%9Fb5%E6%A4%8D%E7%89%A9%E6%B7%B1%E5%B1%A4%E4%BF%AE%E8%AD%B7%E6%B4%97%E9%AB%AA%E9%9C%B2-repair-b5-shampoo | text/376e7ad5016686d8.txt
+en | Farmagan - BIOACTIVE HC -維他命原B5植物深層修護髪膜 REPAIR-B5 Mask | https://www.naturalia-group.com/en/products/farmagan--bioactive-hc-%E7%B6%AD%E4%BB%96%E5%91%BD%E5%8E%9Fb5%E6%A4%8D%E7%89%A9%E6%B7%B1%E5%B1%A4%E4%BF%AE%E8%AD%B7%E9%AB%AA%E8%86%9C-repair-b5-mask | text/33c57907e85bfa3b.txt
+en | Farmagan -BIOACTIVE HC- 小麥蛋白豐盈髪絲噴霧-VOLUME-UP-Spray | https://www.naturalia-group.com/en/products/farmagan--bioactive-hc--%E5%B0%8F%E9%BA%A5%E8%9B%8B%E7%99%BD%E8%B1%90%E7%9B%88%E9%AB%AA%E7%B5%B2%E5%99%B4%E9%9C%A7-volume-up-spray | text/4ca21ea41045a233.txt
+en | Farmagan -BIOACTIVE HC- 白芒花草本鎖色亮澤洗髪露-KEEP COLOR-Shampoo | https://www.naturalia-group.com/en/products/farmagan--bioactive-hc--%E7%99%BD%E8%8A%92%E8%8A%B1%E8%8D%89%E6%9C%AC%E9%8E%96%E8%89%B2%E4%BA%AE%E6%BE%A4%E6%B4%97%E9%AB%AA%E9%9C%B2-keep-color-shampoo | text/2f6ed97b2e3518de.txt
+en | Farmagan -BIOACTIVE HT- 香薰草本防脱活髪安瓶-ACTION AMP-Anti-Loss | https://www.naturalia-group.com/en/products/farmagan--bioactive-ht--%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E5%AE%89%E7%93%B6-action-amp-anti-loss | text/448790dcca4c1097.txt
+en | Farmagan -SENSITIVE ESSENCE - Olio Essenziale | https://www.naturalia-group.com/en/products/farmagan--bioactive-ht---%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E7%B2%BE%E8%8F%AF--sensitive-essence---olio-essenziale | text/873fc3ebfe1bc50d.txt
+en | Farmagan- 植物抗菌去頭皮洗髮露-D-CONTROL - Shampoo Dry | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-%E6%A4%8D%E7%89%A9%E6%8A%97%E8%8F%8C%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-d-control-shampoo | text/4701e2a10711bf91.txt
+en | Farmagan- BIOACTIVE HC -Soothing SENSITIVE ESSENCE - Ol | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-%E6%A4%8D%E7%89%A9%E8%88%92%E7%B7%A9%E6%8A%97%E7%99%A2%E6%B2%BB%E7%99%82%E6%95%8F%E6%84%9F%E7%B2%BE%E8%8F%AF-soothing-sensitive-essence-olio-essenziale | text/032ab0f265e88938.txt
+en | Farmagan-BIOACTIVE HC 維他命原B5植物深層修護洗髪露 REPAIR-B5 Shampoo | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-%E7%B6%AD%E4%BB%96%E5%91%BD%E5%8E%9Fb5%E6%A4%8D%E7%89%A9%E6%B7%B1%E5%B1%A4%E4%BF%AE%E8%AD%B7%E6%B4%97%E9%AB%AA%E9%9C%B2-repair-b5-shampoo | text/e6d31657a802d31b.txt
+en | Farmagan -D-CONTROL -AMP - Oily | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-%E6%A4%8D%E7%89%A9%E6%B8%9B%E6%B2%B9%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E5%AE%89%E7%93%B6-amp-oily | text/f8b48f56afd780bf.txt
+en | Farmagan  -D-CONTROL - Shampoo Oily | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-%E6%A4%8D%E7%89%A9%E6%B8%9B%E6%B2%B9%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-shampoo-oily-1 | text/9357f585766f914e.txt
+en | Farmagan -D-CONTROL - Shampoo Oily | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-%E6%A4%8D%E7%89%A9%E6%B8%9B%E6%B2%B9%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-shampoo-oily-2 | text/920cd0946abc9846.txt
+en | Farmagan -D-CONTROL  -AMP - Oily | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-amp-oily | text/bd510e0de4017321.txt
+en | Farmagan -BIOACTIVE HC- HYDRA MOISTURIZING - Oil | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-hydra-moisturizing-oil | text/2056fe3a2a57574d.txt
+en | Farmagan - BIOACTIVE HC- HYDRA MOISTURIZING-Shampoo | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-hydra-moisturizing-shampoo | text/281de869115cee4f.txt
+en | Farmagan - BIOACTIVE HC-VOLUME-UP-Mask | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-volume-up-mask | text/bc6b0e1930220c13.txt
+en | Farmagan - BIOACTIVE HC-X-CURLY-Mask | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-x-curly-mask | text/1bc80a6f073d97bc.txt
+en | Farmagan -BIOACTIVE HC- X-CURLY-Shampoo | https://www.naturalia-group.com/en/products/farmagan-bioactive-hc-x-curly-shampoo | text/77d6fff0b55716e9.txt
+en | Naturalia Sintesi - 氨基酸水份平衡液 Special Hydro Complex | https://www.naturalia-group.com/en/products/naturalia-sintesi-%E6%B0%A8%E5%9F%BA%E9%85%B8%E6%B0%B4%E4%BB%BD%E5%B9%B3%E8%A1%A1%E6%B6%B2-special-hydro-complex | text/d1cb661852a483f0.txt
+en | Naturalia Sintesi - β葡聚醣美白再生原液 Regeneration Serum | https://www.naturalia-group.com/en/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E5%8E%9F%E6%B6%B2-regeneration-serum | text/247602c0849df394.txt
+en | Naturalia Sintesi - β葡聚醣美白再生治療原液 Regeneration Serum P | https://www.naturalia-group.com/en/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E6%B2%BB%E7%99%82%E5%8E%9F%E6%B6%B2-regeneration-serum-p | text/101d1c1c12de2a50.txt
+en | Naturalia Sintesi - β葡聚醣美白再生治療霜 Regeneration Cream P | https://www.naturalia-group.com/en/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E6%B2%BB%E7%99%82%E9%9C%9C-regeneration-cream-p | text/a647e5d523bdebe9.txt
+en | Naturalia Sintesi - β葡聚醣美白再生面霜 Regeneration Cream | https://www.naturalia-group.com/en/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E9%9D%A2%E9%9C%9C-regeneration-cream | text/afd76ce7203ff0fe.txt
+en | Naturalia Sintesi - 極速排毒除黑眼圈精華 Eye-Contour Draining Gel | https://www.naturalia-group.com/en/products/naturalia-sintesi---%E6%A5%B5%E9%80%9F%E6%8E%92%E6%AF%92%E9%99%A4%E9%BB%91%E7%9C%BC%E5%9C%88%E7%B2%BE%E8%8F%AF-eye-contour-draining-gel | text/9787e49a73cc2b34.txt
+en | Naturalia Sintesi - 氨基酸水份平衡液 Special Hydro Complex | https://www.naturalia-group.com/en/products/naturalia-sintesi---%E6%B0%A8%E5%9F%BA%E9%85%B8%E6%B0%B4%E4%BB%BD%E5%B9%B3%E8%A1%A1%E6%B6%B2-special-hydro-complex | text/a8db619de052ea98.txt
+en | Naturalia Sintesi - 清爽日夜健膚水  Refining Lotion | https://www.naturalia-group.com/en/products/naturalia-sintesi---%E6%B8%85%E7%88%BD%E6%97%A5%E5%A4%9C%E5%81%A5%E8%86%9A%E6%B0%B4--refining-lotion | text/2500fb9341ddacdd.txt
+en | Naturalia Sintesi - 清爽日夜健膚水 Refining Lotion | https://www.naturalia-group.com/en/products/naturalia-sintesi---%E6%B8%85%E7%88%BD%E6%97%A5%E5%A4%9C%E5%81%A5%E8%86%9A%E6%B0%B4-refining-lotion | text/420b90e2b1ad3051.txt
+en | Naturalia Sintesi - 眼部溶脂去皺霜 Lift & Light Intens cream | https://www.naturalia-group.com/en/products/naturalia-sintesi---%E7%9C%BC%E9%83%A8%E6%BA%B6%E8%84%82%E5%8E%BB%E7%9A%BA%E9%9C%9C-lift--light-intens-cream | text/775f753189284b4f.txt
+en | Naturalia Sintesi - 豐滿彈力精華 FlexA-Pro | https://www.naturalia-group.com/en/products/naturalia-sintesi---%E8%B1%90%E6%BB%BF%E5%BD%88%E5%8A%9B%E7%B2%BE%E8%8F%AF-flexa-pro | text/66aa5297947b1b9c.txt
+en | Naturalia Sintesi - 15度更新漿液 Anti-aging Complex 15 | https://www.naturalia-group.com/en/products/naturalia-sintesi---15%E5%BA%A6%E6%9B%B4%E6%96%B0%E6%BC%BF%E6%B6%B2-anti-aging-complex-15 | text/e8863dc8a38a4a52.txt
+en | Naturalia Sintesi - DNA平衡敏感面霜 All Purpose Plus Zero | https://www.naturalia-group.com/en/products/naturalia-sintesi---dna%E5%B9%B3%E8%A1%A1%E6%95%8F%E6%84%9F%E9%9D%A2%E9%9C%9C-all-purpose-plus-zero | text/74a1a4ea3f0d6c3c.txt
+en | Naturalia Sintesi - PH平衡面霜 Special Vanishing Cream | https://www.naturalia-group.com/en/products/naturalia-sintesi---ph%E5%B9%B3%E8%A1%A1%E9%9D%A2%E9%9C%9C-special-vanishing-cream | text/441711ece8238997.txt
+en | Naturalia Sintesi - PH平衡面霜 Special Vanishing Cream | https://www.naturalia-group.com/en/products/naturalia-sintesi--ph%E5%B9%B3%E8%A1%A1%E9%9D%A2%E9%9C%9C-special-vanishing-cream | text/5ad96dffc87d514b.txt
+en | Naturhelios 防曬霜SPF30 Naturhelios sunscreen SPF30 | https://www.naturalia-group.com/en/products/naturhelios-%E9%98%B2%E6%9B%AC%E9%9C%9Cspf30-naturhelios-sunscreen-spf30 | text/b6dcc20c894a30bd.txt
+en | Naturhelios 防曬霜SPF50+ Naturhelios sunscreen SPF50+ | https://www.naturalia-group.com/en/products/naturhelios-%E9%98%B2%E6%9B%AC%E9%9C%9Cspf50-naturhelios-sunscreen-spf50 | text/494c86a3bf9bcab7.txt
+en | PH平衡香膏 Aroma Balancing Balm | https://www.naturalia-group.com/en/products/ph%E5%B9%B3%E8%A1%A1%E9%A6%99%E8%86%8F-aroma-balancing-balm | text/bd26fae7b4b908cc.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products?page=2 | text/67b9807cb36ce624.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products?page=3 | text/7ec424d52f91b47e.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products?page=4 | text/a5ef990f9fea60b5.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products?page=5 | text/d979813f4cea66d5.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products?page=6 | text/b6c16f2d959c9c94.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products?page=7 | text/52d7e282676dc966.txt
+en | Naturalia Group | https://www.naturalia-group.com/en/products?page=8 | text/407497f95097fe6c.txt
+zh-hant | 首頁 | https://www.naturalia-group.com/zh-hant/ | text/2401efdc1b883378.txt
+zh-hant | 商店介紹 | https://www.naturalia-group.com/zh-hant/about | text/2fa63bf09a1fa8c9.txt
+zh-hant | 防詐騙宣導 | https://www.naturalia-group.com/zh-hant/about/anti-fraud | text/b639cfb76fd651e0.txt
+zh-hant | 運送政策 | https://www.naturalia-group.com/zh-hant/about/delivery-policy | text/61fa5012ad14e768.txt
+zh-hant | 退換貨政策 | https://www.naturalia-group.com/zh-hant/about/policy | text/1a9cbda52937df76.txt
+zh-hant | 隱私政策 | https://www.naturalia-group.com/zh-hant/about/privacy-policy | text/df8661efcfd8565d.txt
+zh-hant | 條款與細則 | https://www.naturalia-group.com/zh-hant/about/terms | text/bab8c860e6c3659f.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/blog/posts | text/7767d548b5dc3c58.txt
+zh-hant | 去紅抗敏系列 | https://www.naturalia-group.com/zh-hant/categories/%E5%8E%BB%E7%B4%85%E6%8A%97%E6%95%8F%E7%B3%BB%E5%88%97 | text/16f7c795c91fde03.txt
+zh-hant | 基本產品 | https://www.naturalia-group.com/zh-hant/categories/%E5%9F%BA%E6%9C%AC%E7%94%A2%E5%93%81 | text/8a09edb46250d447.txt
+zh-hant | 微脂囊抗敏香薰系列 | https://www.naturalia-group.com/zh-hant/categories/%E5%BE%AE%E8%84%82%E5%9B%8A%E6%8A%97%E6%95%8F%E9%A6%99%E8%96%B0%E7%B3%BB%E5%88%97-anti-sensitivity-aromatherapy-series | text/5bf85a464ac4fc9a.txt
+zh-hant | 手部及腳部系列 | https://www.naturalia-group.com/zh-hant/categories/%E6%89%8B%E9%83%A8%E5%8F%8A%E8%85%B3%E9%83%A8%E7%B3%BB%E5%88%97-professional-hand--foot-care-series | text/1adaec69f4aca78c.txt
+zh-hant | 時光之鑰 · 逆齡解碼系列 | https://www.naturalia-group.com/zh-hant/categories/%E6%99%82%E5%85%89%E4%B9%8B%E9%91%B0-%C2%B7-%E9%80%86%E9%BD%A1%E8%A7%A3%E7%A2%BC%E7%B3%BB%E5%88%97-age-reversal-code-series | text/5db0118b9f5bccd1.txt
+zh-hant | 極速纖形纖體減肥系列 | https://www.naturalia-group.com/zh-hant/categories/%E6%A5%B5%E9%80%9F%E7%BA%96%E5%BD%A2%E7%BA%96%E9%AB%94%E6%B8%9B%E8%82%A5%E7%B3%BB%E5%88%97-rapid-shaping--slimming-series | text/ba324ad8919c2487.txt
+zh-hant | 油性、暗瘡性 / 極速淨膚治療系列 | https://www.naturalia-group.com/zh-hant/categories/%E6%B2%B9%E6%80%A7%E3%80%81%E6%9A%97%E7%98%A1%E6%80%A7-%E6%A5%B5%E9%80%9F%E6%B7%A8%E8%86%9A%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-oily--acne-prone-skin-treatment-series | text/e508f2a91c98f18d.txt
+zh-hant | 活化細胞精華系列 | https://www.naturalia-group.com/zh-hant/categories/%E6%B4%BB%E5%8C%96%E7%B4%B0%E8%83%9E%E7%B2%BE%E8%8F%AF%E7%B3%BB%E5%88%97-cellular-activation-essence-series | text/25612727262905bb.txt
+zh-hant | 滋潤系列 | https://www.naturalia-group.com/zh-hant/categories/%E6%BB%8B%E6%BD%A4%E7%B3%BB%E5%88%97 | text/3cfc783d06582b04.txt
+zh-hant | 皮脂溢/暗瘡系列 | https://www.naturalia-group.com/zh-hant/categories/%E7%9A%AE%E8%84%82%E6%BA%A2%E6%9A%97%E7%98%A1%E7%B3%BB%E5%88%97 | text/8c4330c9ee606d03.txt
+zh-hant | 皮膚更生/抗皺系列 | https://www.naturalia-group.com/zh-hant/categories/%E7%9A%AE%E8%86%9A%E6%9B%B4%E7%94%9F%E6%8A%97%E7%9A%BA%E7%B3%BB%E5%88%97 | text/cb6d2705a8b5084e.txt
+zh-hant | 眼部治療系列 | https://www.naturalia-group.com/zh-hant/categories/%E7%9C%BC%E9%83%A8%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97 | text/9da522bc3c1910eb.txt
+zh-hant | 美妝及防矖產品系列 | https://www.naturalia-group.com/zh-hant/categories/%E7%BE%8E%E5%A6%9D%E5%8F%8A%E9%98%B2%E7%9F%96%E7%94%A2%E5%93%81%E7%B3%BB%E5%88%97-makeup--sun-protection-series | text/447042f1e5868bde.txt
+zh-hant | 美白/抗衰老系列 | https://www.naturalia-group.com/zh-hant/categories/%E7%BE%8E%E7%99%BD%E6%8A%97%E8%A1%B0%E8%80%81%E7%B3%BB%E5%88%97 | text/fe7e60a0ad9e3c30.txt
+zh-hant | 美白系列 | https://www.naturalia-group.com/zh-hant/categories/%E7%BE%8E%E7%99%BD%E6%9B%B4%E6%96%B0%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-whitening-renewal-treatment-series | text/13404c6bc50d8bf1.txt
+zh-hant | 脂肪/蜂窩組炎/水腫系列 | https://www.naturalia-group.com/zh-hant/categories/%E8%84%82%E8%82%AA%E8%9C%82%E7%AA%A9%E7%B5%84%E7%82%8E%E6%B0%B4%E8%85%AB%E7%B3%BB%E5%88%97 | text/8e3a85431d34c6b2.txt
+zh-hant | 蜂膠系列 | https://www.naturalia-group.com/zh-hant/categories/%E8%9C%82%E8%86%A0%E7%B3%BB%E5%88%97-premium-propolis | text/36c0d6a8ee0b0135.txt
+zh-hant | 解毒4D輪廓系列 | https://www.naturalia-group.com/zh-hant/categories/%E8%A7%A3%E6%AF%924d%E8%BC%AA%E5%BB%93%E7%B3%BB%E5%88%97--detox-4d-contouring-series | text/25322a2ba6e60b64.txt
+zh-hant | 購物金 | https://www.naturalia-group.com/zh-hant/categories/%E8%B3%BC%E7%89%A9%E9%87%91-shopping-voucher | text/eb8d0f5fda0690be.txt
+zh-hant | 跨世紀醫學神奇細胞核療身系列. 纖盈體態治療系列 | https://www.naturalia-group.com/zh-hant/categories/%E8%B7%A8%E4%B8%96%E7%B4%80%E9%86%AB%E5%AD%B8%E7%A5%9E%E5%A5%87%E7%B4%B0%E8%83%9E%E6%A0%B8%E7%99%82%E8%BA%AB%E7%B3%BB%E5%88%97-%E7%BA%96%E7%9B%88%E9%AB%94%E6%85%8B%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-sleek-silhouette-body-therapy-series | text/322678491cd75dd3.txt
+zh-hant | 重組水份系列 | https://www.naturalia-group.com/zh-hant/categories/%E9%87%8D%E7%B5%84%E6%B0%B4%E4%BB%BD%E7%B3%BB%E5%88%97 | text/9171546e18a842f1.txt
+zh-hant | 防曬產品系列 | https://www.naturalia-group.com/zh-hant/categories/%E9%98%B2%E6%9B%AC%E7%94%A2%E5%93%81%E7%B3%BB%E5%88%97 | text/d0f15be9ab6c9f86.txt
+zh-hant | 高水份治療系列、高效能治療面膜系列 | https://www.naturalia-group.com/zh-hant/categories/%E9%AB%98%E6%B0%B4%E4%BB%BD%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97%E3%80%81%E9%AB%98%E6%95%88%E8%83%BD%E6%B2%BB%E7%99%82%E9%9D%A2%E8%86%9C%E7%B3%BB%E5%88%97-intensive-hydration-therapy-series | text/2491ee7ed5d151c1.txt
+zh-hant | 精選商品 | https://www.naturalia-group.com/zh-hant/categories/6878c0579ee0a200168d3438 | text/17b1e535536f71c8.txt
+zh-hant | Shirley Price | https://www.naturalia-group.com/zh-hant/categories/6897b8ae052e4b00147f45b9 | text/5fe7d25d61245650.txt
+zh-hant | Absonature | https://www.naturalia-group.com/zh-hant/categories/absonature | text/0495919358648142.txt
+zh-hant | 空氣淨化 | https://www.naturalia-group.com/zh-hant/categories/air-cleanse | text/95832f901adc1408.txt
+zh-hant | BIOACTIVE HC-ANTI-DRY DANDRUFF(適合乾性受損頭髪使用) | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-anti-drydandruff%E9%81%A9%E5%90%88%E4%B9%BE%E6%80%A7%E5%8F%97%E6%90%8D%E9%A0%AD%E9%AB%AA%E4%BD%BF%E7%94%A8 | text/c824d9324635121b.txt
+zh-hant | BIOACTIVE HC-ANTI-OLDANDRUFF (適合油性及多汗頭髪） | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-anti-oldandruff%E9%81%A9%E5%90%88%E6%B2%B9%E6%80%A7%E5%8F%8A%E5%A4%9A%E6%B1%97%E9%A0%AD%E9%AB%AA%E4%BD%BF%E7%94%A8 | text/fe3095cd011ed346.txt
+zh-hant | BIOACTIVE HC-CLEAN UP(適合抗癢、抗菌、除臭及去頭皮人士） | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-clean-up%E9%81%A9%E5%90%88%E6%8A%97%E7%99%A2%E6%8A%97%E8%8F%8C%EF%BC%8C%E9%99%A4%E8%87%AD%E5%8F%8A%E5%8E%BB%E9%A0%AD%E7%9A%AE%E4%BA%BA%E5%A3%AB%E4%BD%BF%E7%94%A8 | text/f141a1a92fd7a1fa.txt
+zh-hant | BIOACTIVE HC-HYDRA(適合任何髪質,孕婦,嬰兒及小孩) | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-hydra%E9%81%A9%E5%90%88%E4%BB%BB%E4%BD%95%E9%AB%AA%E8%B3%AA%E5%AD%95%E5%A9%A6%E5%A9%B4%E5%85%92%E5%8F%8A%E5%B0%8F%E5%AD%A9%E4%BD%BF%E7%94%A8 | text/d605988d3f114a38.txt
+zh-hant | BIOACTIVE HC-KEEP COLOR(適用於染髪人士) | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-keep-color%E9%81%A9%E7%94%A8%E6%96%BC%E6%9F%93%E9%AB%AA%E4%BA%BA%E5%A3%AB%E4%BD%BF%E7%94%A8 | text/790ece6ccfc4697d.txt
+zh-hant | BIOACTIVE HC REPAIR-B5 (適合受損及開叉髪絲) | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-repair-b5-%E9%81%A9%E5%90%88%E5%8F%97%E6%90%8D%E5%8F%8A%E9%96%8B%E5%8F%89%E9%AB%AA%E7%B5%B2%E4%BD%BF%E7%94%A8 | text/c6c039311443d0ca.txt
+zh-hant | BIOACTIVE HC-SOOTHING(適合乾、敏感、發癢頭皮) | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-soothing%E9%81%A9%E5%90%88%E4%B9%BE%EF%BC%8C%E6%95%8F%E6%84%9F%EF%BC%8C%E7%99%BC%E7%99%A2%E9%A0%AD%E7%9A%AE%E4%BD%BF%E7%94%A8 | text/b35080dc3695e48e.txt
+zh-hant | BIOACTIVE HC-VOLUME-UP(適合任何髪質) | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-volume-up%E9%81%A9%E5%90%88%E4%BB%BB%E4%BD%95%E9%AB%AA%E8%B3%AA%E4%BD%BF%E7%94%A8 | text/2759e62b7d51a191.txt
+zh-hant | BIOACTIVE HC-X-CURLY(適合任何髪質) | https://www.naturalia-group.com/zh-hant/categories/bioactive-hc-x-curly%E9%81%A9%E5%90%88%E4%BB%BB%E4%BD%95%E9%AB%AA%E8%B3%AA%E4%BD%BF%E7%94%A8 | text/a97108d71d8cdd47.txt
+zh-hant | BIOACTIVE HT-ANTI-LOSS(適合脱髪及活髪人士使用) | https://www.naturalia-group.com/zh-hant/categories/bioactive-ht-anti-loss%E9%81%A9%E5%90%88%E8%84%B1%E9%AB%AA%E5%8F%8A%E6%B4%BB%E9%AB%AA%E4%BA%BA%E5%A3%AB%E4%BD%BF%E7%94%A8 | text/2405090e3d532123.txt
+zh-hant | BIOACTIVE SUN -S Active | https://www.naturalia-group.com/zh-hant/categories/bioactive-sun-s-active | text/b422b102f637ee58.txt
+zh-hant | 深度睡眠 | https://www.naturalia-group.com/zh-hant/categories/deep-sleep | text/46de53f36bdf0a77.txt
+zh-hant | Farmagan | https://www.naturalia-group.com/zh-hant/categories/farmagan | text/882eee6c87e3b049.txt
+zh-hant | Farmagan | https://www.naturalia-group.com/zh-hant/categories/farmagan?page=2 | text/ddc3a1eca05c03f5.txt
+zh-hant | 愉悅 | https://www.naturalia-group.com/zh-hant/categories/joyous | text/8bb20cd288ad2bbd.txt
+zh-hant | 集中專注 | https://www.naturalia-group.com/zh-hant/categories/m-focus | text/bcbdfff207fd04a4.txt
+zh-hant | Naturalia Sintesi | https://www.naturalia-group.com/zh-hant/categories/naturalia-sintesi | text/e335da1a0edd3841.txt
+zh-hant | Naturalia Sintesi | https://www.naturalia-group.com/zh-hant/categories/naturalia-sintesi?page=2 | text/c745b62048ed1c78.txt
+zh-hant | Naturalia Sintesi | https://www.naturalia-group.com/zh-hant/categories/naturalia-sintesi?page=3 | text/482521ddbef7629b.txt
+zh-hant | 舒鼻抗炎 | https://www.naturalia-group.com/zh-hant/categories/nose-relief | text/9b0fcab4128d8e95.txt
+zh-hant | 客裝產品 | https://www.naturalia-group.com/zh-hant/categories/retail-size-products | text/63d32fe234ee4f93.txt
+zh-hant | 浪漫感性 | https://www.naturalia-group.com/zh-hant/categories/romance | text/15d4399c59960e9f.txt
+zh-hant | 院裝產品 | https://www.naturalia-group.com/zh-hant/categories/salon-size-products | text/45e65487f129280d.txt
+zh-hant | Shirley Price | https://www.naturalia-group.com/zh-hant/categories/shirley-price | text/c01deb4158c1eff4.txt
+zh-hant | Shirley Price | https://www.naturalia-group.com/zh-hant/categories/shirley-price?page=2 | text/dc6476cbdd10003f.txt
+zh-hant | Shirley Price | https://www.naturalia-group.com/zh-hant/categories/shirley-price?page=3 | text/1778b294a816d56d.txt
+zh-hant | Shirley Price | https://www.naturalia-group.com/zh-hant/categories/shirley-price?page=4 | text/fde87fd10f1ce7de.txt
+zh-hant | 恆久芬芳 | https://www.naturalia-group.com/zh-hant/categories/timeless | text/4036d1133dc5bea1.txt
+zh-hant | 能量煥發 | https://www.naturalia-group.com/zh-hant/categories/vitality | text/113552d9af5e7a96.txt
+zh-hant | 健康肌膚管理中心 Health Skin Management Center | https://www.naturalia-group.com/zh-hant/pages/%E5%81%A5%E5%BA%B7%E8%82%8C%E8%86%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83-health-skin-management-center | text/cd4e7ab10dfc12ce.txt
+zh-hant | 加入我們 | https://www.naturalia-group.com/zh-hant/pages/%E5%8A%A0%E5%85%A5%E6%88%91%E5%80%91 | text/099de4fec7653dbe.txt
+zh-hant | 理念 ‧ 宗旨 | https://www.naturalia-group.com/zh-hant/pages/%E7%90%86%E5%BF%B5-%E2%80%A7-%E5%AE%97%E6%97%A8-vision--mission | text/49084737b2bced64.txt
+zh-hant | 社會責任 | https://www.naturalia-group.com/zh-hant/pages/%E7%A4%BE%E6%9C%83%E8%B2%AC%E4%BB%BB | text/cb98305aaf1c3ccf.txt
+zh-hant | 貝嘉文 | https://www.naturalia-group.com/zh-hant/pages/%E8%B2%9D%E5%98%89%E6%96%87-naturalia-sintesi | text/6393af006448b56b.txt
+zh-hant | 集團概況 | https://www.naturalia-group.com/zh-hant/pages/%E9%9B%86%E5%9C%98%E6%85%A8%E6%B3%81 | text/28c00781fb7ca283.txt
+zh-hant | 集團里程碑 | https://www.naturalia-group.com/zh-hant/pages/%E9%9B%86%E5%9C%98%E9%87%8C%E7%A8%8B%E7%A2%91-corporate-milestones | text/85d589042b953eba.txt
+zh-hant | 露明華國際美容學院 | https://www.naturalia-group.com/zh-hant/pages/%E9%9C%B2%E6%98%8E%E8%8F%AF%E5%9C%8B%E9%9A%9B%E7%BE%8E%E5%AE%B9%E5%AD%B8%E9%99%A2-lumiva-international-beauty-academy | text/456f7c0182e6fa19.txt
+zh-hant | 露明華 | https://www.naturalia-group.com/zh-hant/pages/%E9%9C%B2%E6%98%8E%E8%8F%AF-lumiva | text/3ba7a5b4034e66d5.txt
+zh-hant | 面部肌膚健康管理 Facial Skin Health Management | https://www.naturalia-group.com/zh-hant/pages/%E9%9D%A2%E9%83%A8%E8%82%8C%E8%86%9A%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86-facial-skin-health-management | text/a9efe6a2d3309e7d.txt
+zh-hant | 韻濤健康肌膚管理中心 | https://www.naturalia-group.com/zh-hant/pages/%E9%9F%BB%E6%BF%A4%E5%81%A5%E5%BA%B7%E8%82%8C%E8%86%9A%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%83-naturalia-health-skin-management-center | text/c664b1c319f4254c.txt
+zh-hant | 領導人的話 | https://www.naturalia-group.com/zh-hant/pages/%E9%A0%98%E5%B0%8E%E4%BA%BA%E7%9A%84%E8%A9%B1-leaders-message | text/e5911fcfcfe87ca1.txt
+zh-hant | 頭皮頭髮健康管理 Scalp & Hair Health Management | https://www.naturalia-group.com/zh-hant/pages/%E9%A0%AD%E7%9A%AE%E9%A0%AD%E9%AB%AE%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86-scalp--hair-health-management | text/3da3fc84466df0ec.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/pages/6878c08120126c00108d27f5 | text/4282d6ded258b140.txt
+zh-hant | Absonature | https://www.naturalia-group.com/zh-hant/pages/absonature | text/2cf023ca86f07734.txt
+zh-hant | 獎項 | https://www.naturalia-group.com/zh-hant/pages/awards%E7%8D%8E%E9%A0%85 | text/aea92e82ef6ec9b3.txt
+zh-hant | BYCURE | https://www.naturalia-group.com/zh-hant/pages/bycure | text/2b788757c2a53301.txt
+zh-hant | Espansione Group | https://www.naturalia-group.com/zh-hant/pages/espansione-group | text/473ad343887d5d89.txt
+zh-hant | Shirley Price | https://www.naturalia-group.com/zh-hant/pages/shirley-price | text/2ed6591d32756669.txt
+zh-hant | 購物金(合作夥伴) | https://www.naturalia-group.com/zh-hant/pages/shopping-voucherpartnerships | text/4f428b5ae935ce9a.txt
+zh-hant | Stemtonic | https://www.naturalia-group.com/zh-hant/pages/stemtonic | text/1b2dc047aaf3efe5.txt
+zh-hant | Total Body Wellness Management 身體部分健康管理 | https://www.naturalia-group.com/zh-hant/pages/total-body-wellness-management-%E8%BA%AB%E9%AB%94%E9%83%A8%E5%88%86%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86 | text/e6eede6c2afe35b1.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products | text/1a54089d1523f998.txt
+zh-hant | 亮膚緊緻抗皺眼霜 Aroma Eye Cream | https://www.naturalia-group.com/zh-hant/products/%E4%BA%AE%E8%86%9A%E7%B7%8A%E7%B7%BB%E6%8A%97%E7%9A%BA%E7%9C%BC%E9%9C%9C-aroma-eye-cream | text/940ce31922b23ce7.txt
+zh-hant | 全效修復面霜 Total Repair Cream | https://www.naturalia-group.com/zh-hant/products/%E5%85%A8%E6%95%88%E4%BF%AE%E5%BE%A9%E9%9D%A2%E9%9C%9C-total-repair-cream | text/6b5386a1b9f29615.txt
+zh-hant | 勁量瘦身貼 Slim Patches | https://www.naturalia-group.com/zh-hant/products/%E5%8B%81%E9%87%8F%E7%98%A6%E8%BA%AB%E8%B2%BC-slim-patches | text/1f82909aa2573d6e.txt
+zh-hant | 奧圖玫瑰花水 Rose Otto Toner | https://www.naturalia-group.com/zh-hant/products/%E5%A5%A7%E5%9C%96%E7%8E%AB%E7%91%B0%E8%8A%B1%E6%B0%B4-rose-otto-toner | text/bde94b16edf71c40.txt
+zh-hant | 完美乳液 Delight Preparing Lotion | https://www.naturalia-group.com/zh-hant/products/%E5%AE%8C%E7%BE%8E%E4%B9%B3%E6%B6%B2-delight-preparing-lotion | text/a8eac4c7f2099528.txt
+zh-hant | 恆久芬芳套裝 Timeless - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E5%A5%97%E8%A3%9D-timeless---aroma-health-set | text/09ed4ff8da99db13.txt
+zh-hant | 恆久芬芳有機純露 Timeless Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-timeless-organic-hydrolat | text/e5675340c4e605c6.txt
+zh-hant | 恆久芬芳香薰噴霧 Timeless Aroma Spray | https://www.naturalia-group.com/zh-hant/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-timeless-aroma-spray | text/7632dadb196256ee.txt
+zh-hant | 恆久芬芳香薰油配方一Timeless 1 | https://www.naturalia-group.com/zh-hant/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80timeless-1 | text/bcfcbe80ddd2670c.txt
+zh-hant | 恆久芬芳香薰油配方三 Timeless 3 | https://www.naturalia-group.com/zh-hant/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-timeless-3 | text/6c238acc72d4d29d.txt
+zh-hant | 恆久芬芳香薰油配方二 Timeless 2 | https://www.naturalia-group.com/zh-hant/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-timeless-2 | text/ce30f03ff3f1575b.txt
+zh-hant | 恆久芬芳香薰走珠筆 Timeless Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E6%81%86%E4%B9%85%E8%8A%AC%E8%8A%B3%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-timeless-aroma-roller | text/9cbd26207af71394.txt
+zh-hant | 愉悅套裝 Joyous - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E6%84%89%E6%82%85%E5%A5%97%E8%A3%9D-joyous---aroma-health-set | text/b9ca0cf54eb042cc.txt
+zh-hant | 愉悦有機純露 Joyous Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E6%84%89%E6%82%A6%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-joyous-organic-hydrolat | text/b5e56f0c87f9d9b1.txt
+zh-hant | 愉悦香薰噴霧 Joyous Aroma Spray | https://www.naturalia-group.com/zh-hant/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-joyous-aroma-spray | text/c91ab922e3339948.txt
+zh-hant | 愉悦香薰油配方一 Joyous 1 | https://www.naturalia-group.com/zh-hant/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-joyous-1 | text/694f69fbe4927650.txt
+zh-hant | 愉悦香薰油配方三 Joyous 3 | https://www.naturalia-group.com/zh-hant/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-joyous-3 | text/0e67b5e2527c181e.txt
+zh-hant | 愉悦香薰油配方二  Joyous 2 | https://www.naturalia-group.com/zh-hant/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C--joyous-2 | text/be5347901b3fb59e.txt
+zh-hant | 愉悦香薰走珠筆 Joyous Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E6%84%89%E6%82%A6%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-joyous-aroma-roller | text/698685dbb799ae20.txt
+zh-hant | 手部零瑕修復霜 Hands Repair Cream | https://www.naturalia-group.com/zh-hant/products/%E6%89%8B%E9%83%A8%E9%9B%B6%E7%91%95%E4%BF%AE%E5%BE%A9%E9%9C%9C-hands-repair-cream | text/b2743486390e8c3b.txt
+zh-hant | 抗炎淨化啫喱 Purifying Gel | https://www.naturalia-group.com/zh-hant/products/%E6%8A%97%E7%82%8E%E6%B7%A8%E5%8C%96%E5%95%AB%E5%96%B1-purifying-gel | text/8997de2a13db966a.txt
+zh-hant | 抗炎鎮靜精油 Aroma Calming Oil | https://www.naturalia-group.com/zh-hant/products/%E6%8A%97%E7%82%8E%E9%8E%AE%E9%9D%9C%E7%B2%BE%E6%B2%B9-aroma-calming-oil | text/e8de7fd0b10baddd.txt
+zh-hant | 排毒去水腫緊嫩肌膚乳霜油 T.O.P. Synergy Deep Dren | https://www.naturalia-group.com/zh-hant/products/%E6%8E%92%E6%AF%92%E5%8E%BB%E6%B0%B4%E8%85%AB%E7%B7%8A%E5%AB%A9%E8%82%8C%E8%86%9A%E4%B9%B3%E9%9C%9C%E6%B2%B9-top-synergy-deep-dren | text/09f88159e8792a64.txt
+zh-hant | 提亮精華 Delight Lightening Serum | https://www.naturalia-group.com/zh-hant/products/%E6%8F%90%E4%BA%AE%E7%B2%BE%E8%8F%AF-delight-lightening-serum | text/5fa863cdaef1578d.txt
+zh-hant | 擊退黑斑精華液 Delight Shock Lotion | https://www.naturalia-group.com/zh-hant/products/%E6%93%8A%E9%80%80%E9%BB%91%E6%96%91%E7%B2%BE%E8%8F%AF%E6%B6%B2-delight-shock-lotion | text/d3d795c9df46fea9.txt
+zh-hant | 敏感去皺收緊治療霜 Claregen Sensitive | https://www.naturalia-group.com/zh-hant/products/%E6%95%8F%E6%84%9F%E5%8E%BB%E7%9A%BA%E6%94%B6%E7%B7%8A%E6%B2%BB%E7%99%82%E9%9C%9C-claregen-sensitive | text/e84b5fc504cac5a4.txt
+zh-hant | 明目修護香薰眼球液 Aroma Eye Essential | https://www.naturalia-group.com/zh-hant/products/%E6%98%8E%E7%9B%AE%E4%BF%AE%E8%AD%B7%E9%A6%99%E8%96%B0%E7%9C%BC%E7%90%83%E6%B6%B2-aroma-eye-essential | text/7aa3579e5c4636e6.txt
+zh-hant | 曬後水份修復霜 Sun Experience - After Sun | https://www.naturalia-group.com/zh-hant/products/%E6%9B%AC%E5%BE%8C%E6%B0%B4%E4%BB%BD%E4%BF%AE%E5%BE%A9%E9%9C%9C-sun-experience---after-sun | text/f78c35409f8ba54d.txt
+zh-hant | 極速淨膚治療系列 Pufac AD3 Kit | https://www.naturalia-group.com/zh-hant/products/%E6%A5%B5%E9%80%9F%E6%B7%A8%E8%86%9A%E6%B2%BB%E7%99%82%E7%B3%BB%E5%88%97-pufac-ad3-kit | text/1d1e2f941b39297e.txt
+zh-hant | 橙花混合精油 Aroma Neroli Mix | https://www.naturalia-group.com/zh-hant/products/%E6%A9%99%E8%8A%B1%E6%B7%B7%E5%90%88%E7%B2%BE%E6%B2%B9-aroma-neroli-mix | text/fcd6f600e82dbbcd.txt
+zh-hant | 檸檬草純精油 Aroma Stimulating Oil | https://www.naturalia-group.com/zh-hant/products/%E6%AA%B8%E6%AA%AC%E8%8D%89%E7%B4%94%E7%B2%BE%E6%B2%B9-aroma-stimulating-oil | text/e6a0d08b1ce79bfe.txt
+zh-hant | 活膚嫩肌霜 Skin Refresh Cream | https://www.naturalia-group.com/zh-hant/products/%E6%B4%BB%E8%86%9A%E5%AB%A9%E8%82%8C%E9%9C%9C-skin-refresh-cream | text/39856ac3d8087ea4.txt
+zh-hant | 活膚面霜 Reviving Cream | https://www.naturalia-group.com/zh-hant/products/%E6%B4%BB%E8%86%9A%E9%9D%A2%E9%9C%9C--reviving-cream | text/f93833dc1a72e620.txt
+zh-hant | 活膚面霜 Reviving Cream | https://www.naturalia-group.com/zh-hant/products/%E6%B4%BB%E8%86%9A%E9%9D%A2%E9%9C%9C-reviving-cream | text/a63aaa37fe915dee.txt
+zh-hant | 浪漫感性套裝 Romance - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E5%A5%97%E8%A3%9D-romance---aroma-health-set | text/ce79b9009f19eb37.txt
+zh-hant | 浪漫感性有機純露 Romance Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-romance-organic-hydrolat | text/a046882c3690107d.txt
+zh-hant | 浪漫感性香薰噴霧 Romance Aroma Spray | https://www.naturalia-group.com/zh-hant/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-romance-aroma-spray | text/8ac45495d8cef644.txt
+zh-hant | 浪漫感性香薰油配方一 Romance 1 | https://www.naturalia-group.com/zh-hant/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-romance-1 | text/ac85964e9ff65b85.txt
+zh-hant | 浪漫感性香薰油配方三Romance 3 | https://www.naturalia-group.com/zh-hant/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89romance-3 | text/9641b6554e80ae77.txt
+zh-hant | 浪漫感性香薰油配方二 Romance 2 | https://www.naturalia-group.com/zh-hant/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-romance-2 | text/5083ab2a6a93c817.txt
+zh-hant | 浪漫感性香薰走珠筆 Romance Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E6%B5%AA%E6%BC%AB%E6%84%9F%E6%80%A7%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-romance-aroma-roller | text/c05b21b3b1fa5290.txt
+zh-hant | 深層淨化去角質霜 Aroma Exfoliating Cream | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%B1%A4%E6%B7%A8%E5%8C%96%E5%8E%BB%E8%A7%92%E8%B3%AA%E9%9C%9C--aroma-exfoliating-cream | text/9ff9d86668c9ae90.txt
+zh-hant | 深層淨化去角質霜 Aroma Exfoliating Cream | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%B1%A4%E6%B7%A8%E5%8C%96%E5%8E%BB%E8%A7%92%E8%B3%AA%E9%9C%9C-aroma-exfoliating-cream | text/13ab0168019accbd.txt
+zh-hant | 深層潔淨面膜 Aroma Deep Cleansing Mask | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%B1%A4%E6%BD%94%E6%B7%A8%E9%9D%A2%E8%86%9C-aroma-deep-cleansing-mask | text/57cb7d0f97c37dbb.txt
+zh-hant | 深層潔膚乳液 Cleansing Cream Extra Mild | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%B1%A4%E6%BD%94%E8%86%9A%E4%B9%B3%E6%B6%B2-cleansing-cream-extra-mild | text/cdfce21059e0e9e8.txt
+zh-hant | 深層潔膚乳液 Cleansing Cream Extra Mild | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%B1%A4%E6%BD%94%E8%86%9A%E4%B9%B3%E6%B6%B2-cleansing-cream-extra-mild-1 | text/d1f4d2ebf20571a9.txt
+zh-hant | 深度睡眠套裝 Deep Sleep - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E5%A5%97%E8%A3%9D-deep-sleep---aroma-health-set | text/2c65d53172b1ab56.txt
+zh-hant | 深度睡眠有機純露 Deep Sleep Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-deep-sleep-organic-hydrolat | text/42c68ab3922a1292.txt
+zh-hant | 深度睡眠香薰噴霧 Deep Sleep Aroma Spray | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-deep-sleep-aroma-spray | text/97890ce9b1709533.txt
+zh-hant | 深度睡眠香薰油配方一Deep Sleep 1 | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80deep-sleep-1 | text/39e526c0d16ae043.txt
+zh-hant | 深度睡眠香薰油配方三 Deep Sleep 3 | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-deep-sleep-3 | text/487422a9f404a1db.txt
+zh-hant | 深度睡眠香薰油配方二 Deep Sleep 2 | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-deep-sleep-2 | text/406f1b49858e6120.txt
+zh-hant | 深度睡眠香薰走珠筆 Deep Sleep Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E5%BA%A6%E7%9D%A1%E7%9C%A0%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-deep-sleep-aroma-roller | text/662c4e1b08ba8288.txt
+zh-hant | 深海螺旋藻水潤嫩白套裝 - 綠色 Algo Mask Green | https://www.naturalia-group.com/zh-hant/products/%E6%B7%B1%E6%B5%B7%E8%9E%BA%E6%97%8B%E8%97%BB%E6%B0%B4%E6%BD%A4%E5%AB%A9%E7%99%BD%E5%A5%97%E8%A3%9D---%E7%B6%A0%E8%89%B2-algo-mask-green | text/8c69d452188ba9ce.txt
+zh-hant | 滋養修護霜 Essential Cream | https://www.naturalia-group.com/zh-hant/products/%E6%BB%8B%E9%A4%8A%E4%BF%AE%E8%AD%B7%E9%9C%9C-essential-cream | text/f275246dcd1af3c7.txt
+zh-hant | 滋養修護霜 Nourishing Cream | https://www.naturalia-group.com/zh-hant/products/%E6%BB%8B%E9%A4%8A%E4%BF%AE%E8%AD%B7%E9%9C%9C-nourishing-cream | text/d1191d732ff5724a.txt
+zh-hant | 滋養抗皺霜 Rejuvenating Cream | https://www.naturalia-group.com/zh-hant/products/%E6%BB%8B%E9%A4%8A%E6%8A%97%E7%9A%BA%E9%9C%9C-rejuvenating-cream | text/f69462e78cd01935.txt
+zh-hant | 玫瑰啫喱修護膜 Aroma Rose Gel | https://www.naturalia-group.com/zh-hant/products/%E7%8E%AB%E7%91%B0%E5%95%AB%E5%96%B1%E4%BF%AE%E8%AD%B7%E8%86%9C--aroma-rose-gel | text/f649630df56b0bf8.txt
+zh-hant | 玫瑰啫喱修護膜 Aroma Rose Gel | https://www.naturalia-group.com/zh-hant/products/%E7%8E%AB%E7%91%B0%E5%95%AB%E5%96%B1%E4%BF%AE%E8%AD%B7%E8%86%9C-aroma-rose-gel | text/b87eeef9a6ed8897.txt
+zh-hant | 玫瑰按摩油 Rejuvenating Massage Oil | https://www.naturalia-group.com/zh-hant/products/%E7%8E%AB%E7%91%B0%E6%8C%89%E6%91%A9%E6%B2%B9-rejuvenating-massage-oil | text/15115db134347c9e.txt
+zh-hant | 玫瑰果修復按摩油 Repair Massage Oil | https://www.naturalia-group.com/zh-hant/products/%E7%8E%AB%E7%91%B0%E6%9E%9C%E4%BF%AE%E5%BE%A9%E6%8C%89%E6%91%A9%E6%B2%B9-repair-massage-oil | text/bb7423a8fff511db.txt
+zh-hant | 玫瑰混合精油 Aroma Rose Mix | https://www.naturalia-group.com/zh-hant/products/%E7%8E%AB%E7%91%B0%E6%B7%B7%E5%90%88%E7%B2%BE%E6%B2%B9-aroma-rose-mix | text/d6f866105d2a5750.txt
+zh-hant | 玫瑰草純精油 Aroma Hydrating Oil | https://www.naturalia-group.com/zh-hant/products/%E7%8E%AB%E7%91%B0%E8%8D%89%E7%B4%94%E7%B2%BE%E6%B2%B9-aroma-hydrating-oil | text/caeb98742fbd6db1.txt
+zh-hant | 空氣淨化套裝 Air Cleanse - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E5%A5%97%E8%A3%9D-air-cleanse---aroma-health-set | text/0970d48a3eb92841.txt
+zh-hant | 空氣淨化有機蠟菊純露 Air Cleanse Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E6%9C%89%E6%A9%9F%E8%A0%9F%E8%8F%8A%E7%B4%94%E9%9C%B2-air-cleanse-organic-hydrolat | text/f833f164273c8cc1.txt
+zh-hant | 空氣淨化香薰噴霧 Air Cleanse Aroma Spray | https://www.naturalia-group.com/zh-hant/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-air-cleanse-aroma-spray | text/825439e4eec1a925.txt
+zh-hant | 空氣淨化香薰油配方三
+Air Cleanse 3 | https://www.naturalia-group.com/zh-hant/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89air-cleanse-3 | text/3aa3b80381527124.txt
+zh-hant | 空氣淨化香薰油配方二
+Air Cleanse 2 | https://www.naturalia-group.com/zh-hant/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8Cair-cleanse-2 | text/b73a317b97812292.txt
+zh-hant | 空氣淨化香薰走珠筆 Air Cleanse Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E7%A9%BA%E6%B0%A3%E6%B7%A8%E5%8C%96%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-air-cleanse-aroma-roller | text/af1b5e18b7466b86.txt
+zh-hant | 純白亮肌霜 Skin Brilliant Cream | https://www.naturalia-group.com/zh-hant/products/%E7%B4%94%E7%99%BD%E4%BA%AE%E8%82%8C%E9%9C%9C-skin-brilliant-cream | text/fdf6bf2babe4f9a8.txt
+zh-hant | 細胞基因素HD Lifto-HD | https://www.naturalia-group.com/zh-hant/products/%E7%B4%B0%E8%83%9E%E5%9F%BA%E5%9B%A0%E7%B4%A0hd-lifto-hd | text/c70ba0c2fdf48842.txt
+zh-hant | 細胞活力推動精華 Aroma Rejuvenating Serum | https://www.naturalia-group.com/zh-hant/products/%E7%B4%B0%E8%83%9E%E6%B4%BB%E5%8A%9B%E6%8E%A8%E5%8B%95%E7%B2%BE%E8%8F%AF-aroma-rejuvenating-serum | text/0c44113c4b3e9672.txt
+zh-hant | 細胞解毒4D輪廓乳霜 Pure ET Lisse D-Cream | https://www.naturalia-group.com/zh-hant/products/%E7%B4%B0%E8%83%9E%E8%A7%A3%E6%AF%924d%E8%BC%AA%E5%BB%93%E4%B9%B3%E9%9C%9C-pure-et-lisse-d-cream | text/1ba2e8a863e848f7.txt
+zh-hant | 細胞解毒4D輪廓套裝 Pure et Lisse | https://www.naturalia-group.com/zh-hant/products/%E7%B4%B0%E8%83%9E%E8%A7%A3%E6%AF%924d%E8%BC%AA%E5%BB%93%E5%A5%97%E8%A3%9D-pure-et-lisse | text/3c7791340e395e47.txt
+zh-hant | 細胞重組修護緊膚精華 Trielaston Firming Ampoules | https://www.naturalia-group.com/zh-hant/products/%E7%B4%B0%E8%83%9E%E9%87%8D%E7%B5%84%E4%BF%AE%E8%AD%B7%E7%B7%8A%E8%86%9A%E7%B2%BE%E8%8F%AF-trielaston-firming-ampoules | text/8950a90bc80b741b.txt
+zh-hant | 纖形45 Edioslim 45 | https://www.naturalia-group.com/zh-hant/products/%E7%BA%96%E5%BD%A245-edioslim-45 | text/ab7d597ad1b406ac.txt
+zh-hant | 纖體塑形乳霜油 T.O.P. Synergy Deep Lipo | https://www.naturalia-group.com/zh-hant/products/%E7%BA%96%E9%AB%94%E5%A1%91%E5%BD%A2%E4%B9%B3%E9%9C%9C%E6%B2%B9-top-synergy-deep-lipo | text/4b5cd1d7fa5273a7.txt
+zh-hant | 羅馬洋甘菊抗敏花水 Aroma Chamomile Lotion | https://www.naturalia-group.com/zh-hant/products/%E7%BE%85%E9%A6%AC%E6%B4%8B%E7%94%98%E8%8F%8A%E6%8A%97%E6%95%8F%E8%8A%B1%E6%B0%B4-aroma-chamomile-lotion | text/e340de539bff55ec.txt
+zh-hant | 肌膚再生霜 Revitalizing Cream | https://www.naturalia-group.com/zh-hant/products/%E8%82%8C%E8%86%9A%E5%86%8D%E7%94%9F%E9%9C%9C-revitalizing-cream | text/659be77ef3ce4080.txt
+zh-hant | 肌膚重塑霜 Regenerating Cream | https://www.naturalia-group.com/zh-hant/products/%E8%82%8C%E8%86%9A%E9%87%8D%E5%A1%91%E9%9C%9C-regenerating-cream | text/95217cd01d37fbfa.txt
+zh-hant | 胡蘿蔔素更新啫喱 Binopeel (gel) | https://www.naturalia-group.com/zh-hant/products/%E8%83%A1%E8%98%BF%E8%94%94%E7%B4%A0%E6%9B%B4%E6%96%B0%E5%95%AB%E5%96%B1-binopeel-gel | text/01a60248ef2934f7.txt
+zh-hant | 胡蘿蔔素更新套裝 Binopeel (gel+granules) | https://www.naturalia-group.com/zh-hant/products/%E8%83%A1%E8%98%BF%E8%94%94%E7%B4%A0%E6%9B%B4%E6%96%B0%E5%A5%97%E8%A3%9D-binopeel-gelgranules | text/112318f3162fe022.txt
+zh-hant | 能量煥發套裝 Vitality - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E5%A5%97%E8%A3%9D-vitality---aroma-health-set | text/9c120d8f424c61af.txt
+zh-hant | 能量煥發有機香薰純露 Vitality Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E6%9C%89%E6%A9%9F%E9%A6%99%E8%96%B0%E7%B4%94%E9%9C%B2-vitality-organic-hydrolat | text/1243f2d0d790ad78.txt
+zh-hant | 能量煥發香薰噴霧 Vitality Aroma Spray | https://www.naturalia-group.com/zh-hant/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-vitality-aroma-spray | text/9bd494428fe9f8be.txt
+zh-hant | 能量煥發香薰油配方一 Vitality 1 | https://www.naturalia-group.com/zh-hant/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-vitality-1 | text/9da842738c48c89e.txt
+zh-hant | 能量煥發香薰油配方三 Vitality 3 | https://www.naturalia-group.com/zh-hant/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-vitality-3 | text/27c6da0a35a2a04d.txt
+zh-hant | 能量煥發香薰油配方二  Vitality 2 | https://www.naturalia-group.com/zh-hant/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C--vitality-2 | text/365cc14923362475.txt
+zh-hant | 能量煥發香薰走珠筆 Vitality Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E8%83%BD%E9%87%8F%E7%85%A5%E7%99%BC%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-vitality-aroma-roller | text/7d8998885f6bb8bd.txt
+zh-hant | 舒緩組織層放鬆乳霜油 T.O.P. Synergy Tenso Relax | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E7%B7%A9%E7%B5%84%E7%B9%94%E5%B1%A4%E6%94%BE%E9%AC%86%E4%B9%B3%E9%9C%9C%E6%B2%B9-top-synergy-tenso-relax | text/8ebad29c90b158ef.txt
+zh-hant | 舒鼻抗炎套裝 Nose Relief - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E5%A5%97%E8%A3%9D-nose-relief---aroma-health-set | text/38ff0feedd7fc473.txt
+zh-hant | 舒鼻抗炎有機純露 Nose Relief Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-nose-relief-organic-hydrolat | text/b22253890ed7e3bc.txt
+zh-hant | 舒鼻抗炎香薰噴霧 Nose Relief Aroma Spray | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E5%99%B4%E9%9C%A7-nose-relief-aroma-spray | text/32c15f88ecbdc2c8.txt
+zh-hant | 舒鼻抗炎香薰油配方一 Nose Relief 1 | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80-nose-relief-1 | text/fc348daf1825e80c.txt
+zh-hant | 舒鼻抗炎香薰油配方三 Nose Relief 3 | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-nose-relief-3 | text/31fa81c69cb675bc.txt
+zh-hant | 舒鼻抗炎香薰油配方二 Nose Relief 2 | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-nose-relief-2 | text/5062e9f32d75a06c.txt
+zh-hant | 舒鼻抗炎香薰走珠筆 Nose Relief Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E8%88%92%E9%BC%BB%E6%8A%97%E7%82%8E%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-nose-relief-aroma-roller | text/7aa187d414177e69.txt
+zh-hant | 芳香保濕霜  Aroma Moisturiser | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E4%BF%9D%E6%BF%95%E9%9C%9C--aroma-moisturiser | text/e49f148bec886af8.txt
+zh-hant | 芳香修護潔面乳 Aroma Cleansing Milk | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E4%BF%AE%E8%AD%B7%E6%BD%94%E9%9D%A2%E4%B9%B3-aroma-cleansing-milk | text/09d703656789545f.txt
+zh-hant | 芳香修護潔面霜 Aroma Cleansing Cream | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E4%BF%AE%E8%AD%B7%E6%BD%94%E9%9D%A2%E9%9C%9C-aroma-cleansing-cream | text/c5a940ee90de6df9.txt
+zh-hant | 芳香修護面膜 Aroma Mask | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E4%BF%AE%E8%AD%B7%E9%9D%A2%E8%86%9C-aroma-mask | text/f4f13cf5c534c30c.txt
+zh-hant | 芳香平衡保濕水 Aroma Toning Lotion | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%BF%95%E6%B0%B4-aroma-toning-lotion | text/ca47142b72ab7858.txt
+zh-hant | 芳香平衡保濕水 Balancing Toning Lotion | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%BF%95%E6%B0%B4-balancing-toning-lotion | text/03e55debdd3ff27b.txt
+zh-hant | 芳香水柔保濕嗜喱 Aroma Hydrating Gel | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E6%B0%B4%E6%9F%94%E4%BF%9D%E6%BF%95%E5%97%9C%E5%96%B1-aroma-hydrating-gel | text/84aed23ada425582.txt
+zh-hant | 芳香深層淨化油 Aroma Purifying Treatment Oil | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E6%B7%B1%E5%B1%A4%E6%B7%A8%E5%8C%96%E6%B2%B9-aroma-purifying-treatment-oil | text/7742dcadb1996eaf.txt
+zh-hant | 芳香滋潤保護霜 Aroma Protective Cream | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E6%BB%8B%E9%A4%8A%E4%BF%9D%E8%AD%B7%E9%9C%9C-aroma-protective-cream | text/f3d7d84ecfc16653.txt
+zh-hant | 芳香舒緩凝膠 Aroma Relaxing Gel | https://www.naturalia-group.com/zh-hant/products/%E8%8A%B3%E9%A6%99%E8%88%92%E7%B7%A9%E5%87%9D%E8%86%A0-aroma-relaxing-gel | text/c8d3cc6a52f45938.txt
+zh-hant | 薄荷清爽花水 Aroma Refreshing Lotion | https://www.naturalia-group.com/zh-hant/products/%E8%96%84%E8%8D%B7%E6%B8%85%E7%88%BD%E8%8A%B1%E6%B0%B4-aroma-refreshing-lotion | text/1bdf51fa5614e05b.txt
+zh-hant | 薰衣草純精油 Aroma Relaxing Oil | https://www.naturalia-group.com/zh-hant/products/%E8%96%B0%E8%A1%A3%E8%8D%89%E7%B4%94%E7%B2%BE%E6%B2%B9-aroma-relaxing-oil | text/60773a25b4ae3850.txt
+zh-hant | 豐盈緊緻面霜 Plenesse Cream | https://www.naturalia-group.com/zh-hant/products/%E8%B1%90%E7%9B%88%E7%B7%8A%E7%B7%BB%E9%9D%A2%E9%9C%9C-plenesse-cream | text/830d91663262da65.txt
+zh-hant | 超乾超敏感去皺收緊治療霜 Claregen Sensitive Extra Rich | https://www.naturalia-group.com/zh-hant/products/%E8%B6%85%E4%B9%BE%E8%B6%85%E6%95%8F%E6%84%9F%E5%8E%BB%E7%9A%BA%E6%94%B6%E7%B7%8A%E6%B2%BB%E7%99%82%E9%9C%9C-claregen-sensitive-extra-rich | text/f152b02b3899b981.txt
+zh-hant | 逆齡密碼套裝 Second Life Set | https://www.naturalia-group.com/zh-hant/products/%E9%80%86%E9%BD%A1%E5%AF%86%E7%A2%BC%E5%A5%97%E8%A3%9D-second-life-set | text/bba0097de87ff497.txt
+zh-hant | 逆齡密碼霜 Second Life Replenshing Cream | https://www.naturalia-group.com/zh-hant/products/%E9%80%86%E9%BD%A1%E5%AF%86%E7%A2%BC%E9%9C%9C--second-life-replenshing-cream | text/5eb9e5b986dceeaa.txt
+zh-hant | 逆齡密碼霜 Second Life Replenshing Cream | https://www.naturalia-group.com/zh-hant/products/%E9%80%86%E9%BD%A1%E5%AF%86%E7%A2%BC%E9%9C%9C-second-life-replenshing-cream | text/0aacbb911efac29b.txt
+zh-hant | 逆齡解碼亮白精華套裝 Second Life Instant Brightening Synergy | https://www.naturalia-group.com/zh-hant/products/%E9%80%86%E9%BD%A1%E8%A7%A3%E7%A2%BC%E4%BA%AE%E7%99%BD%E7%B2%BE%E8%8F%AF%E5%A5%97%E8%A3%9D-second-life-instant-brightening-synergy | text/71a8914b10768eaf.txt
+zh-hant | 逆齡解碼亮白精華面膜 Second Life Bright Cream Mask | https://www.naturalia-group.com/zh-hant/products/%E9%80%86%E9%BD%A1%E8%A7%A3%E7%A2%BC%E4%BA%AE%E7%99%BD%E7%B2%BE%E8%8F%AF%E9%9D%A2%E8%86%9C-second-life-bright-cream-mask | text/c83b29b52a403d9f.txt
+zh-hant | 防曬霜 Sun Experience -SPF15 | https://www.naturalia-group.com/zh-hant/products/%E9%98%B2%E6%9B%AC%E9%9C%9C-sun-experience-spf15 | text/c2317db9a4df84b4.txt
+zh-hant | 集中專注套裝 M Focus - Aroma Health Set | https://www.naturalia-group.com/zh-hant/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E5%A5%97%E8%A3%9D-m-focus---aroma-health-set | text/0c159438640ef015.txt
+zh-hant | 集中專注有機純露 M Focus Organic Hydrolat | https://www.naturalia-group.com/zh-hant/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E6%9C%89%E6%A9%9F%E7%B4%94%E9%9C%B2-m-focus-organic-hydrolat | text/aacfa34f8d9753e0.txt
+zh-hant | 集中專注香薰油配方一M Focus 1 | https://www.naturalia-group.com/zh-hant/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%80m-focus-1 | text/af138af7f153a003.txt
+zh-hant | 集中專注香薰油配方三 M Focus 3 | https://www.naturalia-group.com/zh-hant/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%B8%89-m-focus-3 | text/7c67b0ddd2a59cad.txt
+zh-hant | 集中專注香薰油配方二 M Focus 2 | https://www.naturalia-group.com/zh-hant/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E6%B2%B9%E9%85%8D%E6%96%B9%E4%BA%8C-m-focus-2 | text/5510782767abf543.txt
+zh-hant | 集中專注香薰走珠筆 M Focus Aroma Roller | https://www.naturalia-group.com/zh-hant/products/%E9%9B%86%E4%B8%AD%E5%B0%88%E6%B3%A8%E9%A6%99%E8%96%B0%E8%B5%B0%E7%8F%A0%E7%AD%86-m-focus-aroma-roller | text/87754a1b62181cea.txt
+zh-hant | 飛越再生原動力 Top Line MCL 100 | https://www.naturalia-group.com/zh-hant/products/%E9%A3%9B%E8%B6%8A%E5%86%8D%E7%94%9F%E5%8E%9F%E5%8B%95%E5%8A%9B-top-line-mcl-100 | text/44b55ad4bcb36aa2.txt
+zh-hant | 高水份降紅啫喱修護膜 Special Claregel | https://www.naturalia-group.com/zh-hant/products/%E9%AB%98%E6%B0%B4%E4%BB%BD%E9%99%8D%E7%B4%85%E5%95%AB%E5%96%B1%E4%BF%AE%E8%AD%B7%E8%86%9C-special-claregel | text/72a70e548bfebc47.txt
+zh-hant | $10000 購物金 Shopping Voucher | https://www.naturalia-group.com/zh-hant/products/10000-%E8%B3%BC%E7%89%A9%E9%87%91-shopping-voucher | text/9a8e6ac7bb5b9725.txt
+zh-hant | 24小時保濕霜 Aquavelvet Cream | https://www.naturalia-group.com/zh-hant/products/24%E5%B0%8F%E6%99%82%E4%BF%9D%E6%BF%95%E9%9C%9C-aquavelvet-cream | text/8e09f07f2290d8a5.txt
+zh-hant | $30000 購物金 Shopping Voucher | https://www.naturalia-group.com/zh-hant/products/30000-%E8%B3%BC%E7%89%A9%E9%87%91-shopping-voucher | text/bfe36bb97526d107.txt
+zh-hant | 40度更新漿液 Peeling Gel Professional | https://www.naturalia-group.com/zh-hant/products/40%E5%BA%A6%E6%9B%B4%E6%96%B0%E6%BC%BF%E6%B6%B2-peeling-gel-professional | text/9cecf54f6102ec44.txt
+zh-hant | Absonature -抗菌羅漢松（蜂膠皂）-Premium Soap | https://www.naturalia-group.com/zh-hant/products/absonature-%E6%8A%97%E8%8F%8C%E7%BE%85%E6%BC%A2%E6%9D%BE%EF%BC%88%E8%9C%82%E8%86%A0%E7%9A%82%EF%BC%89-premium-soap | text/17d7aa14efbbb7e1.txt
+zh-hant | Absonature - 蜂膠噴劑 Premium Propolis Spray | https://www.naturalia-group.com/zh-hant/products/absonature-%E8%9C%82%E8%86%A0%E5%99%B4%E5%8A%91-premium-propolis-spray | text/d760ef2ec4851938.txt
+zh-hant | Absonature - 蜂膠滴劑 Premium Propolis Drop | https://www.naturalia-group.com/zh-hant/products/absonature-%E8%9C%82%E8%86%A0%E6%BB%B4%E5%8A%91-premium-propolis-drop | text/bae22817baddaae6.txt
+zh-hant | 空氣淨化香薰油配方一 | https://www.naturalia-group.com/zh-hant/products/air-cleanse-1 | text/09d921f7d7cf2f58.txt
+zh-hant | DD霜 - 00色 DD Cream Idra-Bright ExtraLight - 00(SPF20) | https://www.naturalia-group.com/zh-hant/products/dd%E9%9C%9C---00%E8%89%B2-dd-cream-idra-bright-extralight---00spf20 | text/0237b578dcd61981.txt
+zh-hant | DD霜 - 01色 DD Cream Idra-Bright Light - 01 (SPF15) | https://www.naturalia-group.com/zh-hant/products/dd%E9%9C%9C---01%E8%89%B2-dd-cream-idra-bright-light---01-spf15 | text/e5edca90ee102075.txt
+zh-hant | Delight 3 Pro專業套裝 Delight 3 Pro Professional Kit | https://www.naturalia-group.com/zh-hant/products/delight-3-pro%E5%B0%88%E6%A5%AD%E5%A5%97%E8%A3%9D-delight-3-pro-professional-kit | text/673fdce23be37050.txt
+zh-hant | DIY全方位消脂塑形繃帶及精華 Informa Trielaston Slimplus | https://www.naturalia-group.com/zh-hant/products/diy%E5%85%A8%E6%96%B9%E4%BD%8D%E6%B6%88%E8%84%82%E5%A1%91%E5%BD%A2%E7%B9%83%E5%B8%B6%E5%8F%8A%E7%B2%BE%E8%8F%AF-informa-trielaston-slimplus | text/240d4df777e17da6.txt
+zh-hant | DNA日夜修護霜 Time Challenge | https://www.naturalia-group.com/zh-hant/products/dna%E6%97%A5%E5%A4%9C%E4%BF%AE%E8%AD%B7%E9%9C%9C-time-challenge | text/32c58477066c3d9b.txt
+zh-hant | Farmagan - 換膚霜-CLEAN-UP - Peeling Pretrattamento | https://www.naturalia-group.com/zh-hant/products/farmagan-%E6%8F%9B%E8%86%9A%E9%9C%9C-clean-up-peeling-pretrattamento | text/a15fc6e298c5875a.txt
+zh-hant | Farmagan - 植物抗菌去頭皮洗髮露-D-CONTROL - Shampoo Dry | https://www.naturalia-group.com/zh-hant/products/farmagan-%E6%A4%8D%E7%89%A9%E6%8A%97%E8%8F%8C%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-d-control-shampoo-dry | text/017b13c0aa6f637c.txt
+zh-hant | Farmagan -白芒花草本鎖色亮澤洗髮露-KEEP COLOR - Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan-%E7%99%BD%E8%8A%92%E8%8A%B1%E8%8D%89%E6%9C%AC%E9%8E%96%E8%89%B2%E4%BA%AE%E6%BE%A4%E6%B4%97%E9%AB%AE%E9%9C%B2-keep-color-shampoo | text/6570b7b0ed199734.txt
+zh-hant | Farmagan -植物舒緩抗癢治療敏感洗髮露 Soothing SENSITIVE -Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan--%E6%A4%8D%E7%89%A9%E8%88%92%E7%B7%A9%E6%8A%97%E7%99%A2%E6%B2%BB%E7%99%82%E6%95%8F%E6%84%9F%E6%B4%97%E9%AB%AE%E9%9C%B2--soothing-sensitive--shampoo | text/e7807b48d9044232.txt
+zh-hant | Farmagan -透明質酸滋潤保濕髪膜-HYDRA MOISTURIZING-Mask | https://www.naturalia-group.com/zh-hant/products/farmagan--%E9%80%8F%E6%98%8E%E8%B3%AA%E9%85%B8%E6%BB%8B%E6%BD%A4%E4%BF%9D%E6%BF%95%E9%AB%AA%E8%86%9C-hydra-moisturizing-mask | text/416b3ecebef552bb.txt
+zh-hant | Farmagan -植物舒緩抗癢治療敏感洗髮露 Soothing SENSITIVE -Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan---%E6%A4%8D%E7%89%A9%E8%88%92%E7%B7%A9%E6%8A%97%E7%99%A2%E6%B2%BB%E7%99%82%E6%95%8F%E6%84%9F%E6%B4%97%E9%AB%AE%E9%9C%B2--soothing-sensitive--shampoo | text/cd8aa19a8778794b.txt
+zh-hant | Farmagan - 膠原蛋白柔順曲髮活力洗髮露-X-CURLY-Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan---%E8%86%A0%E5%8E%9F%E8%9B%8B%E7%99%BD%E6%9F%94%E9%A0%86%E6%9B%B2%E9%AB%AE%E6%B4%BB%E5%8A%9B%E6%B4%97%E9%AB%AE%E9%9C%B2-x-curly-shampoo | text/2ba7252caef941a5.txt
+zh-hant | Farmagan - 香薰草本防脱活髪洗髪露- ACTION-Anti-Loss Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan---%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E6%B4%97%E9%AB%AA%E9%9C%B2--action-anti-loss-shampoo | text/4e70cb2bc501c328.txt
+zh-hant | Farmagan -  香薰草本防脱活髪洗髪露- ACTION-Anti-Loss Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan----%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E6%B4%97%E9%AB%AA%E9%9C%B2--action-anti-loss-shampoo | text/457a8dcd0581f5ba.txt
+zh-hant | Farmagan - BIOACTIVE HC-白芒花草本鎖色亮澤髪膜-KEEP COLOR-Mask | https://www.naturalia-group.com/zh-hant/products/farmagan---bioactive-hc-%E7%99%BD%E8%8A%92%E8%8A%B1%E8%8D%89%E6%9C%AC%E9%8E%96%E8%89%B2%E4%BA%AE%E6%BE%A4%E9%AB%AA%E8%86%9C-keep-color-mask | text/6df6f427a03867b6.txt
+zh-hant | Farmagan - 植物抗菌去頭皮安瓶 | https://www.naturalia-group.com/zh-hant/products/farmagan---bioactive-hc-anti-dry-dandruff--%E6%A4%8D%E7%89%A9%E6%8A%97%E8%8F%8C%E5%8E%BB%E9%A0%AD%E7%9A%AE%E5%AE%89%E7%93%B6--d-control-amp---dry | text/935bc8c111509708.txt
+zh-hant | Farmagan  -D-CONTROL - 植物修護淨化去頭皮精華 | https://www.naturalia-group.com/zh-hant/products/farmagan---bioactive-hc-anti-oil-dandruff--d-control-essence---%E6%A4%8D%E7%89%A9%E4%BF%AE%E8%AD%B7%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E7%B2%BE%E8%8F%AF--olio-essenziale | text/f12d81379cb67cdc.txt
+zh-hant | Farmagan - BIOACTIVE HC-VOLUME-UP-小麥蛋白豐盈造型洗髪露 | https://www.naturalia-group.com/zh-hant/products/farmagan---bioactive-hc-volume-up-%E5%B0%8F%E9%BA%A5%E8%9B%8B%E7%99%BD%E8%B1%90%E7%9B%88%E9%80%A0%E5%9E%8B%E6%B4%97%E9%AB%AA%E9%9C%B2 | text/7a486e42d3fa1346.txt
+zh-hant | Farmagan - VOLUME-UP-小麥蛋白豐盈造型髪膜 -Mask | https://www.naturalia-group.com/zh-hant/products/farmagan---volume-up-%E5%B0%8F%E9%BA%A5%E8%9B%8B%E7%99%BD%E8%B1%90%E7%9B%88%E9%80%A0%E5%9E%8B%E9%AB%AA%E8%86%9C--mask | text/868a0a0691c8bd2a.txt
+zh-hant | Farmagan -BIOACTIVE HC維他命原B5植物深層修護洗髪露 REPAIR-B5 Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan--bioactive-hc-%E7%B6%AD%E4%BB%96%E5%91%BD%E5%8E%9Fb5%E6%A4%8D%E7%89%A9%E6%B7%B1%E5%B1%A4%E4%BF%AE%E8%AD%B7%E6%B4%97%E9%AB%AA%E9%9C%B2-repair-b5-shampoo | text/9be0241817fab57d.txt
+zh-hant | Farmagan - BIOACTIVE HC- 維他命原B5植物深層修護髪膜 REPAIR-B5 Mask | https://www.naturalia-group.com/zh-hant/products/farmagan--bioactive-hc-%E7%B6%AD%E4%BB%96%E5%91%BD%E5%8E%9Fb5%E6%A4%8D%E7%89%A9%E6%B7%B1%E5%B1%A4%E4%BF%AE%E8%AD%B7%E9%AB%AA%E8%86%9C-repair-b5-mask | text/c2b53ae4f62c88b0.txt
+zh-hant | Farmagan -BIOACTIVE HC- 小麥蛋白豐盈髪絲噴霧-VOLUME-UP-Spray | https://www.naturalia-group.com/zh-hant/products/farmagan--bioactive-hc--%E5%B0%8F%E9%BA%A5%E8%9B%8B%E7%99%BD%E8%B1%90%E7%9B%88%E9%AB%AA%E7%B5%B2%E5%99%B4%E9%9C%A7-volume-up-spray | text/85614627edf9660b.txt
+zh-hant | Farmagan -BIOACTIVE HC- 白芒花草本鎖色亮澤洗髪露-KEEP COLOR-Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan--bioactive-hc--%E7%99%BD%E8%8A%92%E8%8A%B1%E8%8D%89%E6%9C%AC%E9%8E%96%E8%89%B2%E4%BA%AE%E6%BE%A4%E6%B4%97%E9%AB%AA%E9%9C%B2-keep-color-shampoo | text/190b1c4bab2f6713.txt
+zh-hant | Farmagan -BIOACTIVE HT- 香薰草本防脱活髪安瓶-ACTION AMP-Anti-Loss | https://www.naturalia-group.com/zh-hant/products/farmagan--bioactive-ht--%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E5%AE%89%E7%93%B6-action-amp-anti-loss | text/4f6f1766a1ba20a7.txt
+zh-hant | Farmagan -香薰草本防脱活髪精華 | https://www.naturalia-group.com/zh-hant/products/farmagan--bioactive-ht---%E9%A6%99%E8%96%B0%E8%8D%89%E6%9C%AC%E9%98%B2%E8%84%B1%E6%B4%BB%E9%AB%AA%E7%B2%BE%E8%8F%AF--sensitive-essence---olio-essenziale | text/e3396c117bc8373f.txt
+zh-hant | Farmagan - 植物抗菌去頭皮洗髮露-D-CONTROL - Shampoo Dry | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-%E6%A4%8D%E7%89%A9%E6%8A%97%E8%8F%8C%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-d-control-shampoo | text/9363193da02c042f.txt
+zh-hant | Farmagan -植物舒緩抗癢治療敏感精華 | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-%E6%A4%8D%E7%89%A9%E8%88%92%E7%B7%A9%E6%8A%97%E7%99%A2%E6%B2%BB%E7%99%82%E6%95%8F%E6%84%9F%E7%B2%BE%E8%8F%AF-soothing-sensitive-essence-olio-essenziale | text/2426b54ac81f3aaf.txt
+zh-hant | Farmagan-BIOACTIVE HC 維他命原B5植物深層修護洗髪露 REPAIR-B5 Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-%E7%B6%AD%E4%BB%96%E5%91%BD%E5%8E%9Fb5%E6%A4%8D%E7%89%A9%E6%B7%B1%E5%B1%A4%E4%BF%AE%E8%AD%B7%E6%B4%97%E9%AB%AA%E9%9C%B2-repair-b5-shampoo | text/b4f29e3255ffbb47.txt
+zh-hant | Farmagan -D-CONTROL -植物減油淨化去頭皮安瓶 | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-%E6%A4%8D%E7%89%A9%E6%B8%9B%E6%B2%B9%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E5%AE%89%E7%93%B6-amp-oily | text/3beb9b868ee909a3.txt
+zh-hant | Farmagan-植物減油淨化去頭皮洗髮露 | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-%E6%A4%8D%E7%89%A9%E6%B8%9B%E6%B2%B9%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-shampoo-oily-1 | text/17ced355e88aee64.txt
+zh-hant | Farmagan-植物減油淨化去頭皮洗髮露 | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-%E6%A4%8D%E7%89%A9%E6%B8%9B%E6%B2%B9%E6%B7%A8%E5%8C%96%E5%8E%BB%E9%A0%AD%E7%9A%AE%E6%B4%97%E9%AB%AE%E9%9C%B2-shampoo-oily-2 | text/a41cf57b2199c45d.txt
+zh-hant | Farmagan -D-CONTROL -植物減油淨化去頭皮安瓶 | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-anti-oil-dandruff-d-control-amp-oily | text/b054087775f13905.txt
+zh-hant | Farmagan - BIOACTIVE HC-透明質酸滋潤保濕髪絲精華油-HYDRA MOISTURIZIN | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-hydra-moisturizing-oil | text/d18cb1afcbec12fd.txt
+zh-hant | Farmagan - BIOACTIVE HC-透明質酸滋潤保濕洗髪露-HYDRA MOISTURIZING- | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-hydra-moisturizing-shampoo | text/494cff320aa7990d.txt
+zh-hant | Farmagan - BIOACTIVE HC-VOLUME-UP-小麥蛋白豐盈造型髪膜 -Mask | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-volume-up-mask | text/a3caeedef8eda1a1.txt
+zh-hant | Farmagan -BIOACTIVE HC-膠原蛋白柔軟曲髮活力髮膜- X-CURLY-Mask | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-x-curly-mask | text/94ca58aeab8c2011.txt
+zh-hant | Farmagan - BIOACTIVE HC-膠原蛋白柔順曲髮活力洗髮露-X-CURLY-Shampoo | https://www.naturalia-group.com/zh-hant/products/farmagan-bioactive-hc-x-curly-shampoo | text/28fc02846f75f365.txt
+zh-hant | Naturalia Sintesi - 氨基酸水份平衡液 Special Hydro Complex | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi-%E6%B0%A8%E5%9F%BA%E9%85%B8%E6%B0%B4%E4%BB%BD%E5%B9%B3%E8%A1%A1%E6%B6%B2-special-hydro-complex | text/bd3c77d916a40e70.txt
+zh-hant | Naturalia Sintesi - β葡聚醣美白再生原液 Regeneration Serum | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E5%8E%9F%E6%B6%B2-regeneration-serum | text/528d7a24b54936ad.txt
+zh-hant | Naturalia Sintesi - β葡聚醣美白再生治療原液 Regeneration Serum P | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E6%B2%BB%E7%99%82%E5%8E%9F%E6%B6%B2-regeneration-serum-p | text/1742902f5f9544e0.txt
+zh-hant | Naturalia Sintesi - β葡聚醣美白再生治療霜 Regeneration Cream P | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E6%B2%BB%E7%99%82%E9%9C%9C-regeneration-cream-p | text/85dd574a7ff1bad5.txt
+zh-hant | Naturalia Sintesi - β葡聚醣美白再生面霜 Regeneration Cream | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%CE%B2%E8%91%A1%E8%81%9A%E9%86%A3%E7%BE%8E%E7%99%BD%E5%86%8D%E7%94%9F%E9%9D%A2%E9%9C%9C-regeneration-cream | text/24bbf069ffb177f8.txt
+zh-hant | Naturalia Sintesi - 極速排毒除黑眼圈精華 Eye-Contour Draining Gel | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%E6%A5%B5%E9%80%9F%E6%8E%92%E6%AF%92%E9%99%A4%E9%BB%91%E7%9C%BC%E5%9C%88%E7%B2%BE%E8%8F%AF-eye-contour-draining-gel | text/f7eb38fd3770ece0.txt
+zh-hant | Naturalia Sintesi - 氨基酸水份平衡液 Special Hydro Complex | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%E6%B0%A8%E5%9F%BA%E9%85%B8%E6%B0%B4%E4%BB%BD%E5%B9%B3%E8%A1%A1%E6%B6%B2-special-hydro-complex | text/8b77189fb183976c.txt
+zh-hant | Naturalia Sintesi - 清爽日夜健膚水  Refining Lotion | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%E6%B8%85%E7%88%BD%E6%97%A5%E5%A4%9C%E5%81%A5%E8%86%9A%E6%B0%B4--refining-lotion | text/8f0c9e2546c7003e.txt
+zh-hant | Naturalia Sintesi - 清爽日夜健膚水 Refining Lotion | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%E6%B8%85%E7%88%BD%E6%97%A5%E5%A4%9C%E5%81%A5%E8%86%9A%E6%B0%B4-refining-lotion | text/e1ab85aae696cae7.txt
+zh-hant | Naturalia Sintesi - 眼部溶脂去皺霜 Lift & Light Intens cream | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%E7%9C%BC%E9%83%A8%E6%BA%B6%E8%84%82%E5%8E%BB%E7%9A%BA%E9%9C%9C-lift--light-intens-cream | text/84f71aa7c1790e27.txt
+zh-hant | Naturalia Sintesi - 豐滿彈力精華 FlexA-Pro | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---%E8%B1%90%E6%BB%BF%E5%BD%88%E5%8A%9B%E7%B2%BE%E8%8F%AF-flexa-pro | text/a199819932ce5850.txt
+zh-hant | Naturalia Sintesi - 15度更新漿液 Anti-aging Complex 15 | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---15%E5%BA%A6%E6%9B%B4%E6%96%B0%E6%BC%BF%E6%B6%B2-anti-aging-complex-15 | text/5a05b2f0fd0c9cb2.txt
+zh-hant | Naturalia Sintesi - DNA平衡敏感面霜 All Purpose Plus Zero | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---dna%E5%B9%B3%E8%A1%A1%E6%95%8F%E6%84%9F%E9%9D%A2%E9%9C%9C-all-purpose-plus-zero | text/52a3209758702eb7.txt
+zh-hant | Naturalia Sintesi - PH平衡面霜 Special Vanishing Cream | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi---ph%E5%B9%B3%E8%A1%A1%E9%9D%A2%E9%9C%9C-special-vanishing-cream | text/b03da30a6f6c27e5.txt
+zh-hant | Naturalia Sintesi - PH平衡面霜 Special Vanishing Cream | https://www.naturalia-group.com/zh-hant/products/naturalia-sintesi--ph%E5%B9%B3%E8%A1%A1%E9%9D%A2%E9%9C%9C-special-vanishing-cream | text/1e0be4996d6c0e44.txt
+zh-hant | Naturhelios 防曬霜SPF30 Naturhelios sunscreen SPF30 | https://www.naturalia-group.com/zh-hant/products/naturhelios-%E9%98%B2%E6%9B%AC%E9%9C%9Cspf30-naturhelios-sunscreen-spf30 | text/7c0895648615cf78.txt
+zh-hant | Naturhelios 防曬霜SPF50+ Naturhelios sunscreen SPF50+ | https://www.naturalia-group.com/zh-hant/products/naturhelios-%E9%98%B2%E6%9B%AC%E9%9C%9Cspf50-naturhelios-sunscreen-spf50 | text/4d2b2450fb6d2dda.txt
+zh-hant | PH平衡香膏 Aroma Balancing Balm | https://www.naturalia-group.com/zh-hant/products/ph%E5%B9%B3%E8%A1%A1%E9%A6%99%E8%86%8F-aroma-balancing-balm | text/db0a51de698bb8cd.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products?page=2 | text/2cca4a416bf45f81.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products?page=3 | text/e8da97adc71acd94.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products?page=4 | text/55473fb51865e8e4.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products?page=5 | text/43684a4dc33e159b.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products?page=6 | text/4f7a7ae2c43e7e4d.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products?page=7 | text/d96651388b62a157.txt
+zh-hant | Naturalia Group | https://www.naturalia-group.com/zh-hant/products?page=8 | text/2e391f4f4b0c2296.txt

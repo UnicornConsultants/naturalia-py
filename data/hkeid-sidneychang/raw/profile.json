@@ -1,0 +1,108 @@
+{
+  "_id": "63e34768adcbca4d1d395a8d",
+  "icons": {
+    "active": [
+      "vcard",
+      "tel",
+      "email",
+      "whatsapp",
+      "facebook",
+      "wechat",
+      "website",
+      "custom-a2828d",
+      "custom-091e63",
+      "custom-af74b3",
+      "custom-ada3bb",
+      "custom-ed49db"
+    ],
+    "inactive": []
+  },
+  "nicename": "sidneychang",
+  "nickname": "Sidneychang",
+  "username": "Sidneychang",
+  "displayName": "Sidney Chang 鄭敏如",
+  "mobile": "+85296984868",
+  "email": "sidneycmu@gmail.com",
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/share/1HDNAwjMEE/?mibextid=wwXIfr",
+    "customs": [
+      {
+        "img": "0c5be0aa70.png",
+        "url": "https://www.naturalia-group.com/",
+        "iconId": "a2828d"
+      },
+      {
+        "img": "158cf9dce1.png",
+        "url": "https://www.shirleyprice.co.uk/",
+        "iconId": "091e63"
+      },
+      {
+        "img": "e920aab286.png",
+        "url": "https://gemology.com/en",
+        "iconId": "af74b3"
+      },
+      {
+        "img": "bd2207c0ff.png",
+        "url": "https://farmagan.com/",
+        "iconId": "ada3bb"
+      },
+      {
+        "img": "15a4bba5d9.png",
+        "url": "https://www.naturaliasintesi.com/",
+        "iconId": "ed49db"
+      }
+    ],
+    "wechat": {
+      "img": "https://data.hkeid.com/avatar/ff166a16ff.png"
+    }
+  },
+  "redirections": [
+    {
+      "redirectId": "e4f98f07d33117013998",
+      "slug": "https://data.hkeid.com/member/sidneychang/whatsapp",
+      "_id": "6ab34314e341bc4f8695b4df"
+    }
+  ],
+  "url": "https://www.sidneychang.hk",
+  "additionalInfo": {
+    "mobile-0": "+852",
+    "mobile-1": "+852",
+    "address-0": "",
+    "address-1": ""
+  },
+  "createTime": "2023年02月08日 14:55 PM",
+  "contactProfiles._id": "63e34768adcbca4d1d395a8e",
+  "contactProfiles.company": "Naturalia Group Holdings Ltd.",
+  "contactProfiles.mobile": "+85296984868",
+  "contactProfiles.whatsapp": "+85296984868",
+  "contactProfiles.whatsapp_content": "<p>*薪火相傳 獅承一心*</p><p>*UNITE, WE SHINE!*</p><p><br></p><p>您好！</p><p><br></p><p>我是Sidney Chang 鄭敏如，今天好高興認識你，以下是本人的簡介及聯絡資料，期待再與你交流：</p><p><br></p><p><img src=\"https://s.w.org/images/core/emoji/14.0.0/svg/1f310.svg\" alt=\"🌐\"> 您可以經過以下 EiD 個人數碼平台了解我更多: https://data.hkeid.com/member/sidneychang</p>",
+  "contactProfiles.self_intro": "<p>韻濤集團成立於1997年，由⾹港品質保證局確認為 ESG 機構，總部位於香港，是大中華知名的健康與護膚管理集團。憑藉優質的產品、專業的服務以及領先的團隊管理，多年榮獲商界展關懷，在業界樹立了卓越的聲譽，並已將業務版圖拓展至全球多個國家和地區 (香港、澳門、廣州、杭州、英國、法國、紐西蘭、意大利)，成為國際品牌與客戶值得信賴的合作夥伴。</p><p><br></p><p>我們始終致力於傳播健康與美麗，透過引進全球頂尖的美容技術與護膚等優質產品，為客戶提供安全、有效的全方位解決方案。展望未來，我們將持續支持穩定的業務發展與全球市場拓展，致力於幫助每個人實現高品質的健康生活方式。</p><p>&nbsp;</p><p>🏅 榮譽獎項</p><p>* 2018 傑出商界女領袖</p><p><br></p><p>🏡企業職務</p><p>* 韻濤集團創辦人及國際品牌引進推手</p><p>* 英國 Shirley Price Aromatherapy 董事</p><p><br></p><p>🤝 業界商會職銜</p><p>* 環球健康肌膚協會主席</p><p>* 中西區女企業家協會 會董</p><p>* 香港品牌總商會 理事</p><p>* 深圳女企業家商會 理事</p><p>* 深水埗文藝協會 副主席</p><p>* 深水埗工商業聯絡委員會委員</p><p><br></p><p>🦁 社會服務 / 公益職銜（獅子會、公益團體）</p><p>香港翡翠獅子會創會會長</p><p>香港北部都會獅子會創會顧問</p><p>詠翔全權會員</p><p>Chill Ladies Success Circle, Charity Chairlady</p>",
+  "contactProfiles.imgMeta": {
+    "bg": {
+      "unit": "%",
+      "x": 0,
+      "y": 24,
+      "width": 100,
+      "height": 71.11111111111111
+    },
+    "avatar": {
+      "unit": "%",
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 78.3125
+    }
+  },
+  "contactProfiles.vcard": "sidneychang_e64af.vcf",
+  "contactProfiles.fax": "+852",
+  "contactProfiles.office_phone": "+852 2345 6488",
+  "contactProfiles.address": "香港九龍荔枝角永康街63號 GGT大廈23樓2311-2313室",
+  "contactProfiles.title": "創辦人兼營運總監",
+  "contactProfiles.bg": "https://data.hkeid.com/background/d09dcdcd55.png",
+  "contactProfiles.avatar": "https://data.hkeid.com/avatar/ed6f89ef0f.png",
+  "additionalInfo.mobile-0": "+852",
+  "additionalInfo.mobile-1": "+852",
+  "additionalInfo.address-0": "",
+  "additionalInfo.address-1": "",
+  "numOfIconsAvailable": 5
+}

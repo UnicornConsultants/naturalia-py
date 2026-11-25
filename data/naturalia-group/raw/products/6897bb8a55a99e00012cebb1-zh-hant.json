@@ -1,0 +1,357 @@
+{
+  "_id": "6897bb8a55a99e00012cebb1",
+  "owner_id": "6878c0556ba1e4002f6fe02a",
+  "field_titles": [
+    {
+      "key": "custom",
+      "name_translations": {
+        "zh-hant": "規格"
+      },
+      "index": 0,
+      "selectorEnabled": false
+    }
+  ],
+  "hide_price": true,
+  "same_price": true,
+  "location_id": "",
+  "sku": "6964",
+  "brand": "",
+  "mpn": "",
+  "gtin": "063849631603",
+  "summary_translations": {},
+  "title_translations": {
+    "zh-hant": "舒緩組織層放鬆乳霜油",
+    "en": "Naturalia Sintesi - T.O.P. Synergy Tenso Relax"
+  },
+  "unlimited_quantity": false,
+  "out_of_stock_orderable": false,
+  "price": {
+    "cents": 119600,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$1,196.00",
+    "dollars": 1196.0
+  },
+  "price_sale": null,
+  "max_order_quantity": -1,
+  "status": "active",
+  "supplier_id": "",
+  "seo_keywords": "",
+  "is_preorder": false,
+  "preorder_note_translations": {},
+  "stock_ids": [
+    "6897bbac1eb69700018e406e",
+    "693131b8825c53002624f3c4",
+    "6931316f825c53002624f1fe",
+    "68f9a5d31430e20027c33bae"
+  ],
+  "weight": 0.0,
+  "subscription_enabled": false,
+  "subscription_period_type": "day",
+  "subscription_period_duration": 7,
+  "subscription_recurring_count_limit": -1,
+  "schedule_publish_at": null,
+  "gender": "unisex",
+  "age_group": "adult",
+  "adult": "no",
+  "condition": "new",
+  "amazon_url": "",
+  "amazon_asin": "",
+  "taxable": false,
+  "price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "member_price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "addon_product_priorities": {},
+  "blacklisted_delivery_option_ids": [],
+  "blacklisted_payment_ids": [],
+  "blacklisted_feed_channels": [],
+  "related_product_ids": [],
+  "is_excluded_promotion": false,
+  "created_by": "admin",
+  "root_product_id": "6897bb8a55a99e00012cebb2",
+  "feed_category": {},
+  "retail_status": "active",
+  "type": "product",
+  "feed_variations": {
+    "color": "",
+    "size": "",
+    "custom": {},
+    "material": ""
+  },
+  "member_price": null,
+  "lowest_member_price": {
+    "cents": 119600,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$1,196.00",
+    "dollars": 1196.0
+  },
+  "available_start_time": null,
+  "available_end_time": null,
+  "is_reminder_active": false,
+  "flash_price_sets": [],
+  "pos_category_ids": [],
+  "media": [
+    {
+      "images": {
+        "original": {
+          "width": 3353.0,
+          "height": 4627.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/6929434a6837760010c34f53/original.jpg?1764311880=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "6929434a6837760010c34f53",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/6929434a6837760010c34f53/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/6929434a6837760010c34f53/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/6929434a6837760010c34f53/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 4000.0,
+          "height": 6000.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/69189351c57ff200167b2b5e/original.jpg?1763218256=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "69189351c57ff200167b2b5e",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/69189351c57ff200167b2b5e/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/69189351c57ff200167b2b5e/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/69189351c57ff200167b2b5e/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 4000.0,
+          "height": 6000.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/691893468ad6be000ad3b89b/original.jpg?1763218244=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "691893468ad6be000ad3b89b",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/691893468ad6be000ad3b89b/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/691893468ad6be000ad3b89b/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/691893468ad6be000ad3b89b/400x.webp?source_format=jpg"
+    }
+  ],
+  "cover_media_array": [
+    {
+      "_id": "6929434a6837760010c34f53",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/6929434a6837760010c34f53/original.jpg?1764311880=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "69189351c57ff200167b2b5e",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/69189351c57ff200167b2b5e/original.jpg?1763218256=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "691893468ad6be000ad3b89b",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/691893468ad6be000ad3b89b/original.jpg?1763218244=&owner_id=6878c0556ba1e4002f6fe02a"
+    }
+  ],
+  "variations": [
+    {
+      "price": {
+        "cents": 119600,
+        "currency_symbol": "HK$",
+        "currency_iso": "HKD",
+        "label": "HK$1,196.00",
+        "dollars": 1196.0
+      },
+      "location_id": "",
+      "sku": "",
+      "fields_translations": {
+        "en": [
+          ""
+        ],
+        "zh-hant": [
+          "250ML"
+        ]
+      },
+      "key": "6897bbab1eb69700018e405b",
+      "media_id": "",
+      "stock_ids": [
+        "6897bbac1eb69700018e406d",
+        "693131b8825c53002624f3c5",
+        "6931316f825c53002624f1ff",
+        "68f9a5d31430e20027c33baf"
+      ],
+      "price_sale": null,
+      "weight": 0.0,
+      "feed_variations": {
+        "color": "",
+        "size": "",
+        "custom": {
+          "zh-hant": "250ML"
+        },
+        "material": ""
+      },
+      "quantity": 30,
+      "stock_id": "6897bbac1eb69700018e406d",
+      "member_price": null,
+      "fields": [
+        {
+          "name_translations": {
+            "zh-hant": "250ML",
+            "en": ""
+          },
+          "name": "250ML"
+        }
+      ],
+      "media": null,
+      "mpn": "",
+      "gtin": "6964",
+      "variant_option_ids": [
+        "6897bbac1eb69700018e4066"
+      ],
+      "product_price_tiers": {
+        "68f319cc813de1000adedada": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f318dde95ca45a2b35e4d1": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3190a829de0001020e5aa": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f31a7f2be8e1001657bff8": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3188d4c69680012c83c2a": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        }
+      },
+      "retail_price": {
+        "cents": 0,
+        "currency_symbol": "HK$",
+        "currency_iso": "HKD",
+        "label": "",
+        "dollars": 0.0
+      },
+      "warehouse": {
+        "_id": "6878c0814b77eb002818b825",
+        "name_translations": {
+          "ja": "デフォルトの倉庫",
+          "en": "Primary",
+          "zh-hant": "預設倉庫",
+          "zh-cn": "预设仓库"
+        }
+      },
+      "max_order_quantity": -1,
+      "preorder_limit": -1,
+      "root_product_variation_id": "6897bbac1eb69700018e406a"
+    }
+  ],
+  "variant_options": [
+    {
+      "key": "6897bbac1eb69700018e4066",
+      "media_id": "",
+      "index": 0,
+      "name_translations": {
+        "zh-hant": "250ML"
+      },
+      "type": "custom",
+      "media": null
+    }
+  ],
+  "addon_promotions": "",
+  "retail_price": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "quantity": 30,
+  "stock_id": "",
+  "warehouse": null,
+  "is_stock_shared": false,
+  "wish_list_items": [],
+  "product_price_tiers": [
+    {
+      "membership_tier_id": "68f3188d4c69680012c83c2a",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f318dde95ca45a2b35e4d1",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f3190a829de0001020e5aa",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f319cc813de1000adedada",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f31a7f2be8e1001657bff8",
+      "member_price": null
+    }
+  ],
+  "link": {
+    "_id": "6897bbad1eb69700018e4090",
+    "status": "active",
+    "type": "product",
+    "section": "seo",
+    "owner_id": "6878c0556ba1e4002f6fe02a",
+    "value_id": "6897bb8a55a99e00012cebb1",
+    "name_translations": {},
+    "image_id": ""
+  },
+  "filter_tags": [],
+  "labels": [],
+  "bundle_set": null,
+  "sold_out": false,
+  "child_products": [],
+  "identifier_exists": true,
+  "price_range": "",
+  "member_price_range": "",
+  "tax_type": "",
+  "oversea_tax_type": "",
+  "preorder_limit": -1,
+  "total_orderable_quantity": 30,
+  "cart_tag": {
+    "_id": "",
+    "name_translations": {},
+    "priority": 0
+  },
+  "allow_gift": false,
+  "display_sales_count": 0,
+  "custom_sales_count": 0,
+  "frozen_flag": 0
+}

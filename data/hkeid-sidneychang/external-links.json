@@ -1,0 +1,35 @@
+[
+  {
+    "type": "personal_website",
+    "url": "https://www.sidneychang.hk"
+  },
+  {
+    "type": "facebook",
+    "url": "https://www.facebook.com/share/1HDNAwjMEE/?mibextid=wwXIfr"
+  },
+  {
+    "type": "brand_website",
+    "url": "https://www.naturalia-group.com/",
+    "icon_id": "a2828d"
+  },
+  {
+    "type": "brand_website",
+    "url": "https://www.shirleyprice.co.uk/",
+    "icon_id": "091e63"
+  },
+  {
+    "type": "brand_website",
+    "url": "https://gemology.com/en",
+    "icon_id": "af74b3"
+  },
+  {
+    "type": "brand_website",
+    "url": "https://farmagan.com/",
+    "icon_id": "ada3bb"
+  },
+  {
+    "type": "brand_website",
+    "url": "https://www.naturaliasintesi.com/",
+    "icon_id": "ed49db"
+  }
+]

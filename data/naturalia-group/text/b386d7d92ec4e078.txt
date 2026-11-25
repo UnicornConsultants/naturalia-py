@@ -1,0 +1,47 @@
+View All Shopping Voucher
+$30000 Shopping Voucher
+$30000 Shopping Voucher
+Please read the "Wholesale Membership Terms & Conditions" below before purchasing. All sales are final and non-refundable
+The shipping fee is waived for orders of $1000 or more. on order
+HK$30,000.00
+Quantity Product set quantity
+products.quantity_limit99999
+This quantity is invalid, please enter a valid quantity.
+Sold Out
+Not enough stock. Your item was not added to your cart.
+Not enough stock. Please adjust your quantity.
+Limit -1 per order.
+Please message the shop owner for order details.
+MESSAGE
+Description
+Additional details
+Shipping & Payment
+Customer Reviews
+Wholesale Membership Terms and Conditions
+This product is for wholesale members only. After purchasing this membership, the system will automatically issue the corresponding shopping credit and upgrade to the specified membership level upon confirmation of payment to enjoy wholesale discounts.
+Please read the following terms carefully before placing your order:
+Membership and Shopping Credit Issuance
+Upon successful purchase and completion of payment, the system will automatically send the shopping credit corresponding to the membership fee to the account and manually upgrade to the corresponding wholesale membership level. Customers can check their current membership level information in the member center.
+Shopping Credit Validity Period
+Shopping credit is valid for 180 days from the date of issuance. Any unused shopping credit will automatically expire after the validity period and will not be reissued or extended.
+Membership Renewal Method
+If the shopping credit is used up, a top-up must be completed within 7 days after the reminder notification to maintain the wholesale membership qualification. If no top-up is made within the time limit, the system will automatically downgrade the account to a regular member.
+Refund Policy
+Wholesale membership products are non-refundable once purchased.
+If a refund is requested for a product purchased using shopping credit, the refund amount will be returned to the account in the form of shopping credit.
+For any refunds issued, the customer is responsible for bearing the handling fee costs incurred by the respective payment method.
+Final Decision Rights
+The company reserves the final decision rights regarding wholesale membership qualifications, the issuance and use of shopping credit, and any related disputes.
+There is no additional details for this product.
+Delivery Options
+Shipping for Top-ups Only
+Payment Options
+Alipay (HK)_SHOPLINE Payments
+WeChat Pay
+Octopus
+Credit Card
+FPS
+Google Pay
+Rating Source: This Shop
+No review for this product
+You might also like...

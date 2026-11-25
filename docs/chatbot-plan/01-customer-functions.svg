@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1240" viewBox="0 0 1600 1240">
+<rect width="1600" height="1240" fill="#F7F9F6"/>
+<text x="60" y="55.84" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="600" fill="#173B35" text-anchor="start">NATURALIA  /  CHATBOT</text>
+<text x="1255" y="55.84" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="400" fill="#66766F" text-anchor="start">功能規劃  2026-11-24</text>
+<text x="60" y="128.48" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="46" font-weight="600" fill="#21352F" text-anchor="start">客人功能總覽</text>
+<text x="60" y="173.36" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="22" font-weight="400" fill="#66766F" text-anchor="start">從提問、搵產品到會員查詢與充值購買</text>
+<text x="1495" y="1214.08" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16" font-weight="400" fill="#66766F" text-anchor="start">01</text>
+<rect x="570" y="215" width="460" height="100" rx="20" fill="#173B35" stroke="#173B35" stroke-width="2"/>
+<text x="800.0" y="263.64" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">Naturalia Chatbot</text>
+<text x="800.0" y="301.48" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="21" font-weight="400" fill="#FFFFFF" text-anchor="middle">網站右下角聊天入口</text>
+<polyline points="800,315 800,340 288,340 288,380" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="288.0,380.0 293.0,368.0 283.0,368.0" fill="#9AAFA5"/>
+<polyline points="800,315 800,340 800,340 800,380" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="800.0,380.0 805.0,368.0 795.0,368.0" fill="#9AAFA5"/>
+<polyline points="800,315 800,340 1312,340 1312,380" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1312.0,380.0 1317.0,368.0 1307.0,368.0" fill="#9AAFA5"/>
+<rect x="60" y="380" width="456" height="625" rx="24" fill="#EDF6F2" stroke="#D4E4DE" stroke-width="2"/>
+<text x="88" y="431.64" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="600" fill="#21352F" text-anchor="start">問答與導購</text>
+<rect x="572" y="380" width="456" height="625" rx="24" fill="#FFF5E8" stroke="#ECDDC8" stroke-width="2"/>
+<text x="600" y="431.64" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="600" fill="#21352F" text-anchor="start">購物與充值</text>
+<rect x="1084" y="380" width="456" height="625" rx="24" fill="#EEF3FC" stroke="#D9E3F2" stroke-width="2"/>
+<text x="1112" y="431.64" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="600" fill="#21352F" text-anchor="start">會員與服務</text>
+<rect x="80" y="467" width="416" height="107" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="288.0" y="512.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">01  即時客服問答</text>
+<text x="288.0" y="547.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">產品、品牌、送貨及退換貨</text>
+<rect x="80" y="592" width="416" height="107" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="288.0" y="637.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">02  自然語言搵產品</text>
+<text x="288.0" y="672.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">理解語意、漏字、同義詞及錯字</text>
+<rect x="80" y="717" width="416" height="107" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="288.0" y="762.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">03  引導式產品推薦</text>
+<text x="288.0" y="797.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">按功效、膚質、品牌及預算追問</text>
+<rect x="80" y="842" width="416" height="107" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="288.0" y="887.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">04  商品卡片</text>
+<text x="288.0" y="922.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">圖片、介紹、價格及推薦理由</text>
+<rect x="592" y="467" width="416" height="143" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="800.0" y="512.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">06  商品頁購買</text>
+<text x="800.0" y="547.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">按「購買」</text>
+<text x="800.0" y="575.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">跳到對應商品詳情頁</text>
+<rect x="592" y="633" width="416" height="143" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="800.0" y="678.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">08  充值及查看餘額</text>
+<text x="800.0" y="713.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">查看方案、付款方式及有效期</text>
+<text x="800.0" y="741.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">確認收款後更新餘額</text>
+<rect x="592" y="799" width="416" height="143" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="800.0" y="844.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">09  使用充值餘額購買</text>
+<text x="800.0" y="879.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">確認商品、數量及金額後扣數</text>
+<text x="800.0" y="907.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">餘額不足時提供其他路徑</text>
+<rect x="1104" y="467" width="416" height="143" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="1312.0" y="512.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">05  快捷服務選單</text>
+<text x="1312.0" y="547.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">搵產品、最新優惠</text>
+<text x="1312.0" y="575.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">查訂單及會員服務</text>
+<rect x="1104" y="633" width="416" height="143" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="1312.0" y="678.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">07  登入及恢復對話</text>
+<text x="1312.0" y="713.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">繼續之前的聊天</text>
+<text x="1312.0" y="741.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">保留已表達的購物需求</text>
+<rect x="1104" y="799" width="416" height="143" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="1312.0" y="844.12" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="24" font-weight="600" fill="#21352F" text-anchor="middle">10  查詢會員交易資料</text>
+<text x="1312.0" y="879.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">查看自己的訂單、自有充值紀錄</text>
+<text x="1312.0" y="907.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">及適用優惠</text>
+<rect x="60" y="1055" width="1480" height="123" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="88" y="1099.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#173B35" text-anchor="start">搜尋驗收：少一個詞，仍應找到相關商品</text>
+<text x="88" y="1138.48" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="21" font-weight="400" fill="#66766F" text-anchor="start">「美白肌膚保養套裝」→「肌膚保養套裝」：擴闊候選，再追問功效；沿用已確認的對話需求。</text>
+<text x="60" y="1215.84" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="400" fill="#66766F" text-anchor="start">會員交易功能需配合店方 API 權限及業務規則。編號對應 Markdown 功能清單。</text>
+</svg>

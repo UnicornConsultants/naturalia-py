@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320">
+<rect width="1600" height="1320" fill="#F7F9F6"/>
+<text x="60" y="55.84" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="600" fill="#173B35" text-anchor="start">NATURALIA  /  CHATBOT</text>
+<text x="1255" y="55.84" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="400" fill="#66766F" text-anchor="start">功能規劃  2026-11-24</text>
+<text x="60" y="128.48" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="46" font-weight="600" fill="#21352F" text-anchor="start">系統架構圖</text>
+<text x="60" y="173.36" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="22" font-weight="400" fill="#66766F" text-anchor="start">由零開發的聊天插件，整合 RAG、會員資料與交易服務</text>
+<text x="1495" y="1294.08" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16" font-weight="400" fill="#66766F" text-anchor="start">02</text>
+<polyline points="800,286 800,340" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="800.0,340.0 805.0,328.0 795.0,328.0" fill="#9AAFA5"/>
+<polyline points="800,440 800,500" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="800.0,500.0 805.0,488.0 795.0,488.0" fill="#9AAFA5"/>
+<polyline points="580,559 490,559" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="490.0,559.0 502.0,564.0 502.0,554.0" fill="#9AAFA5"/>
+<polygon points="580.0,559.0 568.0,554.0 568.0,564.0" fill="#9AAFA5"/>
+<polyline points="1020,559 1110,559" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<polygon points="1110.0,559.0 1098.0,554.0 1098.0,564.0" fill="#9AAFA5"/>
+<polyline points="800,618 800,667 275,667 275,740" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="275.0,740.0 280.0,728.0 270.0,728.0" fill="#9AAFA5"/>
+<polyline points="800,618 800,667 800,667 800,740" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="800.0,740.0 805.0,728.0 795.0,728.0" fill="#9AAFA5"/>
+<polyline points="800,618 800,667 1325,667 1325,740" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1325.0,740.0 1330.0,728.0 1320.0,728.0" fill="#9AAFA5"/>
+<polyline points="275,910 275,1080" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="275.0,1080.0 280.0,1068.0 270.0,1068.0" fill="#9AAFA5"/>
+<polyline points="800,910 800,1080" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="800.0,1080.0 805.0,1068.0 795.0,1068.0" fill="#9AAFA5"/>
+<polyline points="1325,910 1325,1080" fill="none" stroke="#9AAFA5" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1325.0,1080.0 1330.0,1068.0 1320.0,1068.0" fill="#9AAFA5"/>
+<rect x="580" y="212" width="440" height="74" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="800.0" y="258.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#21352F" text-anchor="middle">B2C 訪客／B2B 客戶</text>
+<rect x="580" y="340" width="440" height="100" rx="20" fill="#173B35" stroke="#173B35" stroke-width="2"/>
+<text x="800.0" y="386.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF" text-anchor="middle">客服及導購入口</text>
+<text x="800.0" y="423.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#FFFFFF" text-anchor="middle">SHOPLINE 插件／WhatsApp</text>
+<rect x="580" y="500" width="440" height="118" rx="20" fill="#173B35" stroke="#173B35" stroke-width="2"/>
+<text x="800.0" y="548.64" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">對話後端</text>
+<text x="800.0" y="586.48" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="21" font-weight="400" fill="#FFFFFF" text-anchor="middle">身份驗證、上下文及工具路由</text>
+<rect x="60" y="500" width="430" height="118" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="275.0" y="546.0" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="25" font-weight="600" fill="#21352F" text-anchor="middle">對話及 B2B 身份</text>
+<text x="275.0" y="582.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">訪客對話與帳戶權限分開</text>
+<rect x="1110" y="500" width="430" height="118" rx="20" fill="#FFFFFF" stroke="#D4E4DE" stroke-width="2"/>
+<text x="1325.0" y="546.0" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="25" font-weight="600" fill="#21352F" text-anchor="middle">B2B 管理後台</text>
+<text x="1325.0" y="581.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">WhatsApp、客戶、核款及對帳</text>
+<rect x="60" y="740" width="430" height="170" rx="20" fill="#EDF6F2" stroke="#BBD7CA" stroke-width="2"/>
+<text x="275.0" y="786.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#21352F" text-anchor="middle">RAG 檢索與推薦</text>
+<text x="275.0" y="823.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">語意理解、字詞容錯及條件篩選</text>
+<text x="275.0" y="852.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">候選排序、商品對應</text>
+<text x="275.0" y="881.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">回答保留資料來源</text>
+<rect x="585" y="740" width="430" height="170" rx="20" fill="#EEF3FC" stroke="#CDDAEE" stroke-width="2"/>
+<text x="800.0" y="786.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#21352F" text-anchor="middle">B2C 商品資料</text>
+<text x="800.0" y="823.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">商品描述及來源</text>
+<text x="800.0" y="852.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">商品詳情頁連結</text>
+<text x="800.0" y="881.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">B2B 定價及帳戶另行管理</text>
+<rect x="1110" y="740" width="430" height="170" rx="20" fill="#FFF5E8" stroke="#E5D3B7" stroke-width="2"/>
+<text x="1325.0" y="786.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#21352F" text-anchor="middle">自有充值交易服務</text>
+<text x="1325.0" y="823.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">核實收款、入帳、訂單與扣款</text>
+<text x="1325.0" y="852.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">處理退款及失敗重試</text>
+<text x="1325.0" y="881.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">避免重複入帳或扣數</text>
+<text x="360" y="992.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">取回來源內容</text>
+<text x="718" y="992.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">讀取</text>
+<text x="1410" y="992.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">獨立入帳</text>
+<rect x="60" y="1080" width="430" height="108" rx="20" fill="#EDF6F2" stroke="#BBD7CA" stroke-width="2"/>
+<text x="275.0" y="1126.0" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="25" font-weight="600" fill="#21352F" text-anchor="middle">商品及客服知識庫</text>
+<text x="275.0" y="1161.72" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="400" fill="#66766F" text-anchor="middle">描述、分類、功效、政策及優惠</text>
+<rect x="585" y="1080" width="430" height="108" rx="20" fill="#EEF3FC" stroke="#CDDAEE" stroke-width="2"/>
+<text x="800.0" y="1126.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#21352F" text-anchor="middle">SHOPLINE B2C 店面</text>
+<text x="800.0" y="1163.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">僅接入客服及導購插件</text>
+<rect x="1110" y="1080" width="430" height="108" rx="20" fill="#FFF5E8" stroke="#E5D3B7" stroke-width="2"/>
+<text x="1325.0" y="1126.88" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="26" font-weight="600" fill="#21352F" text-anchor="middle">自有充值帳本</text>
+<text x="1325.0" y="1163.6" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="400" fill="#66766F" text-anchor="middle">本金／贈額、扣款及核款證據</text>
+<text x="60" y="1260.24" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="23" font-weight="600" fill="#173B35" text-anchor="start">B2B 客戶及充值獨立管理；SHOPLINE B2C 只接入客服及導購插件。</text>
+<text x="60" y="1297.84" font-family="STHeiti, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="400" fill="#66766F" text-anchor="start">箭頭表示模組之間的請求或資料關係。此圖不指定模型、資料庫或支付供應商。</text>
+</svg>

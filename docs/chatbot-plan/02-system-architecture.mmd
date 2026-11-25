@@ -1,0 +1,24 @@
+flowchart TB
+    U["B2C 訪客／B2B 客戶"] --> W["客服及導購入口<br/>SHOPLINE 插件／WhatsApp"]
+    W --> B["對話後端<br/>身份驗證、上下文及工具路由"]
+    B <--> AUTH["對話及 B2B 身份<br/>訪客對話與帳戶權限分開"]
+    B -.-> OPS["B2B 管理後台<br/>WhatsApp、公司客戶、核款及對帳"]
+
+    B --> R["RAG 檢索與推薦<br/>語意、字詞容錯、條件篩選<br/>候選排序及有來源的回答"]
+    B --> T["B2C 商品資料<br/>描述、來源及詳情頁連結"]
+    B --> X["自有充值交易服務<br/>收款核實、入帳、訂單、扣款<br/>退款及重複請求處理"]
+
+    R --> K["商品及客服知識庫<br/>描述、分類、功效、政策及優惠"]
+    T --> S["SHOPLINE B2C 店面<br/>僅客服及導購插件接入"]
+    X --> P["自有充值帳本<br/>核款證據、本金／贈額、扣款"]
+
+    classDef front fill:#173B35,color:#fff,stroke:#173B35;
+    classDef rag fill:#EDF6F2,color:#21352F,stroke:#BBD7CA;
+    classDef api fill:#EEF3FC,color:#21352F,stroke:#CDDAEE;
+    classDef txn fill:#FFF5E8,color:#21352F,stroke:#E5D3B7;
+    classDef support fill:#fff,color:#21352F,stroke:#D4E4DE;
+    class W,B front;
+    class R,K rag;
+    class T,S api;
+    class X,P txn;
+    class U,AUTH,OPS support;

@@ -1,0 +1,471 @@
+{
+  "_id": "6897bb8a55a99e00012ceb9f",
+  "owner_id": "6878c0556ba1e4002f6fe02a",
+  "field_titles": [
+    {
+      "key": "custom",
+      "name_translations": {
+        "zh-hant": "規格"
+      },
+      "index": 0,
+      "selectorEnabled": false
+    }
+  ],
+  "hide_price": true,
+  "same_price": true,
+  "location_id": "",
+  "sku": "6728",
+  "brand": "",
+  "mpn": "",
+  "gtin": "948030921299",
+  "summary_translations": {},
+  "title_translations": {
+    "zh-hant": "細胞解毒4D輪廓套裝",
+    "en": "Naturalia Sintesi - Pure et Lisse"
+  },
+  "unlimited_quantity": false,
+  "out_of_stock_orderable": false,
+  "price": {
+    "cents": 360000,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$3,600.00",
+    "dollars": 3600.0
+  },
+  "price_sale": null,
+  "max_order_quantity": -1,
+  "status": "active",
+  "supplier_id": "",
+  "seo_keywords": "",
+  "is_preorder": false,
+  "preorder_note_translations": {},
+  "stock_ids": [
+    "693131b8825c53002624f3b4",
+    "6931316f825c53002624f1ee",
+    "68f9a5d31430e20027c33b9c",
+    "6897bba99e957b00011ec9fe"
+  ],
+  "weight": 0.0,
+  "subscription_enabled": false,
+  "subscription_period_type": "day",
+  "subscription_period_duration": 7,
+  "subscription_recurring_count_limit": -1,
+  "schedule_publish_at": null,
+  "gender": "unisex",
+  "age_group": "adult",
+  "adult": "no",
+  "condition": "new",
+  "amazon_url": "",
+  "amazon_asin": "",
+  "taxable": false,
+  "price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "member_price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "addon_product_priorities": {},
+  "blacklisted_delivery_option_ids": [],
+  "blacklisted_payment_ids": [],
+  "blacklisted_feed_channels": [],
+  "related_product_ids": [],
+  "is_excluded_promotion": false,
+  "created_by": "admin",
+  "root_product_id": "6897bb8a55a99e00012ceba0",
+  "feed_category": {},
+  "retail_status": "active",
+  "type": "product",
+  "feed_variations": {
+    "color": "",
+    "size": "",
+    "custom": {},
+    "material": ""
+  },
+  "member_price": null,
+  "lowest_member_price": {
+    "cents": 360000,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$3,600.00",
+    "dollars": 3600.0
+  },
+  "available_start_time": null,
+  "available_end_time": null,
+  "is_reminder_active": false,
+  "flash_price_sets": [],
+  "pos_category_ids": [],
+  "media": [
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b62583d90018264bf0/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b62583d90018264bf0",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b62583d90018264bf0/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b62583d90018264bf0/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b62583d90018264bf0/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b63f598a3a29ee7c1e/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b63f598a3a29ee7c1e",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b63f598a3a29ee7c1e/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b63f598a3a29ee7c1e/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b63f598a3a29ee7c1e/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b699f7831b8add23d5/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b699f7831b8add23d5",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b699f7831b8add23d5/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b699f7831b8add23d5/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b699f7831b8add23d5/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b6ae1caf2c5c1f4780/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b6ae1caf2c5c1f4780",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b6ae1caf2c5c1f4780/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b6ae1caf2c5c1f4780/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b6ae1caf2c5c1f4780/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b699bf751451759ce0/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b699bf751451759ce0",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b699bf751451759ce0/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b699bf751451759ce0/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b699bf751451759ce0/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b63bec062ff0cbc1d0/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b63bec062ff0cbc1d0",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b63bec062ff0cbc1d0/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b63bec062ff0cbc1d0/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b63bec062ff0cbc1d0/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b6d923863ca7c2dd27/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b6d923863ca7c2dd27",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b6d923863ca7c2dd27/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b6d923863ca7c2dd27/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b6d923863ca7c2dd27/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b69fd1331ffbba3f41/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b69fd1331ffbba3f41",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b69fd1331ffbba3f41/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b69fd1331ffbba3f41/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b69fd1331ffbba3f41/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694231b69ebba3037d55ee8b/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694231b69ebba3037d55ee8b",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b69ebba3037d55ee8b/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b69ebba3037d55ee8b/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694231b69ebba3037d55ee8b/400x.webp?source_format=jpg"
+    }
+  ],
+  "cover_media_array": [
+    {
+      "_id": "694231b62583d90018264bf0",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b62583d90018264bf0/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b63f598a3a29ee7c1e",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b63f598a3a29ee7c1e/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b699f7831b8add23d5",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b699f7831b8add23d5/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b6ae1caf2c5c1f4780",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b6ae1caf2c5c1f4780/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b699bf751451759ce0",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b699bf751451759ce0/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b63bec062ff0cbc1d0",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b63bec062ff0cbc1d0/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b6d923863ca7c2dd27",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b6d923863ca7c2dd27/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b69fd1331ffbba3f41",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b69fd1331ffbba3f41/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694231b69ebba3037d55ee8b",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694231b69ebba3037d55ee8b/original.jpg?1765945781=&owner_id=6878c0556ba1e4002f6fe02a"
+    }
+  ],
+  "variations": [
+    {
+      "price": {
+        "cents": 360000,
+        "currency_symbol": "HK$",
+        "currency_iso": "HKD",
+        "label": "HK$3,600.00",
+        "dollars": 3600.0
+      },
+      "location_id": "",
+      "sku": "6728",
+      "fields_translations": {
+        "en": [
+          ""
+        ],
+        "zh-hant": [
+          "8ml x 10"
+        ]
+      },
+      "key": "69294c85ea1b87000e225fc2",
+      "media_id": "",
+      "stock_ids": [
+        "693131b8825c53002624f3b5",
+        "69294c85caca65000c5bd852",
+        "69294c85caca65000c5bd851",
+        "6931316f825c53002624f1ef"
+      ],
+      "price_sale": null,
+      "weight": 0.0,
+      "feed_variations": {
+        "color": "",
+        "size": "",
+        "custom": {
+          "zh-hant": "8ml x 10"
+        },
+        "material": ""
+      },
+      "quantity": 20,
+      "stock_id": "69294c85caca65000c5bd852",
+      "member_price": null,
+      "fields": [
+        {
+          "name_translations": {
+            "zh-hant": "8ml x 10",
+            "en": ""
+          },
+          "name": "8ml x 10"
+        }
+      ],
+      "media": null,
+      "mpn": "",
+      "gtin": "116473150260",
+      "variant_option_ids": [
+        "69294c85caca65000c5bd84e"
+      ],
+      "product_price_tiers": {
+        "68f319cc813de1000adedada": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f318dde95ca45a2b35e4d1": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3190a829de0001020e5aa": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f31a7f2be8e1001657bff8": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3188d4c69680012c83c2a": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        }
+      },
+      "retail_price": {
+        "cents": 0,
+        "currency_symbol": "HK$",
+        "currency_iso": "HKD",
+        "label": "",
+        "dollars": 0.0
+      },
+      "warehouse": {
+        "_id": "6878c0814b77eb002818b825",
+        "name_translations": {
+          "ja": "デフォルトの倉庫",
+          "en": "Primary",
+          "zh-hant": "預設倉庫",
+          "zh-cn": "预设仓库"
+        }
+      },
+      "max_order_quantity": -1,
+      "preorder_limit": -1,
+      "root_product_variation_id": "69294c85caca65000c5bd850"
+    }
+  ],
+  "variant_options": [
+    {
+      "key": "69294c85caca65000c5bd84e",
+      "media_id": "",
+      "index": 0,
+      "name_translations": {
+        "zh-hant": "8ml x 10"
+      },
+      "type": "custom",
+      "media": null
+    }
+  ],
+  "addon_promotions": "",
+  "retail_price": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "quantity": 20,
+  "stock_id": "",
+  "warehouse": null,
+  "is_stock_shared": false,
+  "wish_list_items": [],
+  "product_price_tiers": [
+    {
+      "membership_tier_id": "68f3188d4c69680012c83c2a",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f318dde95ca45a2b35e4d1",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f3190a829de0001020e5aa",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f319cc813de1000adedada",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f31a7f2be8e1001657bff8",
+      "member_price": null
+    }
+  ],
+  "link": {
+    "_id": "6897bbaa9e957b00011eca22",
+    "status": "active",
+    "type": "product",
+    "section": "seo",
+    "owner_id": "6878c0556ba1e4002f6fe02a",
+    "value_id": "6897bb8a55a99e00012ceb9f",
+    "name_translations": {},
+    "image_id": ""
+  },
+  "filter_tags": [],
+  "labels": [],
+  "bundle_set": null,
+  "sold_out": false,
+  "child_products": [],
+  "identifier_exists": true,
+  "price_range": "",
+  "member_price_range": "",
+  "tax_type": "",
+  "oversea_tax_type": "",
+  "preorder_limit": -1,
+  "total_orderable_quantity": 20,
+  "cart_tag": {
+    "_id": "",
+    "name_translations": {},
+    "priority": 0
+  },
+  "allow_gift": false,
+  "display_sales_count": 0,
+  "custom_sales_count": 0,
+  "frozen_flag": 0
+}

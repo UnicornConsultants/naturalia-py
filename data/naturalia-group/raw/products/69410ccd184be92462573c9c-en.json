@@ -1,0 +1,345 @@
+{
+  "_id": "69410ccd184be92462573c9c",
+  "owner_id": "6878c0556ba1e4002f6fe02a",
+  "field_titles": [
+    {
+      "key": "custom",
+      "name_translations": {
+        "zh-hant": "規格"
+      },
+      "index": 0,
+      "selectorEnabled": false
+    }
+  ],
+  "hide_price": false,
+  "same_price": true,
+  "location_id": "",
+  "sku": "F38V00195",
+  "brand": "",
+  "mpn": "",
+  "gtin": "",
+  "summary_translations": {},
+  "title_translations": {
+    "zh-hant": "小麥蛋白豐盈造型髪膜",
+    "en": "Farmagan - BIOACTIVE HC-VOLUME-UP-Mask"
+  },
+  "unlimited_quantity": false,
+  "out_of_stock_orderable": false,
+  "price": {
+    "cents": 65000,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$650.00",
+    "dollars": 650.0
+  },
+  "price_sale": null,
+  "max_order_quantity": -1,
+  "status": "active",
+  "supplier_id": "",
+  "seo_keywords": "",
+  "is_preorder": false,
+  "preorder_note_translations": {},
+  "stock_ids": [
+    "69410ccd184be92462573ca6",
+    "69410ccd184be92462573ca5",
+    "69410ccd184be92462573ca4",
+    "69410ccd184be92462573ca3"
+  ],
+  "weight": 0.0,
+  "subscription_enabled": false,
+  "subscription_period_type": "day",
+  "subscription_period_duration": 7,
+  "subscription_recurring_count_limit": -1,
+  "schedule_publish_at": null,
+  "gender": "unisex",
+  "age_group": "all_ages",
+  "adult": "no",
+  "condition": "new",
+  "amazon_url": "",
+  "amazon_asin": "",
+  "taxable": false,
+  "price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "member_price_max": {
+    "cents": 0,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "",
+    "dollars": 0.0
+  },
+  "addon_product_priorities": {},
+  "blacklisted_delivery_option_ids": [],
+  "blacklisted_payment_ids": [],
+  "blacklisted_feed_channels": [],
+  "related_product_ids": [],
+  "is_excluded_promotion": false,
+  "created_by": "admin",
+  "root_product_id": "69410ccd184be92462573c9d",
+  "feed_category": {},
+  "retail_status": "active",
+  "type": "product",
+  "feed_variations": {
+    "color": "",
+    "size": "",
+    "custom": {},
+    "material": ""
+  },
+  "member_price": null,
+  "lowest_member_price": {
+    "cents": 65000,
+    "currency_symbol": "HK$",
+    "currency_iso": "HKD",
+    "label": "HK$650.00",
+    "dollars": 650.0
+  },
+  "available_start_time": null,
+  "available_end_time": null,
+  "is_reminder_active": false,
+  "flash_price_sets": [],
+  "pos_category_ids": [],
+  "media": [
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694247416b9fa42fa1657068/original.jpg?1765951296=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694247416b9fa42fa1657068",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694247416b9fa42fa1657068/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694247416b9fa42fa1657068/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694247416b9fa42fa1657068/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/694247416c155631395e9529/original.jpg?1765951296=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "694247416c155631395e9529",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694247416c155631395e9529/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694247416c155631395e9529/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/694247416c155631395e9529/400x.webp?source_format=jpg"
+    },
+    {
+      "images": {
+        "original": {
+          "width": 3024.0,
+          "height": 4032.0,
+          "url": "https://img.shoplineapp.com/media/image_clips/69424741362c9a5e66565f77/original.jpg?1765951296=&owner_id=6878c0556ba1e4002f6fe02a"
+        }
+      },
+      "_id": "69424741362c9a5e66565f77",
+      "alt_translations": {},
+      "blurhash": "",
+      "detail_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/69424741362c9a5e66565f77/2000x.webp?source_format=jpg",
+      "default_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/69424741362c9a5e66565f77/400x.webp?source_format=jpg",
+      "thumb_image_url": "https://shoplineimg.com/6878c0556ba1e4002f6fe02a/69424741362c9a5e66565f77/400x.webp?source_format=jpg"
+    }
+  ],
+  "cover_media_array": [
+    {
+      "_id": "694247416b9fa42fa1657068",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694247416b9fa42fa1657068/original.jpg?1765951296=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "694247416c155631395e9529",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/694247416c155631395e9529/original.jpg?1765951296=&owner_id=6878c0556ba1e4002f6fe02a"
+    },
+    {
+      "_id": "69424741362c9a5e66565f77",
+      "original_image_url": "https://img.shoplineapp.com/media/image_clips/69424741362c9a5e66565f77/original.jpg?1765951296=&owner_id=6878c0556ba1e4002f6fe02a"
+    }
+  ],
+  "variations": [
+    {
+      "price": {
+        "cents": 65000,
+        "currency_symbol": "HK$",
+        "currency_iso": "HKD",
+        "label": "HK$650.00",
+        "dollars": 650.0
+      },
+      "location_id": "",
+      "sku": "F38V00195",
+      "fields_translations": {
+        "en": [
+          ""
+        ],
+        "zh-hant": [
+          "1000mL"
+        ]
+      },
+      "key": "6942770233794200126d8957",
+      "media_id": "",
+      "stock_ids": [
+        "69427702621dfdf8946167e6",
+        "69427702621dfdf8946167e5",
+        "69427702621dfdf8946167e4",
+        "69427702621dfdf8946167e3"
+      ],
+      "price_sale": null,
+      "weight": 0.0,
+      "feed_variations": {
+        "color": "",
+        "size": "",
+        "custom": {
+          "zh-hant": "1000mL"
+        },
+        "material": ""
+      },
+      "quantity": 10,
+      "stock_id": "69427702621dfdf8946167e6",
+      "member_price": null,
+      "fields": [
+        {
+          "name_translations": {
+            "zh-hant": "1000mL",
+            "en": ""
+          },
+          "name": "1000mL"
+        }
+      ],
+      "media": null,
+      "mpn": "",
+      "gtin": "086202626327",
+      "variant_option_ids": [
+        "69427702621dfdf8946167e0"
+      ],
+      "product_price_tiers": {
+        "68f319cc813de1000adedada": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f318dde95ca45a2b35e4d1": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3190a829de0001020e5aa": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f31a7f2be8e1001657bff8": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        },
+        "68f3188d4c69680012c83c2a": {
+          "cents": 0,
+          "currency_symbol": "",
+          "currency_iso": "",
+          "label": "",
+          "dollars": 0.0
+        }
+      },
+      "retail_price": null,
+      "warehouse": {
+        "_id": "6878c0814b77eb002818b825",
+        "name_translations": {
+          "ja": "デフォルトの倉庫",
+          "zh-cn": "预设仓库",
+          "zh-hant": "預設倉庫",
+          "en": "Primary"
+        }
+      },
+      "max_order_quantity": -1,
+      "preorder_limit": -1,
+      "root_product_variation_id": "69427702621dfdf8946167e2"
+    }
+  ],
+  "variant_options": [
+    {
+      "key": "69427702621dfdf8946167e0",
+      "media_id": "",
+      "index": 0,
+      "name_translations": {
+        "zh-hant": "1000mL"
+      },
+      "type": "custom",
+      "media": null
+    }
+  ],
+  "addon_promotions": "",
+  "retail_price": null,
+  "quantity": 10,
+  "stock_id": "",
+  "warehouse": null,
+  "is_stock_shared": false,
+  "wish_list_items": [],
+  "product_price_tiers": [
+    {
+      "membership_tier_id": "68f3188d4c69680012c83c2a",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f318dde95ca45a2b35e4d1",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f3190a829de0001020e5aa",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f319cc813de1000adedada",
+      "member_price": null
+    },
+    {
+      "membership_tier_id": "68f31a7f2be8e1001657bff8",
+      "member_price": null
+    }
+  ],
+  "link": {
+    "_id": "69410cced799c61b46d75c44",
+    "status": "active",
+    "type": "product",
+    "section": "seo",
+    "owner_id": "6878c0556ba1e4002f6fe02a",
+    "value_id": "69410ccd184be92462573c9c",
+    "name_translations": {},
+    "image_id": ""
+  },
+  "filter_tags": [],
+  "labels": [],
+  "bundle_set": null,
+  "sold_out": false,
+  "child_products": [],
+  "identifier_exists": true,
+  "price_range": "",
+  "member_price_range": "",
+  "tax_type": "",
+  "oversea_tax_type": "",
+  "preorder_limit": -1,
+  "total_orderable_quantity": 10,
+  "cart_tag": {
+    "_id": "",
+    "name_translations": {},
+    "priority": 0
+  },
+  "allow_gift": false,
+  "display_sales_count": 0,
+  "custom_sales_count": 0,
+  "frozen_flag": 0
+}
