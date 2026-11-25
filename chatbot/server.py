@@ -53,7 +53,7 @@ class Handler(BaseHTTPRequestHandler):
   name,kind=files[path];self.send(200,(STATIC/name).read_bytes(),kind)
  def do_POST(self):
   if admin.handle(self):return
-  if urlsplit(self.path).path in ['/internal/whatsapp/reply','/internal/whatsapp/observe']:
+  if urlsplit(self.path).path in ['/internal/whatsapp/reply','/internal/whatsapp/observe','/internal/whatsapp/delivery']:
    if not whatsapp.authorized(self.headers.get('X-WA-Secret')):return self.send(401,{'error':'Unauthorized'})
    try:
     size=int(self.headers.get('Content-Length','0'))
@@ -61,14 +61,14 @@ class Handler(BaseHTTPRequestHandler):
     data=json.loads(self.rfile.read(size))
    except (ValueError,TypeError):return self.send(400,{'error':'Invalid request'})
    # Recording inbound messages must remain available while another chat waits for the model.
-   observing=urlsplit(self.path).path.endswith('/observe')
-   if not observing and not chat_lock.acquire(blocking=False):return self.send(429,{'error':'Assistant busy'})
-   try:self.send(200,whatsapp.observe(data) if self.path.endswith('/observe') else whatsapp.handle(data))
+   path=urlsplit(self.path).path;recording_or_checking=not path.endswith('/reply')
+   if not recording_or_checking and not chat_lock.acquire(blocking=False):return self.send(429,{'error':'Assistant busy'})
+   try:self.send(200,whatsapp.delivery_allowed(data) if path.endswith('/delivery') else whatsapp.observe(data) if path.endswith('/observe') else whatsapp.handle(data))
    except AdminError as e:self.send(e.status,{'error':str(e)})
    except (ValueError,AttributeError):self.send(400,{'error':'Invalid request'})
    except Exception:self.send(503,{'error':'Reply unavailable'})
    finally:
-    if not observing:chat_lock.release()
+    if not recording_or_checking:chat_lock.release()
    return
   if not self.allowed():return self.send(403,{'error':'Origin not allowed'})
   path=urlsplit(self.path).path

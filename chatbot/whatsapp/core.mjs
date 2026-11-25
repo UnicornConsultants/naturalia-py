@@ -14,6 +14,7 @@ export function incoming(message,type='notify',since=0){
  return {peer,id:key.id,text:text.trim(),timestamp};
 }
 function publicProducts(result){return (result.products||[]).slice(0,3).filter(p=>String(p.url).startsWith('https://www.naturalia-group.com/'));}
+export function guardedSend(allowed,sendMessage){return async(...args)=>{if(!await allowed())throw Error('Conversation handed to CS');return sendMessage(...args);};}
 export function productCaption(p){
  const code=/^[A-Z][A-Z0-9]{3}$/.test(String(p.choice))?p.choice:null;
  const buy=code?'買 '+code:'購買編號 '+p.id;

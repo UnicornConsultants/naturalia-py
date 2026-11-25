@@ -84,11 +84,12 @@ class DialogueTests(unittest.TestCase):
   self.assertNotIn('order',self.call('確認'));self.assertEqual(self.balance(),170000)
   result=self.call('繼續購買');self.assertTrue(result['insufficient']);self.assertEqual(result['selection']['product'],self.expensive['id'])
  def test_general_picture_is_not_automatically_a_payment_proof(self):
-  result=self.call('圖片',attachment=self.proof());self.assertEqual(result['dialogue']['prompt'],'image_kind');self.assertIsNone(self.draft())
+  result=self.call('圖片',attachment=self.proof());self.assertTrue(result['handoff']);self.assertIsNone(self.draft())
+  user=next(m for m in self.c.history('test')['messages'] if m['role']=='user');self.assertTrue(user['payload']['evidence_id'])
   self.assertTrue(self.call('產品圖片')['handoff'])
   with self.db.db() as c:self.assertEqual(c.execute('SELECT COUNT(*) FROM topups').fetchone()[0],1)
- def test_ambiguous_image_can_be_confirmed_as_receipt_without_reupload(self):
-  self.call('圖片',attachment=self.proof());result=self.call('係過數截圖');self.assertTrue(result['topup_amount_input']);self.assertTrue(self.draft()['evidence'])
+ def test_explicit_receipt_before_amount_does_not_require_reupload(self):
+  result=self.call('係過數截圖',attachment=self.proof());self.assertTrue(result['topup_amount_input']);self.assertTrue(self.draft()['evidence'])
   self.call('500');submitted=self.call('Alipay');self.assertEqual(submitted['topup_status'],'pending')
  def test_cancel_completed_order_goes_to_cs(self):
   self.call(self.code);self.call('確認');self.assertTrue(self.call('取消訂單')['handoff']);self.assertEqual(self.balance(),97000)
@@ -165,9 +166,38 @@ class DialogueTests(unittest.TestCase):
    return result
   send('充值');self.assertIn('topup_methods',send('500'))
   search=send('1200以下');self.assertEqual(search['dialogue']['topic'],'search')
-  result=send('圖片',self.proof());self.assertEqual(result['dialogue']['prompt'],'image_kind')
+  result=send('圖片',self.proof());self.assertTrue(result['handoff']);self.assertEqual(result['dialogue']['topic'],'support')
   with self.db.db() as c:
    scope=c.execute("SELECT id FROM conversations WHERE peer='fixture@lid'").fetchone()[0]
    self.assertEqual(c.execute("SELECT COUNT(*) FROM conversation_messages WHERE scope=? AND role='user'",(scope,)).fetchone()[0],4)
+ def test_unclear_turns_and_ai_identity_do_not_force_handover(self):
+  self.call('充值500')
+  for text in ['你係咪人工智能','唔使搵真人','唔使CS','唔好轉人工','不用找客服','仲未明','唔係呢個意思','你講咩呀','都唔係']:
+   result=self.call(text);self.assertFalse(result.get('handoff'),text)
+  self.assertEqual(self.c.history('test')['status'],'ai');self.assertIn('payment',self.call('Alipay'))
+ def test_handover_then_topic_changes_cannot_mutate_wallet_or_topup(self):
+  quote=self.call(self.code)['quote'];self.call('充值500');draft=self.draft();self.call('產品圖片',attachment=self.proof())
+  for status in ['waiting','human']:
+   if status=='human':self.c.state({'scope':'test','status':'human'},self.staff)
+   for q,action in [('500以下',None),('繼續購買',None),('確認',None),('唔使CS，買兩個',None),('充值700',None),('查餘額',{'type':'balance'}),('舊確認',{'type':'confirm','quote':quote['id']})]:
+    result=self.call(q,action=action);self.assertTrue(result['handoff']);self.assertEqual(result['dialogue']['topic'],'support');self.assertNotIn('quote',result);self.assertNotIn('order',result)
+   self.assertEqual(self.c.history('test')['status'],status);self.assertEqual(self.balance(),120000);self.assertEqual(self.draft(),draft)
+  self.c.state({'scope':'test','status':'ai'},self.staff)
+  result=self.call('繼續購買');self.assertIn('quote',result);self.assertNotIn('order',result);self.assertEqual(self.balance(),120000)
+ def test_human_takeover_during_model_interpretation_blocks_operation(self):
+  self.call(self.code)
+  def takeover(*a):self.c.state({'scope':'test','status':'human'},self.staff);return 'balance'
+  with patch('kimi.configured',return_value=True),patch('kimi.interpret',side_effect=takeover):result=self.call('戶口幫我睇睇',use_model=True)
+  self.assertTrue(result['handoff']);self.assertNotIn('1,200',result['answer']);self.assertEqual(self.c.history('test')['status'],'human')
+ def test_cached_quote_is_suppressed_after_handover(self):
+  result=self.c.respond('test',self.code,'same-event',use_model=False);self.assertIn('quote',result)
+  self.call('搵真人');retry=self.c.respond('test',self.code,'same-event',use_model=False,channel='whatsapp')
+  self.assertTrue(retry['suppress_delivery']);self.assertNotIn('quote',retry);self.assertEqual(self.balance(),120000)
+ def test_handover_does_not_demote_assigned_cs(self):
+  self.c.state({'scope':'test','status':'human'},self.staff);self.c.handover('test','late model handoff')
+  self.assertEqual(self.c.history('test')['status'],'human')
+ def test_explicit_non_payment_image_during_recharge_goes_to_cs(self):
+  self.call('充值500 PayMe');before=self.draft();result=self.call('唔係付款截圖，幫我睇下',attachment=self.proof())
+  self.assertTrue(result['handoff']);self.assertEqual(before,self.draft())
 
 if __name__=='__main__':unittest.main()

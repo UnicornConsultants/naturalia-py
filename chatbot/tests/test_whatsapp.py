@@ -78,4 +78,32 @@ class WhatsAppTests(unittest.TestCase):
    with db.db() as c:
     row=c.execute('SELECT * FROM topups WHERE id=?',(new,)).fetchone();self.assertEqual(row['method'],'alipay');self.assertEqual(json.loads(row['snapshot'])['paid'],120000)
     self.assertEqual(c.execute('SELECT COUNT(*) FROM topups').fetchone()[0],2);self.assertEqual(commerce.balance(c,conv['customer']),0)
+ def test_handoff_notice_once_then_topic_changes_record_without_ai_reply(self):
+  with tempfile.TemporaryDirectory() as d:
+   catalog=FakeCatalog();db=AdminDB(Path(d)/'admin.db');commerce=Commerce(db,catalog);b=WhatsAppBackend(Store(Path(d)/'chat.db'),catalog,commerce)
+   staff={'id':'fixture','role':'admin'}
+   def send(text,event):
+    data={'account':'a','peer':'85290000001@s.whatsapp.net','event':event,'text':text}
+    b.observe(data);return b.handle(data)
+   send('hi','welcome');first=send('我要找真人','cs');self.assertTrue(first['handoff']);self.assertFalse(first.get('suppress_delivery'))
+   conv=commerce.snapshot(staff)['conversations'][0];reason=conv['reason']
+   for i,text in enumerate(['搵CS','有冇1200以下','充值500','確認','唔使CS','圖片']):
+    self.assertTrue(send(text,'followup-'+str(i))['suppress_delivery'])
+   history=commerce.history(conv['id']);self.assertEqual(history['status'],'waiting')
+   self.assertEqual(sum(m['role']=='assistant' for m in history['messages']),2);self.assertEqual(sum(m['role']=='user' for m in history['messages']),8)
+   self.assertEqual(commerce.snapshot(staff)['conversations'][0]['reason'],reason);self.assertEqual(catalog.calls,[])
+   # A replay of the old welcome cannot bypass the active handover through the adapter cache.
+   self.assertTrue(send('hi','welcome')['suppress_delivery'])
+   commerce.state({'scope':conv['id'],'status':'human'},staff);self.assertTrue(send('退貨','assigned')['suppress_delivery']);self.assertEqual(commerce.history(conv['id'])['status'],'human')
+   commerce.state({'scope':conv['id'],'status':'ai'},staff);self.assertFalse(send('hi','resume').get('handoff'))
+ def test_delivery_gate_blocks_stale_replies_and_all_assigned_cs_messages(self):
+  with tempfile.TemporaryDirectory() as d:
+   catalog=FakeCatalog();db=AdminDB(Path(d)/'admin.db');commerce=Commerce(db,catalog);b=WhatsAppBackend(Store(Path(d)/'chat.db'),catalog,commerce)
+   data={'account':'a','peer':'85290000001@s.whatsapp.net','event':'one','text':'hi'};staff={'id':'staff','role':'admin'}
+   self.assertFalse(b.delivery_allowed(data)['allowed']);b.observe(data);self.assertTrue(b.delivery_allowed(data)['allowed'])
+   conv=commerce.snapshot(staff)['conversations'][0];commerce.handover(conv['id'],'image')
+   self.assertFalse(b.delivery_allowed(data)['allowed']);self.assertTrue(b.delivery_allowed(dict(data,handoff=True))['allowed'])
+   self.assertFalse(b.delivery_allowed(dict(data,handoff='true'))['allowed']);self.assertFalse(b.delivery_allowed(dict(data,account='other',handoff=True))['allowed'])
+   commerce.state({'scope':conv['id'],'status':'human'},staff);self.assertFalse(b.delivery_allowed(dict(data,handoff=True))['allowed'])
+   commerce.state({'scope':conv['id'],'status':'ai'},staff);self.assertTrue(b.delivery_allowed(data)['allowed'])
 if __name__=='__main__':unittest.main()

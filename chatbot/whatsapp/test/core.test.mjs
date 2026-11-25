@@ -53,3 +53,17 @@ test('uncertain notification send is never retried, including after restart',asy
  const message={request_id:'notice-2',account:'a',peer:msg.peer,text:'充值拒絕'};
  assert.equal((await d.deliver(message)).status,'uncertain');d=new ReviewDelivery(db,options);assert.equal((await d.deliver(message)).status,'uncertain');assert.equal(calls,1);db.close();
 });
+
+test('backend handover blocks stale text and stops remaining product images',async()=>{
+ const {guardedSend}=await import('../core.mjs');let allowed=false,calls=0;
+ const sendMessage=guardedSend(async()=>allowed,async()=>{calls++;allowed=false});
+ await assert.rejects(()=>sendMessage('peer',{text:'stale quote'}));assert.equal(calls,0);
+ allowed=true;
+ await assert.rejects(()=>sendRichReply('peer',{answer:'products',products:[productFixture]},{sendMessage,loadImage:async()=>({data:Buffer.from('fixture'),mime:'image/png'}),canSend:()=>true}));
+ assert.equal(calls,1);
+});
+test('delivery state check failure never sends a message',async()=>{
+ const {guardedSend}=await import('../core.mjs');let calls=0;
+ const send=guardedSend(async()=>{throw Error('offline')},async()=>{calls++});
+ await assert.rejects(()=>send('peer',{text:'quote'}));assert.equal(calls,0);
+});

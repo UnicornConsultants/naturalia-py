@@ -8,9 +8,13 @@ from chat_inputs import normalized,recharge_input,product_command
 from purchase_inputs import purchase_input,quantity
 from shopping_budget import shopping_budget
 
+def declines_cs(text):
+ return bool(re.search(r'(?:唔使|唔洗|唔好|不用|不要|不需要)(?:轉交|轉|转|搵|找|聯絡|联系)?(?:真人|客服|人工|職員|cs)',text,re.I))
+
 def wants_cs(text):
  if re.search(r'投訴|投诉|退貨|退货|退款|破損|過敏|取消(?:已完成)?訂單|取消订单',text,re.I):return True
- if re.search(r'唔使(?:搵)?(?:真人|客服|人工)|不用(?:找)?(?:客服|人工)|不需要(?:客服|人工)',text):return False
+ if declines_cs(text):return False
+ text=re.sub(r'人工智能|人工智慧|自動客服|自动客服','',text)
  return bool(re.search(r'真人|人工|客服|搵職員|找職員|找工作人员|\bcs\b',text,re.I))
 
 def previous_dialogue(history):
@@ -128,22 +132,19 @@ class DialogueFlow:
   state=previous_dialogue(history);q=normalized(question).strip(' 。!！?？').lower();ctx=self.purchase_context(scope)
   def decision(action=None,result=None,**kwargs):return {'action':action or {},'result':result,'query':question,**kwargs}
   if wants_cs(question):return decision({'type':'cs'})
+  if re.fullmatch(r'(?:你|您)(?:係|是)(?:咪|不是)?(?:AI|ai|人工智能|機械人|机器人)(?:嗎|吗|呀)?',q):return decision(result=self.clarify_turn(scope,state,'我係 Naturalia AI 商品助手，可以幫你搵產品、充值及購物；需要真人時可以講「聯絡 CS」。'))
   if re.search(r'充值|付款|過數|充值額',q) and re.search(r'手續費|手续费|最低|上限|有效期|到期|幾耐|多久|保證|保证',q):return decision({'type':'cs'})
-  if re.search(r'唔使(?:搵)?(?:真人|客服|人工)|不用(?:找)?(?:客服|人工)|不需要(?:客服|人工)',q):return decision(result=self.clarify_turn(scope,state,'好，繼續由商品助手協助。你可以講想搵嘅產品或下一步。'))
+  if declines_cs(q):return decision(result=self.clarify_turn(scope,state,'好，繼續由商品助手協助。你可以講想搵嘅產品或下一步。'))
   legacy=re.fullmatch(r'充值(?:方案)?\s*(\d{1,6})\s*(?:payme|alipay|支付寶|支付宝)',q,re.I)
   if legacy:
    with self.db.db() as c:old=c.execute("SELECT 1 FROM chat_choices WHERE scope=? AND kind='plan' AND number=?",(scope,int(legacy[1]))).fetchone()
    if old or '方案' in q:
     action,result=self.shortcuts(scope,question);return decision(action,result)
   if attachment:
+   if re.search(r'(?:唔係|不是|並非|并非).*(?:過數|过数|付款|憑證|凭证)',question):return decision({'type':'cs','reason':'客人提供非付款圖片，需要 CS 查看'})
    if re.search(r'產品|产品|商品|幾錢|多少錢|點用|功效',question) and not re.search(r'過數|付款|充值|憑證',question):return decision({'type':'cs'})
    if state['topic']=='recharge' or re.search(r'過數|过数|付款|充值|入左|入咗|憑證|凭证|入數紙',question):return decision({'type':'receipt'},attachment=attachment)
-   from admin_domain import AdminError
-   try:raw=base64.b64decode(attachment.get('data',''),validate=True)
-   except Exception:raise AdminError('圖片格式無效')
-   evidence=self.db.save_evidence('chat-image',attachment.get('mime'),raw,{'id':'chat-service','role':'support'})
-   pending={**state,'topic':'image','prompt':'image_kind','pending_evidence':evidence['id']}
-   return decision(result=self.clarify_turn(scope,pending,'已收到圖片。呢張係「過數截圖」，定係想問「產品圖片」？'))
+   return decision({'type':'cs','reason':'客人提供圖片，需要 CS 查看'})
   if state.get('pending_evidence') and state['prompt']=='image_kind':
    if re.search(r'過數|过数|付款|充值|入數|入数|憑證|凭证',q):
     with self.db.db() as c:proof=c.execute('SELECT mime,body FROM evidence WHERE id=?',(state['pending_evidence'],)).fetchone()
@@ -302,7 +303,6 @@ class DialogueFlow:
   if intent=='human':return {'action':{'type':'cs'},'result':None,'query':question}
   if intent=='clarify' or (intent is None and state['topic'] in ['recharge','purchase'] and len(q)<=30):
    attempts=state.get('clarifications',0)+1
-   if attempts>=3:return {'action':{'type':'cs'},'result':None,'query':question}
    result=self.clarify_turn(scope,{**state,'clarifications':attempts,**({'prompt':'clarify'} if state['topic']=='purchase' else {})},'我未確定你想做邊一步。'+('想繼續充值、查核款進度，定轉返搵產品？' if state['topic']=='recharge' else '想改數量、問產品資料，定重新選一款？'))
    return {'action':{},'result':result,'query':question}
   return None
@@ -324,7 +324,7 @@ class DialogueFlow:
    if result.get('selection') or (ctx and ctx['phase']=='quote' and result.get('mode')=='workflow'):
     state.update(topic='purchase',prompt='quote' if ctx and ctx['phase']=='quote' else 'product')
    else:state.update(topic='search',prompt='product')
-  if kind=='balance':
+  if kind=='balance' and not result.get('handoff'):
    state={**old,'prompt':'none'}
    if old['topic']=='purchase':
     with self.db.db(True) as c:c.execute("UPDATE purchase_context SET phase='selected' WHERE scope=? AND phase='quote'",(scope,))

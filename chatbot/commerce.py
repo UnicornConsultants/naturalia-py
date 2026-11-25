@@ -163,11 +163,21 @@ class Commerce(DialogueFlow,PurchaseFlow):
    for p in result.get('topup_plans',[]):p['choice']=number(c,'plan',p['id'])
    if result.get('quote'):result['quote']['choice']=number(c,'quote',result['quote']['id'])
   return result
- def handover(self,scope,reason):
-  with self.db.db(True) as c:
-   c.execute("UPDATE conversations SET status='waiting',reason=?,updated=? WHERE id=?",(reason,time.time(),scope))
-   c.execute("UPDATE purchase_context SET phase='selected' WHERE scope=? AND phase='quote'",(scope,))
+ def request_handover(self,c,scope,reason):
+  changed=c.execute("UPDATE conversations SET status='waiting',reason=?,updated=? WHERE id=? AND status='ai'",(reason,time.time(),scope)).rowcount
+  if changed:c.execute("UPDATE purchase_context SET phase='selected' WHERE scope=? AND phase='quote'",(scope,))
+  return bool(changed)
+ def handover_notice(self):
   return self.result('呢個問題需要 CS 跟進，我已通知客服並暫停 AI 回覆。你可以繼續留言；CS 會喺呢個對話回覆你。',handoff=True)
+ def held_reply(self,channel):
+  return self.result('訊息已收到，會由 CS 在此對話跟進；客服交回 AI 後才會恢復自動導購。',handoff=True,suppress_delivery=channel=='whatsapp')
+ def guard_cached_reply(self,scope,result,channel):
+  with self.db.db() as c:row=c.execute('SELECT status FROM conversations WHERE id=?',(scope,)).fetchone()
+  if row and row['status']!='ai' and (row['status']!='waiting' or not result.get('handoff')):return self.held_reply(channel)
+  return result
+ def handover(self,scope,reason):
+  with self.db.db(True) as c:changed=self.request_handover(c,scope,reason)
+  return self.handover_notice() if changed else self.held_reply('whatsapp')
  def bind(self,data,user):
   self.db.require(user,'admin','support')
   if data.get('verified') is not True:raise AdminError('請先透過可信渠道核實電話及帳戶擁有人')
@@ -388,12 +398,18 @@ class Commerce(DialogueFlow,PurchaseFlow):
    c.execute('UPDATE payment_intents SET topup=? WHERE id=?',(result['id'],intent_id))
    c.execute('DELETE FROM topup_drafts WHERE scope=? AND intent=?',(scope,intent_id))
   return self.result('已收到過數截圖並通知後台核款。申請編號：'+result['id']+'。審核完成前不會增加餘額；你可稍後查詢「餘額」。',topup_status='pending',topup_id=result['id'])
- def respond(self,scope,question,event,action=None,attachment=None,use_model=True,channel='web',account='',peer='',customer=None,generate=True,user_recorded=False):
+ def respond(self,scope,question,event,action=None,attachment=None,use_model=True,channel='web',account='',peer='',customer=None,generate=True,user_recorded=False,handoff_requested=False):
   if not isinstance(event,str) or not 1<=len(event)<=200:raise AdminError('訊息編號無效')
   if action is not None and not isinstance(action,dict):raise AdminError('操作格式無效')
   conv=self.ensure(scope,channel,account,peer,customer)
   with self.db.db() as c:cached=c.execute('SELECT result FROM conversation_events WHERE scope=? AND event=?',(scope,event)).fetchone()
-  if cached:return json.loads(cached['result'])
+  if cached:return self.guard_cached_reply(scope,json.loads(cached['result']),channel)
+  user_payload=None
+  if attachment and not user_recorded:
+   try:raw=base64.b64decode(attachment.get('data',''),validate=True)
+   except Exception:raise AdminError('圖片格式無效')
+   evidence=self.db.save_evidence('chat-image',attachment.get('mime'),raw,SYSTEM)
+   user_payload=json.dumps({'answer':question,'mode':'customer_attachment','evidence_id':evidence['id']})
   history=self.history(scope)['messages'];action=action or {};kind=action.get('type','');cust=conv['customer'];result=None
   if user_recorded and history and history[-1]['role']=='user' and history[-1]['content']==question:history=history[:-1]
   route={'query':question}
@@ -402,9 +418,11 @@ class Commerce(DialogueFlow,PurchaseFlow):
    if not route['action'] and route['result'] is None and not re.fullmatch(r'\s*(你好|hi|hello|開始|開始對話)[！!。\s]*',question,re.I):
     route=self.language_fallback(scope,question,history,use_model) or route
    action=route['action'];result=route['result'];kind=action.get('type','');attachment=route.get('attachment',attachment)
-  if conv['status']=='human':result=self.result('訊息已收到，正在等候 CS 跟進。',handoff=True,suppress_delivery=channel=='whatsapp')
-  elif kind=='cs' or wants_cs(question):result=self.handover(scope,'客人要求 CS／售後')
-  elif not generate or conv['status']!='ai':result=self.result('訊息已收到，正在等候 CS 跟進。',handoff=True,suppress_delivery=channel=='whatsapp')
+  # Model interpretation can outlive a staff takeover. Re-read before any operation.
+  with self.db.db() as c:current=c.execute('SELECT status FROM conversations WHERE id=?',(scope,)).fetchone()
+  if handoff_requested and generate and current['status']=='waiting':result=self.handover_notice()
+  elif current['status']!='ai' or not generate:result=self.held_reply(channel)
+  elif kind=='cs' or wants_cs(question):result=self.handover(scope,action.get('reason') or '客人要求 CS／售後')
   elif result is not None:pass
   elif kind=='review_status':result=self.read_topup_status(scope)
   elif kind=='cancel_purchase':_,result=self.checkout_input(scope,'取消購買')
@@ -465,7 +483,7 @@ class Commerce(DialogueFlow,PurchaseFlow):
   result=self.add_shortcuts(scope,result)
   result=self.finish_dialogue(scope,result,question,route,history,kind)
   with self.db.db(True) as c:
-   if not user_recorded:c.execute('INSERT INTO conversation_messages(scope,role,content,payload,created) VALUES (?,?,?,?,?)',(scope,'user',question,None,time.time()))
+   if not user_recorded:c.execute('INSERT INTO conversation_messages(scope,role,content,payload,created) VALUES (?,?,?,?,?)',(scope,'user',question,user_payload,time.time()))
    if not result.get('suppress_delivery'):c.execute('INSERT INTO conversation_messages(scope,role,content,payload,created) VALUES (?,?,?,?,?)',(scope,'assistant',result['answer'],json.dumps(result,ensure_ascii=False),time.time()))
    c.execute('INSERT INTO conversation_events VALUES (?,?,?)',(scope,event,json.dumps(result,ensure_ascii=False)));c.execute('UPDATE conversations SET updated=? WHERE id=?',(time.time(),scope))
   return result

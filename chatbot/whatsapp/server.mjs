@@ -6,7 +6,7 @@ import {randomBytes,timingSafeEqual} from 'node:crypto';
 import makeWASocket,{useMultiFileAuthState,DisconnectReason,downloadMediaMessage} from '@whiskeysockets/baileys';
 import pino from 'pino';
 import QRCode from 'qrcode';
-import {Inbox,incoming,sendRichReply,sendPaymentReply,ReviewDelivery} from './core.mjs';
+import {Inbox,incoming,sendRichReply,sendPaymentReply,ReviewDelivery,guardedSend} from './core.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));const runtime=path.join(root,'runtime');fs.mkdirSync(runtime,{recursive:true,mode:0o700});process.umask(0o077);
 const port=Number(process.env.WA_PORT||8767);const backend='http://127.0.0.1:'+Number(process.env.CHATBOT_PORT||8765);
 let sock=null,reconnectTimer=null,generation=0,since=0,wanted=false,attempts=0;
@@ -21,15 +21,21 @@ const inbox=new Inbox(path.join(runtime,'inbox.sqlite3'),{
  connected:account=>state.connection==='connected'&&state.account===account&&!!sock,
  presence:async(account,peer,type)=>{if(state.connection==='connected'&&state.account===account&&sock)await sock.sendPresenceUpdate(type,peer);},
  send:async(peer,text,result,account)=>{
+  const sendMessage=guardedSend(async()=>{
+   if(!inbox.connected(account)||inbox.paused(account,peer)||inbox.mode==='paused')return false;
+   const secret=fs.readFileSync(path.join(root,'../runtime/whatsapp-service.key'),'utf8').trim();
+   const response=await fetch(backend+'/internal/whatsapp/delivery',{method:'POST',headers:{'Content-Type':'application/json','X-WA-Secret':secret},body:JSON.stringify({account,peer,handoff:result?.handoff===true}),signal:AbortSignal.timeout(10000)});
+   if(!response.ok)throw Error('Conversation state unavailable');return (await response.json()).allowed===true;
+  },(jid,body,options)=>sock.sendMessage(jid,body,options));
   if(result?.payment||result?.topup_methods?.some(p=>p.qr))return sendPaymentReply(peer,result,{
    canSend:()=>inbox.connected(account)&&!inbox.paused(account,peer)&&inbox.mode!=='paused',
-   sendMessage:(jid,body)=>sock.sendMessage(jid,body),
+   sendMessage,
    loadQR:async method=>({data:fs.readFileSync(path.join(root,'../../info',method==='payme'?'PayMe.jpeg':'alipay.jpeg')),mime:'image/jpeg'})
   });
-  if(!result?.products?.length)return sock.sendMessage(peer,{text},{linkPreview:undefined});
+  if(!result?.products?.length)return sendMessage(peer,{text},{linkPreview:undefined});
   return sendRichReply(peer,result,{
    canSend:()=>inbox.connected(account)&&!inbox.paused(account,peer)&&inbox.mode!=='paused',
-   sendMessage:(jid,body)=>sock.sendMessage(jid,body),
+   sendMessage,
    loadImage:async id=>{
     if(!/^[a-f0-9]{24}$/.test(id))return null;
     const response=await fetch(backend+'/product-images/'+id,{signal:AbortSignal.timeout(10000)});

@@ -12,6 +12,13 @@ class WhatsAppBackend:
    db.execute('CREATE TABLE IF NOT EXISTS wa_sessions (scope TEXT PRIMARY KEY,token TEXT)')
    db.execute('CREATE TABLE IF NOT EXISTS wa_replies (event TEXT PRIMARY KEY,result TEXT)')
  def authorized(self,value):return secrets.compare_digest(self.secret,value or '')
+ def delivery_allowed(self,data):
+  account,peer=data.get('account'),data.get('peer')
+  if not all(isinstance(v,str) and 0<len(v)<=200 for v in [account,peer]):raise ValueError('Invalid input')
+  if not self.commerce:return {'allowed':False}
+  scope='wa:'+hashlib.sha256(json.dumps([False,account,peer]).encode()).hexdigest()
+  with self.commerce.db.db() as db:row=db.execute('SELECT status FROM conversations WHERE id=?',(scope,)).fetchone()
+  return {'allowed':bool(row and (row['status']=='ai' or (row['status']=='waiting' and data.get('handoff') is True)))}
  def handle(self,data):
   account,peer,event,text=(data.get(k) for k in ['account','peer','event','text']);test=data.get('test') is True
   if not all(isinstance(v,str) and 0<len(v)<=200 for v in [account,peer,event]) or not isinstance(text,str) or not 0<len(text.strip())<=1000:raise ValueError('Invalid input')
@@ -21,15 +28,18 @@ class WhatsAppBackend:
   with self.lock:
    with self.store.connect() as db:
     cached=db.execute('SELECT result FROM wa_replies WHERE event=?',(event,)).fetchone()
-    if cached:return json.loads(cached[0])
+    if cached:
+     result=json.loads(cached[0])
+     return self.commerce.guard_cached_reply('wa:'+scope,result,'test' if test else 'whatsapp') if self.commerce else result
     row=db.execute('SELECT token FROM wa_sessions WHERE scope=?',(scope,)).fetchone()
    token=row[0] if row and self.store.valid(row[0]) else self.store.create()
    history=[{'role':m['role'],'content':m['content'][:2000]} for m in self.store.history(token)][-10:]
-   recorded=False
+   recorded=False;handoff_requested=False
    if self.commerce and not test:
     with self.commerce.db.db() as db:
      if db.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name='wa_observed'").fetchone():recorded=bool(db.execute('SELECT 1 FROM wa_observed WHERE scope=? AND event=?',('wa:'+scope,data['event'])).fetchone())
-   result=self.commerce.respond('wa:'+scope,text,event,attachment=data.get('attachment'),use_model=not test,channel='test' if test else 'whatsapp',account=account,peer=peer,generate=data.get('generate',True),user_recorded=recorded) if self.commerce else self.catalog.chat(text,history,use_model=not test)
+     if recorded:handoff_requested=bool(db.execute("SELECT 1 FROM conversation_messages WHERE scope=? AND role='user' AND json_extract(payload,'$.cs_request_event')=?",('wa:'+scope,data['event'])).fetchone())
+   result=self.commerce.respond('wa:'+scope,text,event,attachment=data.get('attachment'),use_model=not test,channel='test' if test else 'whatsapp',account=account,peer=peer,generate=data.get('generate',True),user_recorded=recorded,handoff_requested=handoff_requested) if self.commerce else self.catalog.chat(text,history,use_model=not test)
    with self.store.connect() as db:
     # Record the response and history together so a bridge retry never repeats generation.
     db.execute('INSERT OR REPLACE INTO wa_sessions VALUES (?,?)',(scope,token))
@@ -52,14 +62,12 @@ class WhatsAppBackend:
    if db.execute('SELECT 1 FROM wa_observed WHERE scope=? AND event=?',(scope,event)).fetchone():return {'ok':True}
   if data.get('attachment'):
    import base64
-   evidence=self.commerce.db.save_evidence('whatsapp-receipt',data['attachment']['mime'],base64.b64decode(data['attachment']['data']),{'id':'chat-service','role':'support'})
+   evidence=self.commerce.db.save_evidence('whatsapp-image',data['attachment']['mime'],base64.b64decode(data['attachment']['data']),{'id':'chat-service','role':'support'})
    payload=json.dumps({'answer':text,'mode':'customer_attachment','evidence_id':evidence['id']})
   with self.commerce.db.db(True) as db:
    if db.execute('INSERT OR IGNORE INTO wa_observed VALUES (?,?)',(scope,event)).rowcount:
+    if wants_cs(text) and self.commerce.request_handover(db,scope,'客人要求 CS／售後'):
+     payload=json.dumps({'answer':text,'mode':'customer_attachment' if payload else 'customer',**(json.loads(payload) if payload else {}),'cs_request_event':event},ensure_ascii=False)
     db.execute('INSERT INTO conversation_messages(scope,role,content,payload,created) VALUES (?,?,?,?,?)',(scope,'user',text,payload,time.time()))
     db.execute('UPDATE conversations SET updated=? WHERE id=?',(time.time(),scope))
-  # A paused channel records messages; it does not request human takeover.
-  if wants_cs(text):
-   with self.commerce.db.db() as db:state=db.execute('SELECT status FROM conversations WHERE id=?',(scope,)).fetchone()
-   if state['status']=='ai':self.commerce.handover(scope,'客人要求 CS／售後')
   return {'ok':True}
